@@ -470,6 +470,8 @@ msgid ""
 "deleting branch '%s' that has been merged to\n"
 "         '%s', but not yet merged to HEAD."
 msgstr ""
+"要删除的分支 '%s' 已经合并到\n"
+"         '%s'，但未合并到HEAD。"
 
 #: builtin/branch.c:141
 #, c-format
@@ -477,34 +479,36 @@ msgid ""
 "not deleting branch '%s' that is not yet merged to\n"
 "         '%s', even though it is merged to HEAD."
 msgstr ""
+"不要删除分支 '%s' 其尚未合并到\n"
+"         '%s'，虽然它已经合并到HEAD。"
 
 #. TRANSLATORS: This is "remote " in "remote branch '%s' not found"
 #: builtin/branch.c:163
 msgid "remote "
-msgstr ""
+msgstr "远程"
 
 #: builtin/branch.c:171
 msgid "cannot use -a with -d"
-msgstr ""
+msgstr "不能将 -a 和 -d 共用"
 
 #: builtin/branch.c:177
 msgid "Couldn't look up commit object for HEAD"
-msgstr ""
+msgstr "无法查询HEAD指向的提交对象"
 
 #: builtin/branch.c:182
 #, c-format
 msgid "Cannot delete the branch '%s' which you are currently on."
-msgstr ""
+msgstr "无法删除您当前所在的分支 '%s'。"
 
 #: builtin/branch.c:192
 #, c-format
 msgid "%sbranch '%s' not found."
-msgstr ""
+msgstr "%s分支 '%s' 未发现。"
 
 #: builtin/branch.c:200
 #, c-format
 msgid "Couldn't look up commit object for '%s'"
-msgstr ""
+msgstr "无法查询 '%s' 指向的提交对象"
 
 #: builtin/branch.c:206
 #, c-format
@@ -512,61 +516,63 @@ msgid ""
 "The branch '%s' is not fully merged.\n"
 "If you are sure you want to delete it, run 'git branch -D %s'."
 msgstr ""
+"分支 '%s' 没有完全合并。\n"
+"如果您确认要删除它，执行 'git branch -D %s'。"
 
 #: builtin/branch.c:214
 #, c-format
 msgid "Error deleting %sbranch '%s'"
-msgstr ""
+msgstr "错误删除 %s分支 '%s'"
 
 #: builtin/branch.c:219
 #, c-format
 msgid "Deleted %sbranch %s (was %s).\n"
-msgstr ""
+msgstr "已删除 %s分支 %s（曾为 %s）。\n"
 
 #: builtin/branch.c:224
 msgid "Update of config-file failed"
-msgstr ""
+msgstr "更新config文件失败"
 
 #: builtin/branch.c:322
 #, c-format
 msgid "branch '%s' does not point at a commit"
-msgstr ""
+msgstr "分支 '%s' 未指向一个提交"
 
 #: builtin/branch.c:394
 #, c-format
 msgid "behind %d] "
-msgstr ""
+msgstr "落后 %d] "
 
 #: builtin/branch.c:396
 #, c-format
 msgid "ahead %d] "
-msgstr ""
+msgstr "领先 %d] "
 
 #: builtin/branch.c:398
 #, c-format
 msgid "ahead %d, behind %d] "
-msgstr ""
+msgstr "领先 %d，落后 %d] "
 
 #: builtin/branch.c:501
 msgid "(no branch)"
-msgstr ""
+msgstr "（非分支）"
 
 #: builtin/branch.c:562
 msgid "some refs could not be read"
-msgstr ""
+msgstr "一些引用无法读取"
 
 #: builtin/branch.c:575
 msgid "cannot rename the current branch while not on any."
-msgstr ""
+msgstr "无法重命名不存在的当前分支。"
 
 #: builtin/branch.c:585
 #, c-format
 msgid "Invalid branch name: '%s'"
-msgstr ""
+msgstr "无效的分支名：'%s'"
 
 #: builtin/branch.c:600
 msgid "Branch rename failed"
-msgstr ""
+msgstr "分支重命名失败"
 
 #: builtin/branch.c:604
 #, c-format
@@ -576,46 +582,46 @@ msgstr ""
 #: builtin/branch.c:608
 #, c-format
 msgid "Branch renamed to %s, but HEAD is not updated!"
-msgstr ""
+msgstr "分支重命名为 %s，但HEAD没有更新！"
 
 #: builtin/branch.c:615
 msgid "Branch is renamed, but update of config-file failed"
-msgstr ""
+msgstr "分支被重命名，但更新config文件失败"
 
 #: builtin/branch.c:630
 #, c-format
 msgid "malformed object name %s"
-msgstr ""
+msgstr "畸形的对象名 %s"
 
 #: builtin/branch.c:654
 #, c-format
 msgid "could not write branch description template: %s\n"
-msgstr ""
+msgstr "不能写分支描述模版：%s\n"
 
 #: builtin/branch.c:742
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr ""
+msgstr "无法将HEAD解析为有效引用。"
 
 #: builtin/branch.c:747
 msgid "HEAD not found below refs/heads!"
-msgstr ""
+msgstr "未在 /refs/heads 下发现 HEAD！"
 
 #: builtin/branch.c:790
 msgid "-a and -r options to 'git branch' do not make sense with a branch name"
-msgstr ""
+msgstr "'git branch' 的 -a 和 -r 选项带一个分支名参数不合理"
 
 #: builtin/bundle.c:47
 #, c-format
 msgid "%s is okay\n"
-msgstr ""
+msgstr "%s 可以\n"
 
 #: builtin/bundle.c:56
 msgid "Need a repository to create a bundle."
-msgstr ""
+msgstr "需要一个版本库来创建包"
 
 #: builtin/bundle.c:60
 msgid "Need a repository to unbundle."
-msgstr ""
+msgstr "需要一个版本库来解包"
 
 #: builtin/checkout.c:113 builtin/checkout.c:146
 #, c-format
