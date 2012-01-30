@@ -328,141 +328,141 @@ msgstr "，落后 "
 #: builtin/add.c:62
 #, c-format
 msgid "unexpected diff status %c"
-msgstr ""
+msgstr "意外的diff状态 %c"
 
 #: builtin/add.c:67 builtin/commit.c:298
 msgid "updating files failed"
-msgstr ""
+msgstr "更新文件失败"
 
 #: builtin/add.c:77
 #, c-format
 msgid "remove '%s'\n"
-msgstr ""
+msgstr "删除 '%s'\n"
 
 #: builtin/add.c:176
 #, c-format
 msgid "Path '%s' is in submodule '%.*s'"
-msgstr ""
+msgstr "路径 '%s' 属于模组 '%.*s'"
 
 #: builtin/add.c:192
 msgid "Unstaged changes after refreshing the index:"
-msgstr ""
+msgstr "刷新暂存区后未暂存的变更："
 
 #: builtin/add.c:195 builtin/add.c:455 builtin/rm.c:186
 #, c-format
 msgid "pathspec '%s' did not match any files"
-msgstr ""
+msgstr "路径 '%s' 未匹配任何文件"
 
 #: builtin/add.c:209
 #, c-format
 msgid "'%s' is beyond a symbolic link"
-msgstr ""
+msgstr "'%s' 位于符号链接中"
 
 #: builtin/add.c:276
 msgid "Could not read the index"
-msgstr ""
+msgstr "无法读取暂存区"
 
 #: builtin/add.c:285
 #, c-format
 msgid "Could not open '%s' for writing."
-msgstr ""
+msgstr "无法打开 '%s' 以写入。"
 
 #: builtin/add.c:289
 msgid "Could not write patch"
-msgstr ""
+msgstr "无法写补丁"
 
 #: builtin/add.c:294
 #, c-format
 msgid "Could not stat '%s'"
-msgstr ""
+msgstr "无法查看文件状态 '%s'"
 
 #: builtin/add.c:296
 msgid "Empty patch. Aborted."
-msgstr ""
+msgstr "空补丁。异常终止。"
 
 #: builtin/add.c:302
 #, c-format
 msgid "Could not apply '%s'"
-msgstr ""
+msgstr "无法应用 '%s'"
 
 #: builtin/add.c:311
 msgid "The following paths are ignored by one of your .gitignore files:\n"
-msgstr ""
+msgstr "下列路径被您的一个 .gitignore 文件所忽略：\n"
 
 #: builtin/add.c:351
 #, c-format
 msgid "Use -f if you really want to add them.\n"
-msgstr ""
+msgstr "使用 -f 参数如果你确实要添加它们。\n"
 
 #: builtin/add.c:352
 msgid "no files added"
-msgstr ""
+msgstr "没有文件被添加"
 
 #: builtin/add.c:358
 msgid "adding files failed"
-msgstr ""
+msgstr "添加文件失败"
 
 #: builtin/add.c:390
 msgid "-A and -u are mutually incompatible"
-msgstr ""
+msgstr "-A 和 -u 选项互斥"
 
 #: builtin/add.c:392
 msgid "Option --ignore-missing can only be used together with --dry-run"
-msgstr ""
+msgstr "选项 --ignore-missing 只能和 --dry-run 一起使用"
 
 #: builtin/add.c:412
 #, c-format
 msgid "Nothing specified, nothing added.\n"
-msgstr ""
+msgstr "未提供参数，没有文件被添加。\n"
 
 #: builtin/add.c:413
 #, c-format
 msgid "Maybe you wanted to say 'git add .'?\n"
-msgstr ""
+msgstr "也许您想要执行 'git add .'？\n"
 
 #: builtin/add.c:419 builtin/clean.c:95 builtin/commit.c:358 builtin/mv.c:82
 #: builtin/rm.c:162
 msgid "index file corrupt"
-msgstr ""
+msgstr "暂存区文件损坏"
 
 #: builtin/add.c:475 builtin/mv.c:229 builtin/rm.c:260
 msgid "Unable to write new index file"
-msgstr ""
+msgstr "无法写入新暂存区文件"
 
 #: builtin/archive.c:17
 #, c-format
 msgid "could not create archive file '%s'"
-msgstr ""
+msgstr "无法创建归档文件 '%s'"
 
 #: builtin/archive.c:20
 msgid "could not redirect output"
-msgstr ""
+msgstr "无法重定向输出"
 
 #: builtin/archive.c:37
 msgid "git archive: Remote with no URL"
-msgstr ""
+msgstr "git archive：未提供远程URL"
 
 #: builtin/archive.c:58
 msgid "git archive: expected ACK/NAK, got EOF"
-msgstr ""
+msgstr "git archive: 期待ACK/NACK，却得到EOF"
 
 #: builtin/archive.c:63
 #, c-format
 msgid "git archive: NACK %s"
-msgstr ""
+msgstr "git archive: NACK %s"
 
 #: builtin/archive.c:65
 #, c-format
 msgid "remote error: %s"
-msgstr ""
+msgstr "远程错误：%s"
 
 #: builtin/archive.c:66
 msgid "git archive: protocol error"
-msgstr ""
+msgstr "git archive：协议错误"
 
 #: builtin/archive.c:71
 msgid "git archive: expected a flush"
-msgstr ""
+msgstr "git archive：预期一个刷新"
 
 #: builtin/branch.c:137
 #, c-format
