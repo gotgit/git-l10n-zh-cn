@@ -1,60 +1,60 @@
-# Chinese translations for PACKAGE package
-# PACKAGE 软件包的简体中文翻译.
-# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Chinese translations for Git package
+# Git 软件包的简体中文翻译.
+# Copyright (C) 2012 Jiang Xin <worldhello.net@gmail.com>
+# This file is distributed under the same license as the Git package.
 # Jiang Xin <worldhello.net@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2012-01-30 00:00+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
-"Language-Team: Chinese (simplified)\n"
-"Language: zh_CN\n"
+"Language-Team: Git Mailing List <git@vger.kernel.org>\n"
+"Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: commit.c:47
 #, c-format
 msgid "could not parse %s"
-msgstr ""
+msgstr "无法解析 %s"
 
 #: commit.c:49
 #, c-format
 msgid "%s %s is not a commit!"
-msgstr ""
+msgstr "%s %s 不是一个提交!"
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
-msgstr ""
+msgstr "内存已耗尽"
 
 #: connected.c:39
 msgid "Could not run 'git rev-list'"
-msgstr ""
+msgstr "无法运行 'git rev-list'"
 
 #: connected.c:48
 #, c-format
 msgid "failed write to rev-list: %s"
-msgstr ""
+msgstr "写入rev-list失败：%s"
 
 #: connected.c:56
 #, c-format
 msgid "failed to close rev-list's stdin: %s"
-msgstr ""
+msgstr "关闭rev-list的标准输入失败：%s"
 
 #: diff.c:104
 #, c-format
 msgid "  Failed to parse dirstat cut-off percentage '%.*s'\n"
-msgstr ""
+msgstr "  无法解析 dirstat 阈值 '%.*s'\n"
 
 #: diff.c:109
 #, c-format
 msgid "  Unknown dirstat parameter '%.*s'\n"
-msgstr ""
+msgstr "  未知 dirstat 参数 '%.*s'\n"
 
 #: diff.c:208
 #, c-format
@@ -62,6 +62,8 @@ msgid ""
 "Found errors in 'diff.dirstat' config variable:\n"
 "%s"
 msgstr ""
+"发现配置变量 'diff.dirstat' 中的错误：\n"
+"%s"
 
 #: diff.c:3308
 #, c-format
@@ -69,18 +71,20 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
+"解析 --dirstat/-X 的参数失败：\n"
+"%s"
 
 #: gpg-interface.c:59
 msgid "could not run gpg."
-msgstr ""
+msgstr "无法运行 gpg。"
 
 #: gpg-interface.c:71
 msgid "gpg did not accept the data"
-msgstr ""
+msgstr "gpg 没有接受数据"
 
 #: gpg-interface.c:82
 msgid "gpg failed to sign the data"
-msgstr ""
+msgstr "gpg 为数据签名失败"
 
 #: help.c:309
 #, c-format
@@ -88,58 +92,61 @@ msgid ""
 "'%s' appears to be a git command, but we were not\n"
 "able to execute it. Maybe git-%s is broken?"
 msgstr ""
+"'%s' 像是一个 git 命令，但我们无法运行它。\n"
+"可能 git-%s 已损坏？"
 
 #: wt-status.c:134
 msgid "Unmerged paths:"
-msgstr ""
+msgstr "未合并路径："
 
 #: wt-status.c:140 wt-status.c:157
 #, c-format
 msgid "  (use \"git reset %s <file>...\" to unstage)"
-msgstr ""
+msgstr "  （使用 \"git reset %s <file>...\" 撤出暂存区）"
 
 #: wt-status.c:142 wt-status.c:159
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr ""
+msgstr "  （使用 \"git rm --cached <file>...\" 撤出暂存区）"
 
 #: wt-status.c:143
 msgid "  (use \"git add/rm <file>...\" as appropriate to mark resolution)"
-msgstr ""
+msgstr "  （酌情使用 \"git add/rm <file>...\" 标记解决方案）"
 
 #: wt-status.c:151
 msgid "Changes to be committed:"
-msgstr ""
+msgstr "要提交的变更："
 
 #: wt-status.c:169
 msgid "Changes not staged for commit:"
-msgstr ""
+msgstr "未暂存而不提交的变更："
 
 #: wt-status.c:173
 msgid "  (use \"git add <file>...\" to update what will be committed)"
-msgstr ""
+msgstr "  （使用 \"git add <file>...\" 更新要提交的内容）"
 
 #: wt-status.c:175
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
-msgstr ""
+msgstr "  （使用 \"git add/rm <file>...\" 更新要提交的内容）"
 
 #: wt-status.c:176
 msgid ""
 "  (use \"git checkout -- <file>...\" to discard changes in working directory)"
-msgstr ""
+msgstr 
+"  （使用 \"git checkout -- <file>...\" 丢弃工作区的改动）"
 
 #: wt-status.c:178
 msgid "  (commit or discard the untracked or modified content in submodules)"
-msgstr ""
+msgstr "  （提交或丢弃子模组中未跟踪或修改的内容）"
 
 #: wt-status.c:187
 #, c-format
 msgid "%s files:"
-msgstr ""
+msgstr "%s文件："
 
 #: wt-status.c:190
 #, c-format
 msgid "  (use \"git %s <file>...\" to include in what will be committed)"
-msgstr ""
+msgstr "  （使用 \"git %s <file>...\" 包含到提交列表）"
 
 #: wt-status.c:207
 msgid "bug"
@@ -147,176 +154,176 @@ msgstr ""
 
 #: wt-status.c:212
 msgid "both deleted:"
-msgstr ""
+msgstr "双方删除："
 
 #: wt-status.c:213
 msgid "added by us:"
-msgstr ""
+msgstr "被我们添加："
 
 #: wt-status.c:214
 msgid "deleted by them:"
-msgstr ""
+msgstr "被他们删除："
 
 #: wt-status.c:215
 msgid "added by them:"
-msgstr ""
+msgstr "被他们添加："
 
 #: wt-status.c:216
 msgid "deleted by us:"
-msgstr ""
+msgstr "被我们删除："
 
 #: wt-status.c:217
 msgid "both added:"
-msgstr ""
+msgstr "双方添加："
 
 #: wt-status.c:218
 msgid "both modified:"
-msgstr ""
+msgstr "双方修改："
 
 #: wt-status.c:248
 msgid "new commits, "
-msgstr ""
+msgstr "新提交，"
 
 #: wt-status.c:250
 msgid "modified content, "
-msgstr ""
+msgstr "修改的内容，"
 
 #: wt-status.c:252
 msgid "untracked content, "
-msgstr ""
+msgstr "未跟踪的内容，"
 
 #: wt-status.c:266
 #, c-format
 msgid "new file:   %s"
-msgstr ""
+msgstr "新文件：    %s"
 
 #: wt-status.c:269
 #, c-format
 msgid "copied:     %s -> %s"
-msgstr ""
+msgstr "拷贝：      %s -> %s"
 
 #: wt-status.c:272
 #, c-format
 msgid "deleted:    %s"
-msgstr ""
+msgstr "删除：      %s"
 
 #: wt-status.c:275
 #, c-format
 msgid "modified:   %s"
-msgstr ""
+msgstr "修改：      %s"
 
 #: wt-status.c:278
 #, c-format
 msgid "renamed:    %s -> %s"
-msgstr ""
+msgstr "重命名：    %s -> %s"
 
 #: wt-status.c:281
 #, c-format
 msgid "typechange: %s"
-msgstr ""
+msgstr "类型变更：  %s"
 
 #: wt-status.c:284
 #, c-format
 msgid "unknown:    %s"
-msgstr ""
+msgstr "未知：      %s"
 
 #: wt-status.c:287
 #, c-format
 msgid "unmerged:   %s"
-msgstr ""
+msgstr "未合并：    %s"
 
 #: wt-status.c:290
 #, c-format
 msgid "bug: unhandled diff status %c"
-msgstr ""
+msgstr "bug：未处理的diff状态 %c"
 
 #: wt-status.c:713
 msgid "On branch "
-msgstr ""
+msgstr "于分支 "
 
 #: wt-status.c:720
 msgid "Not currently on any branch."
-msgstr ""
+msgstr "当前不属于任何分支。"
 
 #: wt-status.c:731
 msgid "Initial commit"
-msgstr ""
+msgstr "初始提交"
 
 #: wt-status.c:745
 msgid "Untracked"
-msgstr ""
+msgstr "未跟踪的"
 
 #: wt-status.c:747
 msgid "Ignored"
-msgstr ""
+msgstr "忽略的"
 
 #: wt-status.c:749
 #, c-format
 msgid "Untracked files not listed%s"
-msgstr ""
+msgstr "未跟踪的文件没有列出%s"
 
 #: wt-status.c:751
 msgid " (use -u option to show untracked files)"
-msgstr ""
+msgstr " （使用 -u 参数显示未跟踪的文件）"
 
 #: wt-status.c:757
 msgid "No changes"
-msgstr ""
+msgstr "没有修改"
 
 #: wt-status.c:761
 #, c-format
 msgid "no changes added to commit%s\n"
-msgstr ""
+msgstr "修改尚未加入提交%s\n"
 
 #: wt-status.c:763
 msgid " (use \"git add\" and/or \"git commit -a\")"
-msgstr ""
+msgstr " （使用 \"git add\" 和/或 \"git commit -a\"）"
 
 #: wt-status.c:765
 #, c-format
 msgid "nothing added to commit but untracked files present%s\n"
-msgstr ""
+msgstr "空提交但存在未跟踪文件%s\n"
 
 #: wt-status.c:767
 msgid " (use \"git add\" to track)"
-msgstr ""
+msgstr " （使用 \"git add\" 建立跟踪）"
 
 #: wt-status.c:769 wt-status.c:772 wt-status.c:775
 #, c-format
 msgid "nothing to commit%s\n"
-msgstr ""
+msgstr "空提交%s\n"
 
 #: wt-status.c:770
 msgid " (create/copy files and use \"git add\" to track)"
-msgstr ""
+msgstr " （新建/拷贝的文件使用 \"git add\" 建立跟踪）"
 
 #: wt-status.c:773
 msgid " (use -u to show untracked files)"
-msgstr ""
+msgstr " （使用 -u 显示未跟踪文件）"
 
 #: wt-status.c:776
 msgid " (working directory clean)"
-msgstr ""
+msgstr " （干净的工作区）"
 
 #: wt-status.c:884
 msgid "HEAD (no branch)"
-msgstr ""
+msgstr "头（非分支）"
 
 #: wt-status.c:890
 msgid "Initial commit on "
-msgstr ""
+msgstr "初始提交于 "
 
 #: wt-status.c:905
 msgid "behind "
-msgstr ""
+msgstr "落后 "
 
 #: wt-status.c:908 wt-status.c:911
 msgid "ahead "
-msgstr ""
+msgstr "，领先 "
 
 #: wt-status.c:913
 msgid ", behind "
-msgstr ""
+msgstr "，落后 "
 
 #: builtin/add.c:62
 #, c-format
@@ -3080,128 +3087,131 @@ msgid ""
 "Please, fix them up in the work tree, and then use 'git add/rm <file>'\n"
 "as appropriate to mark resolution, or use 'git commit -a'."
 msgstr ""
+"Pull 不可用，因为你尚有未合并的文件。请先在工作区改正文件，\n"
+"然后酌情使用 'git add/rm <file>' 标记解决方案，\n"
+"或使用 'git commit -a'。"
 
 #: git-pull.sh:25
 msgid "Pull is not possible because you have unmerged files."
-msgstr ""
+msgstr "Pull 不可用，因为你尚有未合并的文件。"
 
 #: git-pull.sh:193
 msgid "updating an unborn branch with changes added to the index"
-msgstr ""
+msgstr "更新尚未诞生的分支，变更添加至暂存区"
 
 #: git-pull.sh:249
 msgid "Cannot merge multiple branches into empty head"
-msgstr ""
+msgstr "无法将多个分支合并到空分支"
 
 #: git-pull.sh:253
 msgid "Cannot rebase onto multiple branches"
-msgstr ""
+msgstr "无法变基到多个分支"
 
 #: git-stash.sh:51
 msgid "git stash clear with parameters is unimplemented"
-msgstr ""
+msgstr "git stash clear 不支持参数"
 
 #: git-stash.sh:74
 msgid "You do not have the initial commit yet"
-msgstr ""
+msgstr "您尚未建立初始提交"
 
 #: git-stash.sh:89
 msgid "Cannot save the current index state"
-msgstr ""
+msgstr "无法保存当前暂存区状态"
 
 #: git-stash.sh:123 git-stash.sh:136
 msgid "Cannot save the current worktree state"
-msgstr ""
+msgstr "无法保存当前工作区状态"
 
 #: git-stash.sh:140
 msgid "No changes selected"
-msgstr ""
+msgstr "没有修改被选择"
 
 #: git-stash.sh:143
 msgid "Cannot remove temporary index (can't happen)"
-msgstr ""
+msgstr "无法删除临时暂存区（不应发生）"
 
 #: git-stash.sh:156
 msgid "Cannot record working tree state"
-msgstr ""
+msgstr "不能记录工作区状态"
 
 #: git-stash.sh:223
 msgid "No local changes to save"
-msgstr ""
+msgstr "没有要保存的本地修改"
 
 #: git-stash.sh:227
 msgid "Cannot initialize stash"
-msgstr ""
+msgstr "无法初始化stash"
 
 #: git-stash.sh:235
 msgid "Cannot save the current status"
-msgstr ""
+msgstr "无法保存当前状态"
 
 #: git-stash.sh:253
 msgid "Cannot remove worktree changes"
-msgstr ""
+msgstr "无法移除工作区变更"
 
 #: git-stash.sh:352
 msgid "No stash found."
-msgstr ""
+msgstr "未发现stash。"
 
 #: git-stash.sh:359
 #, sh-format
 msgid "Too many revisions specified: $REV"
-msgstr ""
+msgstr "提供太多的版本：$REV"
 
 #: git-stash.sh:365
 #, sh-format
 msgid "$reference is not valid reference"
-msgstr ""
+msgstr "$reference 不是有效的引用"
 
 #: git-stash.sh:393
 #, sh-format
 msgid "'$args' is not a stash-like commit"
-msgstr ""
+msgstr "'$args' 不是stash样提交"
 
 #: git-stash.sh:404
 #, sh-format
 msgid "'$args' is not a stash reference"
-msgstr ""
+msgstr "'$args' 不是一个stash引用"
 
 #: git-stash.sh:412
 msgid "unable to refresh index"
-msgstr ""
+msgstr "无法刷新暂存区"
 
 #: git-stash.sh:416
 msgid "Cannot apply a stash in the middle of a merge"
-msgstr ""
+msgstr "无法在合并过程中恢复进度"
 
 #: git-stash.sh:424
 msgid "Conflicts in index. Try without --index."
-msgstr ""
+msgstr "暂存区冲突。尝试不用 --index。"
 
 #: git-stash.sh:426
 msgid "Could not save index tree"
-msgstr ""
+msgstr "无法保存暂存区"
 
 #: git-stash.sh:460
 msgid "Cannot unstage modified files"
-msgstr ""
+msgstr "无法还原修改的文件"
 
 #: git-stash.sh:491
 #, sh-format
 msgid "Dropped ${REV} ($s)"
-msgstr ""
+msgstr "丢弃了 ${REV} ($s)"
 
 #: git-stash.sh:492
 #, sh-format
 msgid "${REV}: Could not drop stash entry"
-msgstr ""
+msgstr "${REV}: 无法丢弃stash条目"
 
 #: git-stash.sh:499
 msgid "No branch name specified"
-msgstr ""
+msgstr "未指定分支名"
 
 #: git-stash.sh:570
 msgid "(To restore them type \"git stash apply\")"
-msgstr ""
+msgstr "（为恢复数据输入 \"git stash apply\"）"
 
 #: git-submodule.sh:56
 #, sh-format
