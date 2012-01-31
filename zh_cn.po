@@ -851,163 +851,165 @@ msgstr "--ours/--theirs 和切换分支不兼容。"
 
 #: builtin/clean.c:78
 msgid "-x and -X cannot be used together"
-msgstr ""
+msgstr "-x 和 -X 不能共用"
 
 #: builtin/clean.c:82
 msgid ""
 "clean.requireForce set to true and neither -n nor -f given; refusing to clean"
 msgstr ""
+"clean.requireForce 设置为 true，若未提供 -n 或 -f 选项，拒绝执行清理动作"
 
 #: builtin/clean.c:85
 msgid ""
 "clean.requireForce defaults to true and neither -n nor -f given; refusing to "
 "clean"
 msgstr ""
+"clean.requireForce 默认为 true，若未提供 -n 或 -f 选项，拒绝执行清理动作"
 
 #: builtin/clean.c:155 builtin/clean.c:176
 #, c-format
 msgid "Would remove %s\n"
-msgstr ""
+msgstr "将移除 %s\n"
 
 #: builtin/clean.c:159 builtin/clean.c:179
 #, c-format
 msgid "Removing %s\n"
-msgstr ""
+msgstr "正移除 %s\n"
 
 #: builtin/clean.c:162 builtin/clean.c:182
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "无法移除 %s"
 
 #: builtin/clean.c:166
 #, c-format
 msgid "Would not remove %s\n"
-msgstr ""
+msgstr "不会移除 %s\n"
 
 #: builtin/clean.c:168
 #, c-format
 msgid "Not removing %s\n"
-msgstr ""
+msgstr "未移除 %s\n"
 
 #: builtin/clone.c:244
 #, c-format
 msgid "reference repository '%s' is not a local directory."
-msgstr ""
+msgstr "引用版本库 '%s' 不是一个本地目录。"
 
 #: builtin/clone.c:311
 #, c-format
 msgid "failed to open '%s'"
-msgstr ""
+msgstr "打开 '%s' 失败"
 
 #: builtin/clone.c:315
 #, c-format
 msgid "failed to create directory '%s'"
-msgstr ""
+msgstr "创建目录 '%s' 失败"
 
 #: builtin/clone.c:317 builtin/diff.c:75
 #, c-format
 msgid "failed to stat '%s'"
-msgstr ""
+msgstr "枚举 '%s' 状态失败"
 
 #: builtin/clone.c:319
 #, c-format
 msgid "%s exists and is not a directory"
-msgstr ""
+msgstr "%s 存在且不是一个目录"
 
 #: builtin/clone.c:333
 #, c-format
 msgid "failed to stat %s\n"
-msgstr ""
+msgstr "枚举 %s 状态失败\n"
 
 #: builtin/clone.c:350
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr ""
+msgstr "删除 '%s' 失败"
 
 #: builtin/clone.c:355
 #, c-format
 msgid "failed to create link '%s'"
-msgstr ""
+msgstr "创建链接 '%s' 失败"
 
 #: builtin/clone.c:359
 #, c-format
 msgid "failed to copy file to '%s'"
-msgstr ""
+msgstr "拷贝文件至 '%s' 失败"
 
 #: builtin/clone.c:391
 #, c-format
 msgid "done.\n"
-msgstr ""
+msgstr "完成。\n"
 
 #: builtin/clone.c:494
 msgid "Too many arguments."
-msgstr ""
+msgstr "太多参数。"
 
 #: builtin/clone.c:498
 msgid "You must specify a repository to clone."
-msgstr ""
+msgstr "您必须提供一个要克隆的版本库。"
 
 #: builtin/clone.c:506
 #, c-format
 msgid "--bare and --origin %s options are incompatible."
-msgstr ""
+msgstr "--bare 和 --origin %s 选项不兼容。"
 
 #: builtin/clone.c:520
 #, c-format
 msgid "repository '%s' does not exist"
-msgstr ""
+msgstr "版本库 '%s' 不存在"
 
 #: builtin/clone.c:525
 msgid "--depth is ignored in local clones; use file:// instead."
-msgstr ""
+msgstr "--depth 在本地克隆被忽略，改为 file:// 协议试试。"
 
 #: builtin/clone.c:535
 #, c-format
 msgid "destination path '%s' already exists and is not an empty directory."
-msgstr ""
+msgstr "目标路径 '%s' 已经存在且不是一个空目录。"
 
 #: builtin/clone.c:545
 #, c-format
 msgid "working tree '%s' already exists."
-msgstr ""
+msgstr "工作区 '%s' 已经存在。"
 
 #: builtin/clone.c:558 builtin/clone.c:572
 #, c-format
 msgid "could not create leading directories of '%s'"
-msgstr ""
+msgstr "无法为 '%s' 创建目录"
 
 #: builtin/clone.c:561
 #, c-format
 msgid "could not create work tree dir '%s'."
-msgstr ""
+msgstr "无法为 '%s' 创建工作区目录。"
 
 #: builtin/clone.c:580
 #, c-format
 msgid "Cloning into bare repository '%s'...\n"
-msgstr ""
+msgstr "克隆到裸版本库 '%s'...\n"
 
 #: builtin/clone.c:582
 #, c-format
 msgid "Cloning into '%s'...\n"
-msgstr ""
+msgstr "克隆到 '%s'...\n"
 
 #: builtin/clone.c:641
 #, c-format
 msgid "Don't know how to clone %s"
-msgstr ""
+msgstr "不知道如何克隆 %s"
 
 #: builtin/clone.c:680
 #, c-format
 msgid "Remote branch %s not found in upstream %s, using HEAD instead"
-msgstr ""
+msgstr "远程分支 %s 在上游 %s 未发现，改为使用HEAD"
 
 #: builtin/clone.c:690
 msgid "You appear to have cloned an empty repository."
-msgstr ""
+msgstr "您似乎克隆了一个空版本库。"
 
 #: builtin/clone.c:732
 msgid "remote HEAD refers to nonexistent ref, unable to checkout.\n"
-msgstr ""
+msgstr "远程HEAD指向一个不存在的引用，无法检出。\n"
 
 #: builtin/commit.c:42
 msgid ""
@@ -1022,6 +1024,15 @@ msgid ""
 "\n"
 "    git commit --amend --reset-author\n"
 msgstr ""
+"您的姓名和邮件地址会基于您的用户名和主机地址自动配置。请检查它们\n"
+"正确与否。您可通过下面命令对其显示声明以避免重复出现类似提示：\n"
+"\n"
+"    git config --global user.name \"Your Name\"\n"
+"    git config --global user.email you@example.com\n"
+"\n"
+"设置完毕后，您可用下面命令来更改此次提交所使用的用户ID：\n"
+"\n"
+"    git commit --amend --reset-author\n"
 
 #: builtin/commit.c:54
 msgid ""
@@ -1029,6 +1040,8 @@ msgid ""
 "it empty. You can repeat your command with --allow-empty, or you can\n"
 "remove the commit entirely with \"git reset HEAD^\".\n"
 msgstr ""
+"您要求修补最近的提交，但这么做会造成空提交。您可重复您的命令并带上\n"
+"--allow-empty 选项，或者您可以整个删除该提交用 \"git reset HEAD^\"。\n"
 
 #: builtin/commit.c:59
 msgid ""
@@ -1039,94 +1052,99 @@ msgid ""
 "\n"
 "Otherwise, please use 'git reset'\n"
 msgstr ""
+"之前的拣选操作现在为空，可能是由冲突解决导致的。如果您想继续提交，用：\n"
+"\n"
+"    git commit --allow-empty\n"
+"\n"
+"否则，请用 'git reset'\n"
 
 #: builtin/commit.c:325
 msgid "failed to unpack HEAD tree object"
-msgstr ""
+msgstr "解包HEAD树对象失败"
 
 #: builtin/commit.c:367
 msgid "unable to create temporary index"
-msgstr ""
+msgstr "不能创建临时暂存区"
 
 #: builtin/commit.c:373
 msgid "interactive add failed"
-msgstr ""
+msgstr "交互式添加失败"
 
 #: builtin/commit.c:406 builtin/commit.c:427 builtin/commit.c:473
 msgid "unable to write new_index file"
-msgstr ""
+msgstr "无法写入新暂存区文件"
 
 #: builtin/commit.c:457
 #, c-format
 msgid "cannot do a partial commit during a %s."
-msgstr ""
+msgstr "在%s过程中不能做部分提交。"
 
 #: builtin/commit.c:466
 msgid "cannot read the index"
-msgstr ""
+msgstr "无法读取暂存区"
 
 #: builtin/commit.c:486
 msgid "unable to write temporary index file"
-msgstr ""
+msgstr "无法写临时暂存区文件"
 
 #: builtin/commit.c:549 builtin/commit.c:555
 #, c-format
 msgid "invalid commit: %s"
-msgstr ""
+msgstr "无效的提交：%s"
 
 #: builtin/commit.c:573
 msgid "malformed --author parameter"
-msgstr ""
+msgstr "畸形的 --author 参数"
 
 #: builtin/commit.c:629
 #, c-format
 msgid "Malformed ident string: '%s'"
-msgstr ""
+msgstr "畸形的识别字串：'%s'"
 
 #: builtin/commit.c:664 builtin/commit.c:697 builtin/commit.c:994
 #, c-format
 msgid "could not lookup commit %s"
-msgstr ""
+msgstr "无法查询提交 %s"
 
 #: builtin/commit.c:676 builtin/shortlog.c:296
 #, c-format
 msgid "(reading log message from standard input)\n"
-msgstr ""
+msgstr "（正从标准输入读取说明信息）\n"
 
 #: builtin/commit.c:678
 msgid "could not read log from standard input"
-msgstr ""
+msgstr "无法从标准输入读取说明信息"
 
 #: builtin/commit.c:682
 #, c-format
 msgid "could not read log file '%s'"
-msgstr ""
+msgstr "无法读取说明文件 '%s'"
 
 #: builtin/commit.c:688
 msgid "commit has empty message"
-msgstr ""
+msgstr "提交说明为空"
 
 #: builtin/commit.c:704
 msgid "could not read MERGE_MSG"
-msgstr ""
+msgstr "无法读取 MERGE_MSG"
 
 #: builtin/commit.c:708
 msgid "could not read SQUASH_MSG"
-msgstr ""
+msgstr "无法读取 SQUASH_MSG"
 
 #: builtin/commit.c:712
 #, c-format
 msgid "could not read '%s'"
-msgstr ""
+msgstr "无法读取 '%s'"
 
 #: builtin/commit.c:740
 #, c-format
 msgid "could not open '%s'"
-msgstr ""
+msgstr "无法打开 '%s'"
 
 #: builtin/commit.c:764
 msgid "could not write commit template"
-msgstr ""
+msgstr "无法写提交模版"
 
 #: builtin/commit.c:777
 #, c-format
@@ -1137,16 +1155,23 @@ msgid ""
 "\t%s\n"
 "and try again.\n"
 msgstr ""
+"\n"
+"看起来您正在提交一个%s。\n"
+"如果不是这样，请移除文件\n"
+"\t%s\n"
+"然后重试。\n"
 
 #: builtin/commit.c:790
 msgid "Please enter the commit message for your changes."
-msgstr ""
+msgstr "请针对您所做的变更输入提交说明。"
 
 #: builtin/commit.c:793
 msgid ""
 " Lines starting\n"
 "with '#' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
+" 以 '#' 开头\n"
+"的行将被忽略，而且空提交说明将会终止提交。\n"
 
 #: builtin/commit.c:798
 msgid ""
@@ -1154,149 +1179,151 @@ msgid ""
 "with '#' will be kept; you may remove them yourself if you want to.\n"
 "An empty message aborts the commit.\n"
 msgstr ""
+" 以 '#' 开头\n"
+"的行将被保留，您可以删除它们如果您想这样做。空提交说明将会终止提交。\n"
 
 #: builtin/commit.c:810
 #, c-format
 msgid "%sAuthor:    %s"
-msgstr ""
+msgstr "%s作者：     %s"
 
 #: builtin/commit.c:817
 #, c-format
 msgid "%sCommitter: %s"
-msgstr ""
+msgstr "%s提交者：   %s"
 
 #: builtin/commit.c:837
 msgid "Cannot read index"
-msgstr ""
+msgstr "无法读取暂存区"
 
 #: builtin/commit.c:874
 msgid "Error building trees"
-msgstr ""
+msgstr "创建树遇到错误"
 
 #: builtin/commit.c:889 builtin/tag.c:324
 #, c-format
 msgid "Please supply the message using either -m or -F option.\n"
-msgstr ""
+msgstr "请使用 -m 或者 -F 选项提供说明。\n"
 
 #: builtin/commit.c:969
 #, c-format
 msgid "No existing author found with '%s'"
-msgstr ""
+msgstr "没有找到匹配 '%s' 的作者"
 
 #: builtin/commit.c:984 builtin/commit.c:1176
 #, c-format
 msgid "Invalid untracked files mode '%s'"
-msgstr ""
+msgstr "无效的非追踪文件选项 '%s'"
 
 #: builtin/commit.c:1024
 msgid "Using both --reset-author and --author does not make sense"
-msgstr ""
+msgstr "同时使用 --reset-author 和 --author 不合理"
 
 #: builtin/commit.c:1035
 msgid "You have nothing to amend."
-msgstr ""
+msgstr "您没有要修补。"
 
 #: builtin/commit.c:1037
 #, c-format
 msgid "You are in the middle of a %s -- cannot amend."
-msgstr ""
+msgstr "您正处于一个%s过程中 -- 无法修补提交。"
 
 #: builtin/commit.c:1039
 msgid "Options --squash and --fixup cannot be used together"
-msgstr ""
+msgstr "选项 --squash 和 --fixup 不能同时使用"
 
 #: builtin/commit.c:1049
 msgid "Only one of -c/-C/-F/--fixup can be used."
-msgstr ""
+msgstr "只能用一个 -c/-C/-F/--fixup 选项。"
 
 #: builtin/commit.c:1051
 msgid "Option -m cannot be combined with -c/-C/-F/--fixup."
-msgstr ""
+msgstr "选项 -m 不能和 -c/-C/-F/--fixup 共用。"
 
 #: builtin/commit.c:1057
 msgid "--reset-author can be used only with -C, -c or --amend."
-msgstr ""
+msgstr "--reset-author 只能和 -C, -c 或 --amend 一起使用。"
 
 #: builtin/commit.c:1074
 msgid "Only one of --include/--only/--all/--interactive/--patch can be used."
-msgstr ""
+msgstr "只能用一个 --include/--only/--all/--interactive/--patch 选项。"
 
 #: builtin/commit.c:1076
 msgid "No paths with --include/--only does not make sense."
-msgstr ""
+msgstr "参数 --include/--only 不跟路径不合理。"
 
 #: builtin/commit.c:1078
 msgid "Clever... amending the last one with dirty index."
-msgstr ""
+msgstr "聪明... 在暂存区不干净下修补最后的提交"
 
 #: builtin/commit.c:1080
 msgid "Explicit paths specified without -i nor -o; assuming --only paths..."
-msgstr ""
+msgstr "没有用 -i 或 -o 选项而显式地提供路径，认为是 --only paths..."
 
 #: builtin/commit.c:1090 builtin/tag.c:500
 #, c-format
 msgid "Invalid cleanup mode %s"
-msgstr ""
+msgstr "无效的清理模式 %s"
 
 #: builtin/commit.c:1095
 msgid "Paths with -a does not make sense."
-msgstr ""
+msgstr "路径和 -a 选项共用不合理。"
 
 #: builtin/commit.c:1274
 msgid "couldn't look up newly created commit"
-msgstr ""
+msgstr "无法找到新创建的提交"
 
 #: builtin/commit.c:1276
 msgid "could not parse newly created commit"
-msgstr ""
+msgstr "无法解析新创建的提交"
 
 #: builtin/commit.c:1317
 msgid "detached HEAD"
-msgstr ""
+msgstr "分离头指针"
 
 #: builtin/commit.c:1319
 msgid " (root-commit)"
-msgstr ""
+msgstr " （根提交）"
 
 #: builtin/commit.c:1409
 msgid "could not parse HEAD commit"
-msgstr ""
+msgstr "无法解析HEAD提交"
 
 #: builtin/commit.c:1446 builtin/merge.c:507
 #, c-format
 msgid "could not open '%s' for reading"
-msgstr ""
+msgstr "无法打开 '%s' 读取"
 
 #: builtin/commit.c:1453
 #, c-format
 msgid "Corrupt MERGE_HEAD file (%s)"
-msgstr ""
+msgstr "损坏的 MERGE_HEAD 文件 (%s)"
 
 #: builtin/commit.c:1460
 msgid "could not read MERGE_MODE"
-msgstr ""
+msgstr "无法读取MERGE_MODE"
 
 #: builtin/commit.c:1479
 #, c-format
 msgid "could not read commit message: %s"
-msgstr ""
+msgstr "无法读取提交说明：%s"
 
 #: builtin/commit.c:1493
 #, c-format
 msgid "Aborting commit due to empty commit message.\n"
-msgstr ""
+msgstr "终止提交因为提交说明为空。\n"
 
 #: builtin/commit.c:1508 builtin/merge.c:923 builtin/merge.c:956
 msgid "failed to write commit object"
-msgstr ""
+msgstr "写提交对象失败"
 
 #: builtin/commit.c:1529
 msgid "cannot lock HEAD ref"
-msgstr ""
+msgstr "无法锁定HEAD引用"
 
 #: builtin/commit.c:1533
 msgid "cannot update HEAD ref"
-msgstr ""
+msgstr "无法更新HEAD引用"
 
 #: builtin/commit.c:1544
 msgid ""
@@ -1304,6 +1331,8 @@ msgid ""
 "new_index file. Check that disk is not full or quota is\n"
 "not exceeded, and then \"git reset HEAD\" to recover."
 msgstr ""
+"版本库已被更新，但无法写入新暂存区文件。检查是否磁盘\n"
+"已满或磁盘配额耗尽，然后执行 \"git reset HEAD\" 恢复。"
 
 #: builtin/describe.c:234
 #, c-format
