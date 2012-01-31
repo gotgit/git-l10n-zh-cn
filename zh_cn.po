@@ -30,7 +30,7 @@ msgstr "%s %s 不是一个提交!"
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
-msgstr "内存已耗尽"
+msgstr "内存耗尽"
 
 #: connected.c:39
 msgid "Could not run 'git rev-list'"
@@ -39,12 +39,12 @@ msgstr "无法运行 'git rev-list'"
 #: connected.c:48
 #, c-format
 msgid "failed write to rev-list: %s"
-msgstr "写入rev-list失败：%s"
+msgstr "无法写入 rev-list：%s"
 
 #: connected.c:56
 #, c-format
 msgid "failed to close rev-list's stdin: %s"
-msgstr "关闭rev-list的标准输入失败：%s"
+msgstr "无法关闭 rev-list 的标准输入：%s"
 
 #: diff.c:104
 #, c-format
@@ -62,7 +62,7 @@ msgid ""
 "Found errors in 'diff.dirstat' config variable:\n"
 "%s"
 msgstr ""
-"发现配置变量 'diff.dirstat' 中的错误：\n"
+"配置变量 'diff.dirstat' 出错：\n"
 "%s"
 
 #: diff.c:3308
@@ -71,7 +71,7 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
-"解析 --dirstat/-X 的参数失败：\n"
+"无法解析 --dirstat/-X 选项的参数：\n"
 "%s"
 
 #: gpg-interface.c:59
@@ -92,8 +92,8 @@ msgid ""
 "'%s' appears to be a git command, but we were not\n"
 "able to execute it. Maybe git-%s is broken?"
 msgstr ""
-"'%s' 像是一个 git 命令，但我们无法运行它。\n"
-"可能 git-%s 已损坏？"
+"'%s' 像是一个 git 命令，但却无法运行。\n"
+"git-%s 受损？"
 
 #: wt-status.c:134
 msgid "Unmerged paths:"
@@ -531,7 +531,7 @@ msgstr "已删除 %s分支 %s（曾为 %s）。\n"
 
 #: builtin/branch.c:224
 msgid "Update of config-file failed"
-msgstr "更新config文件失败"
+msgstr "无法更新 config 文件"
 
 #: builtin/branch.c:322
 #, c-format
@@ -582,16 +582,16 @@ msgstr ""
 #: builtin/branch.c:608
 #, c-format
 msgid "Branch renamed to %s, but HEAD is not updated!"
-msgstr "分支重命名为 %s，但HEAD没有更新！"
+msgstr "分支重命名为 %s，但 HEAD 没有更新！"
 
 #: builtin/branch.c:615
 msgid "Branch is renamed, but update of config-file failed"
-msgstr "分支被重命名，但更新config文件失败"
+msgstr "分支被重命名，但更新 config 文件失败"
 
 #: builtin/branch.c:630
 #, c-format
 msgid "malformed object name %s"
-msgstr "畸形的对象名 %s"
+msgstr "对象名 %s 非法"
 
 #: builtin/branch.c:654
 #, c-format
@@ -600,7 +600,7 @@ msgstr "不能写分支描述模版：%s\n"
 
 #: builtin/branch.c:742
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr "无法将HEAD解析为有效引用。"
+msgstr "无法将 HEAD 解析为有效引用。"
 
 #: builtin/branch.c:747
 msgid "HEAD not found below refs/heads!"
