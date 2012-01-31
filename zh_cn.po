@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2012-01-30 00:00+0800\n"
-"PO-Revision-Date: 2012-01-30 00:00+0800\n"
-"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"PO-Revision-Date: 2012-01-31 14:16+0800\n"
+"Last-Translator: riku <lu.riku@gmail.com>\n"
 "Language-Team: Git Mailing List <git@vger.kernel.org>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,8 @@ msgstr "无法解析 %s"
 msgid "%s %s is not a commit!"
 msgstr "%s %s 不是一个提交!"
 
-#: compat/obstack.c:406 compat/obstack.c:408
+#: compat/obstack.c:406
+#: compat/obstack.c:408
 msgid "memory exhausted"
 msgstr "内存已耗尽"
 
@@ -99,12 +100,14 @@ msgstr ""
 msgid "Unmerged paths:"
 msgstr "未合并路径："
 
-#: wt-status.c:140 wt-status.c:157
+#: wt-status.c:140
+#: wt-status.c:157
 #, c-format
 msgid "  (use \"git reset %s <file>...\" to unstage)"
 msgstr "  （使用 \"git reset %s <file>...\" 撤出暂存区）"
 
-#: wt-status.c:142 wt-status.c:159
+#: wt-status.c:142
+#: wt-status.c:159
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
 msgstr "  （使用 \"git rm --cached <file>...\" 撤出暂存区）"
 
@@ -129,11 +132,6 @@ msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
 msgstr "  （使用 \"git add/rm <file>...\" 更新要提交的内容）"
 
 #: wt-status.c:176
-msgid ""
-"  (use \"git checkout -- <file>...\" to discard changes in working directory)"
-msgstr 
-"  （使用 \"git checkout -- <file>...\" 丢弃工作区的改动）"
-
 #: wt-status.c:178
 msgid "  (commit or discard the untracked or modified content in submodules)"
 msgstr "  （提交或丢弃子模组中未跟踪或修改的内容）"
@@ -288,7 +286,9 @@ msgstr "空提交但存在未跟踪文件%s\n"
 msgid " (use \"git add\" to track)"
 msgstr " （使用 \"git add\" 建立跟踪）"
 
-#: wt-status.c:769 wt-status.c:772 wt-status.c:775
+#: wt-status.c:769
+#: wt-status.c:772
+#: wt-status.c:775
 #, c-format
 msgid "nothing to commit%s\n"
 msgstr "空提交%s\n"
@@ -317,7 +317,8 @@ msgstr "初始提交于 "
 msgid "behind "
 msgstr "落后 "
 
-#: wt-status.c:908 wt-status.c:911
+#: wt-status.c:908
+#: wt-status.c:911
 msgid "ahead "
 msgstr "，领先 "
 
@@ -330,7 +331,8 @@ msgstr "，落后 "
 msgid "unexpected diff status %c"
 msgstr "意外的diff状态 %c"
 
-#: builtin/add.c:67 builtin/commit.c:298
+#: builtin/add.c:67
+#: builtin/commit.c:298
 msgid "updating files failed"
 msgstr "更新文件失败"
 
@@ -348,7 +350,9 @@ msgstr "路径 '%s' 属于模组 '%.*s'"
 msgid "Unstaged changes after refreshing the index:"
 msgstr "刷新暂存区后未暂存的变更："
 
-#: builtin/add.c:195 builtin/add.c:455 builtin/rm.c:186
+#: builtin/add.c:195
+#: builtin/add.c:455
+#: builtin/rm.c:186
 #, c-format
 msgid "pathspec '%s' did not match any files"
 msgstr "路径 '%s' 未匹配任何文件"
@@ -420,12 +424,17 @@ msgstr "未提供参数，没有文件被添加。\n"
 msgid "Maybe you wanted to say 'git add .'?\n"
 msgstr "也许您想要执行 'git add .'？\n"
 
-#: builtin/add.c:419 builtin/clean.c:95 builtin/commit.c:358 builtin/mv.c:82
+#: builtin/add.c:419
+#: builtin/clean.c:95
+#: builtin/commit.c:358
+#: builtin/mv.c:82
 #: builtin/rm.c:162
 msgid "index file corrupt"
 msgstr "暂存区文件损坏"
 
-#: builtin/add.c:475 builtin/mv.c:229 builtin/rm.c:260
+#: builtin/add.c:475
+#: builtin/mv.c:229
+#: builtin/rm.c:260
 msgid "Unable to write new index file"
 msgstr "无法写入新暂存区文件"
 
@@ -623,12 +632,14 @@ msgstr "需要一个版本库来创建包"
 msgid "Need a repository to unbundle."
 msgstr "需要一个版本库来解包"
 
-#: builtin/checkout.c:113 builtin/checkout.c:146
+#: builtin/checkout.c:113
+#: builtin/checkout.c:146
 #, c-format
 msgid "path '%s' does not have our version"
 msgstr "路径 '%s' 没有我们的版本"
 
-#: builtin/checkout.c:115 builtin/checkout.c:148
+#: builtin/checkout.c:115
+#: builtin/checkout.c:148
 #, c-format
 msgid "path '%s' does not have their version"
 msgstr "路径 '%s' 没有他们的版本"
@@ -653,26 +664,33 @@ msgstr "path '%s': 无法合并"
 msgid "Unable to add merge result for '%s'"
 msgstr "无法为 '%s' 添加合并结果"
 
-#: builtin/checkout.c:212 builtin/reset.c:158
+#: builtin/checkout.c:212
+#: builtin/reset.c:158
 #, c-format
 msgid "make_cache_entry failed for path '%s'"
 msgstr "对路径 '%s' 的 make_cache_entry 操作失败"
 
-#: builtin/checkout.c:234 builtin/checkout.c:392
+#: builtin/checkout.c:234
+#: builtin/checkout.c:392
 msgid "corrupt index file"
 msgstr "冲突的暂存区文件"
 
-#: builtin/checkout.c:264 builtin/checkout.c:271
+#: builtin/checkout.c:264
+#: builtin/checkout.c:271
 #, c-format
 msgid "path '%s' is unmerged"
 msgstr "路径 '%s' 未合并"
 
-#: builtin/checkout.c:302 builtin/checkout.c:498 builtin/clone.c:769
+#: builtin/checkout.c:302
+#: builtin/checkout.c:498
+#: builtin/clone.c:769
 #: builtin/merge.c:809
 msgid "unable to write new index file"
 msgstr "无法写新的暂存区文件"
 
-#: builtin/checkout.c:319 builtin/diff.c:298 builtin/merge.c:406
+#: builtin/checkout.c:319
+#: builtin/diff.c:298
+#: builtin/merge.c:406
 msgid "diff_setup_done failed"
 msgstr "diff_setup_done 失败"
 
@@ -854,30 +872,30 @@ msgid "-x and -X cannot be used together"
 msgstr ""
 
 #: builtin/clean.c:82
-msgid ""
-"clean.requireForce set to true and neither -n nor -f given; refusing to clean"
+msgid "clean.requireForce set to true and neither -n nor -f given; refusing to clean"
 msgstr ""
 
 #: builtin/clean.c:85
-msgid ""
-"clean.requireForce defaults to true and neither -n nor -f given; refusing to "
-"clean"
+msgid "clean.requireForce defaults to true and neither -n nor -f given; refusing to clean"
 msgstr ""
 
-#: builtin/clean.c:155 builtin/clean.c:176
+#: builtin/clean.c:155
+#: builtin/clean.c:176
 #, c-format
 msgid "Would remove %s\n"
 msgstr ""
 
-#: builtin/clean.c:159 builtin/clean.c:179
+#: builtin/clean.c:159
+#: builtin/clean.c:179
 #, c-format
 msgid "Removing %s\n"
-msgstr ""
+msgstr "正在删除  %s\n"
 
-#: builtin/clean.c:162 builtin/clean.c:182
+#: builtin/clean.c:162
+#: builtin/clean.c:182
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "无法删除 %s"
 
 #: builtin/clean.c:166
 #, c-format
@@ -897,14 +915,15 @@ msgstr ""
 #: builtin/clone.c:311
 #, c-format
 msgid "failed to open '%s'"
-msgstr ""
+msgstr "无法打开 '%s'"
 
 #: builtin/clone.c:315
 #, c-format
 msgid "failed to create directory '%s'"
-msgstr ""
+msgstr "无法创建目录 '%s'"
 
-#: builtin/clone.c:317 builtin/diff.c:75
+#: builtin/clone.c:317
+#: builtin/diff.c:75
 #, c-format
 msgid "failed to stat '%s'"
 msgstr ""
@@ -937,15 +956,15 @@ msgstr ""
 #: builtin/clone.c:391
 #, c-format
 msgid "done.\n"
-msgstr ""
+msgstr "完成。 \n"
 
 #: builtin/clone.c:494
 msgid "Too many arguments."
-msgstr ""
+msgstr "大多变量。"
 
 #: builtin/clone.c:498
 msgid "You must specify a repository to clone."
-msgstr ""
+msgstr "你必须指定一个仓库来克隆"
 
 #: builtin/clone.c:506
 #, c-format
@@ -955,7 +974,7 @@ msgstr ""
 #: builtin/clone.c:520
 #, c-format
 msgid "repository '%s' does not exist"
-msgstr ""
+msgstr "仓库 '%s' 不存在"
 
 #: builtin/clone.c:525
 msgid "--depth is ignored in local clones; use file:// instead."
@@ -969,9 +988,10 @@ msgstr ""
 #: builtin/clone.c:545
 #, c-format
 msgid "working tree '%s' already exists."
-msgstr ""
+msgstr "工作树 '%s' 已经存在"
 
-#: builtin/clone.c:558 builtin/clone.c:572
+#: builtin/clone.c:558
+#: builtin/clone.c:572
 #, c-format
 msgid "could not create leading directories of '%s'"
 msgstr ""
@@ -989,12 +1009,12 @@ msgstr ""
 #: builtin/clone.c:582
 #, c-format
 msgid "Cloning into '%s'...\n"
-msgstr ""
+msgstr "正在克隆到 '%s'...\n"
 
 #: builtin/clone.c:641
 #, c-format
 msgid "Don't know how to clone %s"
-msgstr ""
+msgstr "不知道怎么克隆 %s"
 
 #: builtin/clone.c:680
 #, c-format
@@ -1052,7 +1072,9 @@ msgstr ""
 msgid "interactive add failed"
 msgstr ""
 
-#: builtin/commit.c:406 builtin/commit.c:427 builtin/commit.c:473
+#: builtin/commit.c:406
+#: builtin/commit.c:427
+#: builtin/commit.c:473
 msgid "unable to write new_index file"
 msgstr ""
 
@@ -1063,16 +1085,17 @@ msgstr ""
 
 #: builtin/commit.c:466
 msgid "cannot read the index"
-msgstr ""
+msgstr "无法读取索引"
 
 #: builtin/commit.c:486
 msgid "unable to write temporary index file"
-msgstr ""
+msgstr "无法编写临时索引文件"
 
-#: builtin/commit.c:549 builtin/commit.c:555
+#: builtin/commit.c:549
+#: builtin/commit.c:555
 #, c-format
 msgid "invalid commit: %s"
-msgstr ""
+msgstr "无效的提交：%s"
 
 #: builtin/commit.c:573
 msgid "malformed --author parameter"
@@ -1083,50 +1106,53 @@ msgstr ""
 msgid "Malformed ident string: '%s'"
 msgstr ""
 
-#: builtin/commit.c:664 builtin/commit.c:697 builtin/commit.c:994
+#: builtin/commit.c:664
+#: builtin/commit.c:697
+#: builtin/commit.c:994
 #, c-format
 msgid "could not lookup commit %s"
-msgstr ""
+msgstr "不能查询提交 %s"
 
-#: builtin/commit.c:676 builtin/shortlog.c:296
+#: builtin/commit.c:676
+#: builtin/shortlog.c:296
 #, c-format
 msgid "(reading log message from standard input)\n"
-msgstr ""
+msgstr "(正在从标准输入中读取日志信息)\n"
 
 #: builtin/commit.c:678
 msgid "could not read log from standard input"
-msgstr ""
+msgstr "不能从标准输入中读取日志"
 
 #: builtin/commit.c:682
 #, c-format
 msgid "could not read log file '%s'"
-msgstr ""
+msgstr "不能读取日志文件 '%s'"
 
 #: builtin/commit.c:688
 msgid "commit has empty message"
-msgstr ""
+msgstr "提交包含了空信息"
 
 #: builtin/commit.c:704
 msgid "could not read MERGE_MSG"
-msgstr ""
+msgstr "不能读取 MERGE_MSG"
 
 #: builtin/commit.c:708
 msgid "could not read SQUASH_MSG"
-msgstr ""
+msgstr "不能读取 SQUASH_MSG"
 
 #: builtin/commit.c:712
 #, c-format
 msgid "could not read '%s'"
-msgstr ""
+msgstr "不能读取 '%s'"
 
 #: builtin/commit.c:740
 #, c-format
 msgid "could not open '%s'"
-msgstr ""
+msgstr "不能打开 '%s'"
 
 #: builtin/commit.c:764
 msgid "could not write commit template"
-msgstr ""
+msgstr "不能编写提交模板"
 
 #: builtin/commit.c:777
 #, c-format
@@ -1137,16 +1163,23 @@ msgid ""
 "\t%s\n"
 "and try again.\n"
 msgstr ""
+"\n"
+"看起来你也许在提交一个 %s.\n"
+"假如这是不正确的，请删除文件\n"
+"\t%s\n"
+"并重试.\n"
 
 #: builtin/commit.c:790
 msgid "Please enter the commit message for your changes."
-msgstr ""
+msgstr "请为你的修改输入提交信息。"
 
 #: builtin/commit.c:793
 msgid ""
 " Lines starting\n"
 "with '#' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
+"起始行首\n"
+"包含 '#' 将被忽略，以及一个空信息舍弃提交。\n"
 
 #: builtin/commit.c:798
 msgid ""
@@ -1158,22 +1191,23 @@ msgstr ""
 #: builtin/commit.c:810
 #, c-format
 msgid "%sAuthor:    %s"
-msgstr ""
+msgstr "%s作者： %s"
 
 #: builtin/commit.c:817
 #, c-format
 msgid "%sCommitter: %s"
-msgstr ""
+msgstr "%s提交者: %s"
 
 #: builtin/commit.c:837
 msgid "Cannot read index"
-msgstr ""
+msgstr "不能读取索引"
 
 #: builtin/commit.c:874
 msgid "Error building trees"
-msgstr ""
+msgstr "构建代码树的时候发生错误"
 
-#: builtin/commit.c:889 builtin/tag.c:324
+#: builtin/commit.c:889
+#: builtin/tag.c:324
 #, c-format
 msgid "Please supply the message using either -m or -F option.\n"
 msgstr ""
@@ -1183,7 +1217,8 @@ msgstr ""
 msgid "No existing author found with '%s'"
 msgstr ""
 
-#: builtin/commit.c:984 builtin/commit.c:1176
+#: builtin/commit.c:984
+#: builtin/commit.c:1176
 #, c-format
 msgid "Invalid untracked files mode '%s'"
 msgstr ""
@@ -1233,7 +1268,8 @@ msgstr ""
 msgid "Explicit paths specified without -i nor -o; assuming --only paths..."
 msgstr ""
 
-#: builtin/commit.c:1090 builtin/tag.c:500
+#: builtin/commit.c:1090
+#: builtin/tag.c:500
 #, c-format
 msgid "Invalid cleanup mode %s"
 msgstr ""
@@ -1262,7 +1298,8 @@ msgstr ""
 msgid "could not parse HEAD commit"
 msgstr ""
 
-#: builtin/commit.c:1446 builtin/merge.c:507
+#: builtin/commit.c:1446
+#: builtin/merge.c:507
 #, c-format
 msgid "could not open '%s' for reading"
 msgstr ""
@@ -1286,7 +1323,9 @@ msgstr ""
 msgid "Aborting commit due to empty commit message.\n"
 msgstr ""
 
-#: builtin/commit.c:1508 builtin/merge.c:923 builtin/merge.c:956
+#: builtin/commit.c:1508
+#: builtin/merge.c:923
+#: builtin/merge.c:956
 msgid "failed to write commit object"
 msgstr ""
 
@@ -1395,7 +1434,7 @@ msgstr ""
 
 #: builtin/diff.c:293
 msgid "Not a git repository"
-msgstr ""
+msgstr "不是一个 git 仓库"
 
 #: builtin/diff.c:343
 #, c-format
@@ -1424,36 +1463,39 @@ msgstr ""
 #: builtin/fetch.c:252
 #, c-format
 msgid "object %s not found"
-msgstr ""
+msgstr "对像 %s 没有发现"
 
 #: builtin/fetch.c:258
 msgid "[up to date]"
-msgstr ""
+msgstr "[最新]"
 
 #: builtin/fetch.c:272
 #, c-format
 msgid "! %-*s %-*s -> %s  (can't fetch in current branch)"
 msgstr ""
 
-#: builtin/fetch.c:273 builtin/fetch.c:351
+#: builtin/fetch.c:273
+#: builtin/fetch.c:351
 msgid "[rejected]"
-msgstr ""
+msgstr "[被拒绝]"
 
 #: builtin/fetch.c:284
 msgid "[tag update]"
-msgstr ""
+msgstr "[tag 更新]"
 
-#: builtin/fetch.c:286 builtin/fetch.c:313 builtin/fetch.c:331
+#: builtin/fetch.c:286
+#: builtin/fetch.c:313
+#: builtin/fetch.c:331
 msgid "  (unable to update local ref)"
 msgstr ""
 
 #: builtin/fetch.c:298
 msgid "[new tag]"
-msgstr ""
+msgstr "[新 tag]"
 
 #: builtin/fetch.c:302
 msgid "[new branch]"
-msgstr ""
+msgstr "[新分支]"
 
 #: builtin/fetch.c:347
 msgid "unable to update local ref"
@@ -1461,13 +1503,14 @@ msgstr ""
 
 #: builtin/fetch.c:347
 msgid "forced update"
-msgstr ""
+msgstr "强制更新"
 
 #: builtin/fetch.c:353
 msgid "(non-fast-forward)"
 msgstr ""
 
-#: builtin/fetch.c:384 builtin/fetch.c:676
+#: builtin/fetch.c:384
+#: builtin/fetch.c:676
 #, c-format
 msgid "cannot open %s: %s\n"
 msgstr ""
@@ -1530,12 +1573,12 @@ msgstr ""
 #: builtin/fetch.c:879
 #, c-format
 msgid "Fetching %s\n"
-msgstr ""
+msgstr "正在获取 %s\n"
 
 #: builtin/fetch.c:881
 #, c-format
 msgid "Could not fetch %s"
-msgstr ""
+msgstr "不能获取 %s"
 
 #: builtin/fetch.c:898
 msgid ""
@@ -1567,11 +1610,11 @@ msgstr ""
 #: builtin/gc.c:63
 #, c-format
 msgid "Invalid %s: '%s'"
-msgstr ""
+msgstr "无效的  %s: '%s'"
 
 #: builtin/gc.c:78
 msgid "Too many options specified"
-msgstr ""
+msgstr "指定太多选项了"
 
 #: builtin/gc.c:103
 #, c-format
@@ -1591,8 +1634,7 @@ msgid ""
 msgstr ""
 
 #: builtin/gc.c:256
-msgid ""
-"There are too many unreachable loose objects; run 'git prune' to remove them."
+msgid "There are too many unreachable loose objects; run 'git prune' to remove them."
 msgstr ""
 
 #: builtin/grep.c:275
@@ -1618,12 +1660,13 @@ msgstr ""
 #: builtin/grep.c:514
 #, c-format
 msgid "Failed to chdir: %s"
-msgstr ""
+msgstr "无法  chdir: %s"
 
-#: builtin/grep.c:590 builtin/grep.c:624
+#: builtin/grep.c:590
+#: builtin/grep.c:624
 #, c-format
 msgid "unable to read tree (%s)"
-msgstr ""
+msgstr "无法读取代码树 (%s)"
 
 #: builtin/grep.c:638
 #, c-format
@@ -1638,7 +1681,7 @@ msgstr ""
 #: builtin/grep.c:713
 #, c-format
 msgid "cannot open '%s'"
-msgstr ""
+msgstr "不能打开  '%s'"
 
 #: builtin/grep.c:1001
 msgid "no pattern given."
@@ -1739,7 +1782,8 @@ msgstr ""
 msgid "insane git directory %s"
 msgstr ""
 
-#: builtin/init-db.c:322 builtin/init-db.c:325
+#: builtin/init-db.c:322
+#: builtin/init-db.c:325
 #, c-format
 msgid "%s already exists"
 msgstr ""
@@ -1779,50 +1823,55 @@ msgstr ""
 
 #: builtin/init-db.c:421
 msgid " shared"
-msgstr ""
+msgstr "共享的"
 
 #: builtin/init-db.c:440
 msgid "cannot tell cwd"
 msgstr ""
 
-#: builtin/init-db.c:521 builtin/init-db.c:528
+#: builtin/init-db.c:521
+#: builtin/init-db.c:528
 #, c-format
 msgid "cannot mkdir %s"
-msgstr ""
+msgstr "不能 mkdir %s"
 
 #: builtin/init-db.c:532
 #, c-format
 msgid "cannot chdir to %s"
-msgstr ""
+msgstr "不能 chdir 到 %s"
 
 #: builtin/init-db.c:554
 #, c-format
-msgid ""
-"%s (or --work-tree=<directory>) not allowed without specifying %s (or --git-"
-"dir=<directory>)"
+msgid "%s (or --work-tree=<directory>) not allowed without specifying %s (or --git-dir=<directory>)"
 msgstr ""
 
 #: builtin/init-db.c:578
 msgid "Cannot access current working directory"
-msgstr ""
+msgstr "不能访问当前工作目录"
 
 #: builtin/init-db.c:585
 #, c-format
 msgid "Cannot access work tree '%s'"
-msgstr ""
+msgstr "不能访问工作代码树 '%s'"
 
 #: builtin/log.c:185
 #, c-format
 msgid "Final output: %d %s\n"
 msgstr ""
 
-#: builtin/log.c:286 builtin/log.c:709 builtin/log.c:1325 builtin/log.c:1544
-#: builtin/merge.c:348 builtin/revert.c:651 builtin/revert.c:1110
+#: builtin/log.c:286
+#: builtin/log.c:709
+#: builtin/log.c:1325
+#: builtin/log.c:1544
+#: builtin/merge.c:348
+#: builtin/revert.c:651
+#: builtin/revert.c:1110
 #: builtin/shortlog.c:181
 msgid "revision walk setup failed"
 msgstr ""
 
-#: builtin/log.c:393 builtin/log.c:479
+#: builtin/log.c:393
+#: builtin/log.c:479
 #, c-format
 msgid "Could not read object %s"
 msgstr ""
@@ -1830,7 +1879,7 @@ msgstr ""
 #: builtin/log.c:503
 #, c-format
 msgid "Unknown type: %d"
-msgstr ""
+msgstr "未知类型：%d"
 
 #: builtin/log.c:592
 msgid "format.headers without value"
@@ -1851,7 +1900,7 @@ msgstr ""
 
 #: builtin/log.c:698
 msgid "Not a range."
-msgstr ""
+msgstr "不是一个范围"
 
 #: builtin/log.c:735
 msgid "Could not extract email from committer identity."
@@ -1883,7 +1932,8 @@ msgstr ""
 msgid "--subject-prefix and -k are mutually exclusive."
 msgstr ""
 
-#: builtin/log.c:1221 builtin/shortlog.c:284
+#: builtin/log.c:1221
+#: builtin/shortlog.c:284
 #, c-format
 msgid "unrecognized argument: %s"
 msgstr ""
@@ -1911,18 +1961,19 @@ msgstr ""
 
 #: builtin/log.c:1406
 msgid "Failed to create output files"
-msgstr ""
+msgstr "无法创建输出文件"
 
 #: builtin/log.c:1510
 #, c-format
-msgid ""
-"Could not find a tracked remote branch, please specify <upstream> manually.\n"
+msgid "Could not find a tracked remote branch, please specify <upstream> manually.\n"
 msgstr ""
 
-#: builtin/log.c:1526 builtin/log.c:1528 builtin/log.c:1540
+#: builtin/log.c:1526
+#: builtin/log.c:1528
+#: builtin/log.c:1540
 #, c-format
 msgid "Unknown commit %s"
-msgstr ""
+msgstr "未知提交 %s"
 
 #: builtin/merge.c:91
 msgid "switch `m' requires a value"
@@ -1956,7 +2007,8 @@ msgstr ""
 msgid "not a valid object: %s"
 msgstr ""
 
-#: builtin/merge.c:270 builtin/merge.c:287
+#: builtin/merge.c:270
+#: builtin/merge.c:287
 msgid "read-tree failed"
 msgstr ""
 
@@ -1969,8 +2021,11 @@ msgstr ""
 msgid "Squash commit -- not updating HEAD\n"
 msgstr ""
 
-#: builtin/merge.c:334 builtin/merge.c:865 builtin/merge.c:1085
-#: builtin/merge.c:1098 builtin/revert.c:327
+#: builtin/merge.c:334
+#: builtin/merge.c:865
+#: builtin/merge.c:1085
+#: builtin/merge.c:1098
+#: builtin/revert.c:327
 #, c-format
 msgid "Could not write to '%s'"
 msgstr ""
@@ -2024,8 +2079,11 @@ msgstr ""
 msgid "unable to write %s"
 msgstr ""
 
-#: builtin/merge.c:862 builtin/merge.c:973 builtin/merge.c:1083
-#: builtin/merge.c:1093 builtin/revert.c:325
+#: builtin/merge.c:862
+#: builtin/merge.c:973
+#: builtin/merge.c:1083
+#: builtin/merge.c:1093
+#: builtin/revert.c:325
 #, c-format
 msgid "Could not open '%s' for writing"
 msgstr ""
@@ -2080,13 +2138,15 @@ msgstr ""
 msgid "There is no merge to abort (MERGE_HEAD missing)."
 msgstr ""
 
-#: builtin/merge.c:1165 git-pull.sh:31
+#: builtin/merge.c:1165
+#: git-pull.sh:31
 msgid ""
 "You have not concluded your merge (MERGE_HEAD exists).\n"
 "Please, commit your changes before you can merge."
 msgstr ""
 
-#: builtin/merge.c:1168 git-pull.sh:34
+#: builtin/merge.c:1168
+#: git-pull.sh:34
 msgid "You have not concluded your merge (MERGE_HEAD exists)."
 msgstr ""
 
@@ -2124,7 +2184,8 @@ msgstr ""
 msgid "Non-fast-forward commit does not make sense into an empty head"
 msgstr ""
 
-#: builtin/merge.c:1236 builtin/merge.c:1280
+#: builtin/merge.c:1236
+#: builtin/merge.c:1280
 #, c-format
 msgid "%s - not something we can merge"
 msgstr ""
@@ -2148,7 +2209,8 @@ msgstr ""
 msgid "Not possible to fast-forward, aborting."
 msgstr ""
 
-#: builtin/merge.c:1441 builtin/merge.c:1518
+#: builtin/merge.c:1441
+#: builtin/merge.c:1518
 #, c-format
 msgid "Rewinding the tree to pristine...\n"
 msgstr ""
@@ -2259,7 +2321,8 @@ msgstr ""
 msgid "failed to finish 'show' for object '%s'"
 msgstr ""
 
-#: builtin/notes.c:175 builtin/tag.c:310
+#: builtin/notes.c:175
+#: builtin/tag.c:310
 #, c-format
 msgid "could not create file '%s'"
 msgstr ""
@@ -2268,7 +2331,8 @@ msgstr ""
 msgid "Please supply the note contents using either -m or -F option"
 msgstr ""
 
-#: builtin/notes.c:210 builtin/notes.c:973
+#: builtin/notes.c:210
+#: builtin/notes.c:973
 #, c-format
 msgid "Removing note for object %s\n"
 msgstr ""
@@ -2282,20 +2346,30 @@ msgstr ""
 msgid "The note contents has been left in %s"
 msgstr ""
 
-#: builtin/notes.c:251 builtin/tag.c:465
+#: builtin/notes.c:251
+#: builtin/tag.c:465
 #, c-format
 msgid "cannot read '%s'"
 msgstr ""
 
-#: builtin/notes.c:253 builtin/tag.c:468
+#: builtin/notes.c:253
+#: builtin/tag.c:468
 #, c-format
 msgid "could not open or read '%s'"
 msgstr ""
 
-#: builtin/notes.c:272 builtin/notes.c:445 builtin/notes.c:447
-#: builtin/notes.c:507 builtin/notes.c:561 builtin/notes.c:644
-#: builtin/notes.c:649 builtin/notes.c:724 builtin/notes.c:766
-#: builtin/notes.c:968 builtin/reset.c:293 builtin/tag.c:481
+#: builtin/notes.c:272
+#: builtin/notes.c:445
+#: builtin/notes.c:447
+#: builtin/notes.c:507
+#: builtin/notes.c:561
+#: builtin/notes.c:644
+#: builtin/notes.c:649
+#: builtin/notes.c:724
+#: builtin/notes.c:766
+#: builtin/notes.c:968
+#: builtin/reset.c:293
+#: builtin/tag.c:481
 #, c-format
 msgid "Failed to resolve '%s' as a valid ref."
 msgstr ""
@@ -2336,25 +2410,29 @@ msgstr ""
 msgid "Failed to copy notes from '%s' to '%s'"
 msgstr ""
 
-#: builtin/notes.c:500 builtin/notes.c:554 builtin/notes.c:627
-#: builtin/notes.c:639 builtin/notes.c:712 builtin/notes.c:759
+#: builtin/notes.c:500
+#: builtin/notes.c:554
+#: builtin/notes.c:627
+#: builtin/notes.c:639
+#: builtin/notes.c:712
+#: builtin/notes.c:759
 #: builtin/notes.c:1033
 msgid "too many parameters"
 msgstr ""
 
-#: builtin/notes.c:513 builtin/notes.c:772
+#: builtin/notes.c:513
+#: builtin/notes.c:772
 #, c-format
 msgid "No note found for object %s."
 msgstr ""
 
 #: builtin/notes.c:580
 #, c-format
-msgid ""
-"Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
-"existing notes"
+msgid "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite existing notes"
 msgstr ""
 
-#: builtin/notes.c:585 builtin/notes.c:662
+#: builtin/notes.c:585
+#: builtin/notes.c:662
 #, c-format
 msgid "Overwriting existing notes for object %s\n"
 msgstr ""
@@ -2365,9 +2443,7 @@ msgstr ""
 
 #: builtin/notes.c:656
 #, c-format
-msgid ""
-"Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite "
-"existing notes"
+msgid "Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite existing notes"
 msgstr ""
 
 #: builtin/notes.c:668
@@ -2425,8 +2501,7 @@ msgid "The current branch %s has multiple upstream branches, refusing to push."
 msgstr ""
 
 #: builtin/push.c:111
-msgid ""
-"You didn't specify any refspecs to push, and push.default is \"nothing\"."
+msgid "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
 
 #: builtin/push.c:131
@@ -2455,8 +2530,7 @@ msgstr ""
 #: builtin/push.c:161
 msgid ""
 "No configured push destination.\n"
-"Either specify the URL from the command-line or configure a remote "
-"repository using\n"
+"Either specify the URL from the command-line or configure a remote repository using\n"
 "\n"
 "    git remote add <name> <url>\n"
 "\n"
@@ -2576,7 +2650,8 @@ msgstr ""
 msgid "Could not reset index file to revision '%s'."
 msgstr ""
 
-#: builtin/revert.c:114 builtin/revert.c:135
+#: builtin/revert.c:114
+#: builtin/revert.c:135
 #, c-format
 msgid "%s: %s cannot be used with %s"
 msgstr ""
@@ -2585,7 +2660,9 @@ msgstr ""
 msgid "program error"
 msgstr ""
 
-#: builtin/revert.c:360 builtin/revert.c:886 builtin/revert.c:969
+#: builtin/revert.c:360
+#: builtin/revert.c:886
+#: builtin/revert.c:969
 #, c-format
 msgid "Could not write to %s"
 msgstr ""
@@ -2729,12 +2806,14 @@ msgstr ""
 msgid "Could not create sequencer directory %s"
 msgstr ""
 
-#: builtin/revert.c:888 builtin/revert.c:973
+#: builtin/revert.c:888
+#: builtin/revert.c:973
 #, c-format
 msgid "Error wrapping up %s."
 msgstr ""
 
-#: builtin/revert.c:907 builtin/revert.c:1041
+#: builtin/revert.c:907
+#: builtin/revert.c:1041
 msgid "no cherry-pick or revert in progress"
 msgstr ""
 
@@ -2830,7 +2909,7 @@ msgstr ""
 #: builtin/tag.c:177
 #, c-format
 msgid "tag '%s' not found."
-msgstr ""
+msgstr "tag '%s' 没有发现"
 
 #: builtin/tag.c:192
 #, c-format
@@ -2856,30 +2935,29 @@ msgid ""
 "\n"
 "#\n"
 "# Write a tag message\n"
-"# Lines starting with '#' will be kept; you may remove them yourself if you "
-"want to.\n"
+"# Lines starting with '#' will be kept; you may remove them yourself if you want to.\n"
 "#\n"
 msgstr ""
 
 #: builtin/tag.c:261
 msgid "unable to sign the tag"
-msgstr ""
+msgstr "无法签署 tag"
 
 #: builtin/tag.c:263
 msgid "unable to write tag file"
-msgstr ""
+msgstr "无法写 tag 文件"
 
 #: builtin/tag.c:288
 msgid "bad object type."
-msgstr ""
+msgstr "无效的对象类型"
 
 #: builtin/tag.c:301
 msgid "tag header too big."
-msgstr ""
+msgstr "tag 头太大"
 
 #: builtin/tag.c:333
 msgid "no tag message?"
-msgstr ""
+msgstr "无 tag 信息"
 
 #: builtin/tag.c:339
 #, c-format
@@ -3027,8 +3105,7 @@ msgstr ""
 
 #: git-bisect.sh:130
 #, sh-format
-msgid ""
-"Checking out '$start_head' failed. Try 'git bisect reset <validbranch>'."
+msgid "Checking out '$start_head' failed. Try 'git bisect reset <validbranch>'."
 msgstr ""
 
 #: git-bisect.sh:140
@@ -3136,7 +3213,8 @@ msgstr "您尚未建立初始提交"
 msgid "Cannot save the current index state"
 msgstr "无法保存当前暂存区状态"
 
-#: git-stash.sh:123 git-stash.sh:136
+#: git-stash.sh:123
+#: git-stash.sh:136
 msgid "Cannot save the current worktree state"
 msgstr "无法保存当前工作区状态"
 
@@ -3268,17 +3346,17 @@ msgstr ""
 #: git-submodule.sh:299
 #, sh-format
 msgid "Failed to add submodule '$path'"
-msgstr ""
+msgstr "无法添加子模块 '$path'"
 
 #: git-submodule.sh:304
 #, sh-format
 msgid "Failed to register submodule '$path'"
-msgstr ""
+msgstr "无法注册子模块 '$path'"
 
 #: git-submodule.sh:346
 #, sh-format
 msgid "Entering '$prefix$path'"
-msgstr ""
+msgstr "正在进入 '$prefix$path'"
 
 #: git-submodule.sh:358
 #, sh-format
@@ -3352,7 +3430,8 @@ msgstr ""
 msgid "Submodule path '$path': checked out '$sha1'"
 msgstr ""
 
-#: git-submodule.sh:599 git-submodule.sh:922
+#: git-submodule.sh:599
+#: git-submodule.sh:922
 #, sh-format
 msgid "Failed to recurse into submodule path '$path'"
 msgstr ""
@@ -3364,17 +3443,17 @@ msgstr ""
 #: git-submodule.sh:765
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_src"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_src "
 
 #: git-submodule.sh:768
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_dst"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_dst"
 
 #: git-submodule.sh:771
 #, sh-format
 msgid "  Warn: $name doesn't contain commits $sha1_src and $sha1_dst"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_src 和 $sha1_dst"
 
 #: git-submodule.sh:796
 msgid "blob"
@@ -3382,9 +3461,10 @@ msgstr ""
 
 #: git-submodule.sh:797
 msgid "submodule"
-msgstr ""
+msgstr "子模块"
 
 #: git-submodule.sh:968
 #, sh-format
 msgid "Synchronizing submodule url for '$name'"
-msgstr ""
+msgstr "为 '$name' 同步子模块 url"
+
