@@ -3413,28 +3413,28 @@ msgstr ""
 #: git-submodule.sh:570
 #, sh-format
 msgid "Unable to merge '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法合并 '$sha1' 到子模块路径 '$path' 中"
 
 #: git-submodule.sh:571
 #, sh-format
 msgid "Submodule path '$path': merged in '$sha1'"
-msgstr ""
+msgstr "子模块路径 '$path': 已合并入 '$sha1'"
 
 #: git-submodule.sh:576
 #, sh-format
 msgid "Unable to checkout '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模块路径 '$path' 中检验  '$sha1'"
 
 #: git-submodule.sh:577
 #, sh-format
 msgid "Submodule path '$path': checked out '$sha1'"
-msgstr ""
+msgstr "子模块路径 '$path': 检查 '$sha1'"
 
 #: git-submodule.sh:599
 #: git-submodule.sh:922
 #, sh-format
 msgid "Failed to recurse into submodule path '$path'"
-msgstr ""
+msgstr "无法递归进子模块路径 '$path'"
 
 #: git-submodule.sh:707
 msgid "--"
