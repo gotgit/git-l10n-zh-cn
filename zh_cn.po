@@ -2624,198 +2624,198 @@ msgstr "不能写入 %s"
 #: builtin/revert.c:363
 #, c-format
 msgid "Error wrapping up %s"
-msgstr ""
+msgstr "错误收尾 %s"
 
 #: builtin/revert.c:378
 msgid "Your local changes would be overwritten by cherry-pick."
-msgstr ""
+msgstr "您的本地修改将被拣选操作覆盖。"
 
 #: builtin/revert.c:380
 msgid "Your local changes would be overwritten by revert."
-msgstr ""
+msgstr "您的本地修改将被还原操作覆盖。"
 
 #: builtin/revert.c:383
 msgid "Commit your changes or stash them to proceed."
-msgstr ""
+msgstr "提交您的修改或保存进度后再继续。"
 
 #. TRANSLATORS: %s will be "revert" or "cherry-pick"
 #: builtin/revert.c:433
 #, c-format
 msgid "%s: Unable to write new index file"
-msgstr ""
+msgstr "%s：无法写入新暂存区文件"
 
 #: builtin/revert.c:499
 msgid "Your index file is unmerged."
-msgstr ""
+msgstr "您的暂存区文件未完成合并。"
 
 #: builtin/revert.c:502
 msgid "You do not have a valid HEAD"
-msgstr ""
+msgstr "您没有一个有效的HEAD"
 
 #: builtin/revert.c:517
 #, c-format
 msgid "Commit %s is a merge but no -m option was given."
-msgstr ""
+msgstr "提交 %s 是一个合并提交但未提供 -m 选项。"
 
 #: builtin/revert.c:525
 #, c-format
 msgid "Commit %s does not have parent %d"
-msgstr ""
+msgstr "提交 %s 没有父提交 %d"
 
 #: builtin/revert.c:529
 #, c-format
 msgid "Mainline was specified but commit %s is not a merge."
-msgstr ""
+msgstr "提供了主线但提交 %s 不是一个合并。"
 
 #. TRANSLATORS: The first %s will be "revert" or
 #. "cherry-pick", the second %s a SHA1
 #: builtin/revert.c:540
 #, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr ""
+msgstr "%s：不能解析父提交 %s"
 
 #: builtin/revert.c:544
 #, c-format
 msgid "Cannot get commit message for %s"
-msgstr ""
+msgstr "不能得到 %s 的提交说明"
 
 #: builtin/revert.c:628
 #, c-format
 msgid "could not revert %s... %s"
-msgstr ""
+msgstr "不能还原 %s... %s"
 
 #: builtin/revert.c:629
 #, c-format
 msgid "could not apply %s... %s"
-msgstr ""
+msgstr "不能应用 %s... %s"
 
 #: builtin/revert.c:654
 msgid "empty commit set passed"
-msgstr ""
+msgstr "提供了空的提交集"
 
 #: builtin/revert.c:662
 #, c-format
 msgid "git %s: failed to read the index"
-msgstr ""
+msgstr "git %s: 无法读取暂存区"
 
 #: builtin/revert.c:667
 #, c-format
 msgid "git %s: failed to refresh the index"
-msgstr ""
+msgstr "git %s: 无法刷新暂存区"
 
 #: builtin/revert.c:752
 #, c-format
 msgid "Cannot %s during a %s"
-msgstr ""
+msgstr "无法 %s 在 %s 过程中"
 
 #: builtin/revert.c:774
 #, c-format
 msgid "Could not parse line %d."
-msgstr ""
+msgstr "无法解析第%d行。"
 
 #: builtin/revert.c:779
 msgid "No commits parsed."
-msgstr ""
+msgstr "未有提交被解析。"
 
 #: builtin/revert.c:792
 #, c-format
 msgid "Could not open %s"
-msgstr ""
+msgstr "不能打开 %s"
 
 #: builtin/revert.c:796
 #, c-format
 msgid "Could not read %s."
-msgstr ""
+msgstr "不能读取 %s。"
 
 #: builtin/revert.c:803
 #, c-format
 msgid "Unusable instruction sheet: %s"
-msgstr ""
+msgstr "无用的指令表单：%s"
 
 #: builtin/revert.c:831
 #, c-format
 msgid "Invalid key: %s"
-msgstr ""
+msgstr "无效键名：%s"
 
 #: builtin/revert.c:834
 #, c-format
 msgid "Invalid value for %s: %s"
-msgstr ""
+msgstr "无效的 %s 值：%s"
 
 #: builtin/revert.c:846
 #, c-format
 msgid "Malformed options sheet: %s"
-msgstr ""
+msgstr "畸形选项表单：%s"
 
 #: builtin/revert.c:867
 msgid "a cherry-pick or revert is already in progress"
-msgstr ""
+msgstr "一个拣选或还原操作已在进行"
 
 #: builtin/revert.c:868
 msgid "try \"git cherry-pick (--continue | --quit | --abort)\""
-msgstr ""
+msgstr "尝试 \"git cherry-pick (--continue | --quit | --abort)\""
 
 #: builtin/revert.c:872
 #, c-format
 msgid "Could not create sequencer directory %s"
-msgstr ""
+msgstr "无法创建序列目录 %s"
 
 #: builtin/revert.c:888 builtin/revert.c:973
 #, c-format
 msgid "Error wrapping up %s."
-msgstr ""
+msgstr "错误收尾 %s。"
 
 #: builtin/revert.c:907 builtin/revert.c:1041
 msgid "no cherry-pick or revert in progress"
-msgstr ""
+msgstr "没有拣选或还原操作在进行"
 
 #: builtin/revert.c:909
 msgid "cannot resolve HEAD"
-msgstr ""
+msgstr "不能解析HEAD"
 
 #: builtin/revert.c:911
 msgid "cannot abort from a branch yet to be born"
-msgstr ""
+msgstr "不能从未初始分支终止"
 
 #: builtin/revert.c:933
 #, c-format
 msgid "cannot open %s: %s"
-msgstr ""
+msgstr "不能打开 %s：%s"
 
 #: builtin/revert.c:936
 #, c-format
 msgid "cannot read %s: %s"
-msgstr ""
+msgstr "不能读取 %s：%s"
 
 #: builtin/revert.c:937
 msgid "unexpected end of file"
-msgstr ""
+msgstr "未预期的文件结束"
 
 #: builtin/revert.c:943
 #, c-format
 msgid "stored pre-cherry-pick HEAD file '%s' is corrupt"
-msgstr ""
+msgstr "保存预拣选提交的HEAD文件 '%s' 损坏"
 
 #: builtin/revert.c:966
 #, c-format
 msgid "Could not format %s."
-msgstr ""
+msgstr "不能格式化 %s。"
 
 #: builtin/revert.c:1128
 msgid "Can't revert as initial commit"
-msgstr ""
+msgstr "不能作为初始提交还原"
 
 #: builtin/revert.c:1129
 msgid "Can't cherry-pick into empty head"
-msgstr ""
+msgstr "不能拣选到空head"
 
 #: builtin/revert.c:1149
 msgid "revert failed"
-msgstr ""
+msgstr "还原失败"
 
 #: builtin/revert.c:1164
 msgid "cherry-pick failed"
-msgstr ""
+msgstr "拣选失败"
 
 #: builtin/rm.c:109
 #, c-format
