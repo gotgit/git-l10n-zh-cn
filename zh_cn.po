@@ -1417,12 +1417,12 @@ msgstr ""
 #: builtin/diff.c:77
 #, c-format
 msgid "'%s': not a regular file or symlink"
-msgstr ""
+msgstr "'%s'：不是一个正规文件或符号链接"
 
 #: builtin/diff.c:220
 #, c-format
 msgid "invalid option: %s"
-msgstr ""
+msgstr "无效选项：%s"
 
 #: builtin/diff.c:293
 msgid "Not a git repository"
@@ -1431,26 +1431,26 @@ msgstr "不是一个git版本库"
 #: builtin/diff.c:343
 #, c-format
 msgid "invalid object '%s' given."
-msgstr ""
+msgstr "提供了无效对象 '%s'。"
 
 #: builtin/diff.c:348
 #, c-format
 msgid "more than %d trees given: '%s'"
-msgstr ""
+msgstr "提供了超过%d个树对象：'%s'"
 
 #: builtin/diff.c:358
 #, c-format
 msgid "more than two blobs given: '%s'"
-msgstr ""
+msgstr "提供了超过两个blob对象：'%s'"
 
 #: builtin/diff.c:366
 #, c-format
 msgid "unhandled object '%s' given."
-msgstr ""
+msgstr "提供了无法处理的对象 '%s'。"
 
 #: builtin/fetch.c:200
 msgid "Couldn't find remote ref HEAD"
-msgstr ""
+msgstr "无法发现远程HEAD引用"
 
 #: builtin/fetch.c:252
 #, c-format
@@ -1464,11 +1464,11 @@ msgstr "[最新]"
 #: builtin/fetch.c:272
 #, c-format
 msgid "! %-*s %-*s -> %s  (can't fetch in current branch)"
-msgstr ""
+msgstr "! %-*s %-*s -> %s  （在当前分支下不能获取）"
 
 #: builtin/fetch.c:273 builtin/fetch.c:351
 msgid "[rejected]"
-msgstr "[被拒绝]"
+msgstr "[已拒绝]"
 
 #: builtin/fetch.c:284
 msgid "[tag update]"
@@ -1476,7 +1476,7 @@ msgstr "[tag更新]"
 
 #: builtin/fetch.c:286 builtin/fetch.c:313 builtin/fetch.c:331
 msgid "  (unable to update local ref)"
-msgstr ""
+msgstr "  （不能更新本地引用）"
 
 #: builtin/fetch.c:298
 msgid "[new tag]"
@@ -1488,7 +1488,7 @@ msgstr "[新分支]"
 
 #: builtin/fetch.c:347
 msgid "unable to update local ref"
-msgstr ""
+msgstr "不能更新本地引用"
 
 #: builtin/fetch.c:347
 msgid "forced update"
@@ -1496,12 +1496,12 @@ msgstr "强制更新"
 
 #: builtin/fetch.c:353
 msgid "(non-fast-forward)"
-msgstr ""
+msgstr "（非快进式推送）"
 
 #: builtin/fetch.c:384 builtin/fetch.c:676
 #, c-format
 msgid "cannot open %s: %s\n"
-msgstr ""
+msgstr "无法打开 %s：%s\n"
 
 #: builtin/fetch.c:393
 #, c-format
@@ -2610,16 +2610,16 @@ msgstr ""
 #: builtin/revert.c:114 builtin/revert.c:135
 #, c-format
 msgid "%s: %s cannot be used with %s"
-msgstr ""
+msgstr "%s: %s 不能和 %s 共用"
 
 #: builtin/revert.c:170
 msgid "program error"
-msgstr ""
+msgstr "程序错误"
 
 #: builtin/revert.c:360 builtin/revert.c:886 builtin/revert.c:969
 #, c-format
 msgid "Could not write to %s"
-msgstr ""
+msgstr "不能写入 %s"
 
 #: builtin/revert.c:363
 #, c-format
