@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2012-01-30 00:00+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
-"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Last-Translator: riku <lu.riku@gmail.com>\n"
 "Language-Team: Git Mailing List <git@vger.kernel.org>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
@@ -872,12 +872,12 @@ msgstr ""
 #: builtin/clean.c:159 builtin/clean.c:179
 #, c-format
 msgid "Removing %s\n"
-msgstr ""
+msgstr "正在删除  %s\n"
 
 #: builtin/clean.c:162 builtin/clean.c:182
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "无法删除 %s"
 
 #: builtin/clean.c:166
 #, c-format
@@ -897,12 +897,12 @@ msgstr ""
 #: builtin/clone.c:311
 #, c-format
 msgid "failed to open '%s'"
-msgstr ""
+msgstr "无法打开 '%s'"
 
 #: builtin/clone.c:315
 #, c-format
 msgid "failed to create directory '%s'"
-msgstr ""
+msgstr "无法创建目录 '%s'"
 
 #: builtin/clone.c:317 builtin/diff.c:75
 #, c-format
@@ -937,15 +937,15 @@ msgstr ""
 #: builtin/clone.c:391
 #, c-format
 msgid "done.\n"
-msgstr ""
+msgstr "完成。 \n"
 
 #: builtin/clone.c:494
 msgid "Too many arguments."
-msgstr ""
+msgstr "大多变量。"
 
 #: builtin/clone.c:498
 msgid "You must specify a repository to clone."
-msgstr ""
+msgstr "你必须指定一个仓库来克隆"
 
 #: builtin/clone.c:506
 #, c-format
@@ -955,7 +955,7 @@ msgstr ""
 #: builtin/clone.c:520
 #, c-format
 msgid "repository '%s' does not exist"
-msgstr ""
+msgstr "仓库 '%s' 不存在"
 
 #: builtin/clone.c:525
 msgid "--depth is ignored in local clones; use file:// instead."
@@ -969,7 +969,7 @@ msgstr ""
 #: builtin/clone.c:545
 #, c-format
 msgid "working tree '%s' already exists."
-msgstr ""
+msgstr "工作树 '%s' 已经存在"
 
 #: builtin/clone.c:558 builtin/clone.c:572
 #, c-format
@@ -989,12 +989,12 @@ msgstr ""
 #: builtin/clone.c:582
 #, c-format
 msgid "Cloning into '%s'...\n"
-msgstr ""
+msgstr "正在克隆到 '%s'...\n"
 
 #: builtin/clone.c:641
 #, c-format
 msgid "Don't know how to clone %s"
-msgstr ""
+msgstr "不知道怎么克隆 %s"
 
 #: builtin/clone.c:680
 #, c-format
@@ -1063,16 +1063,16 @@ msgstr ""
 
 #: builtin/commit.c:466
 msgid "cannot read the index"
-msgstr ""
+msgstr "无法读取索引"
 
 #: builtin/commit.c:486
 msgid "unable to write temporary index file"
-msgstr ""
+msgstr "无法编写临时索引文件"
 
 #: builtin/commit.c:549 builtin/commit.c:555
 #, c-format
 msgid "invalid commit: %s"
-msgstr ""
+msgstr "无效的提交：%s"
 
 #: builtin/commit.c:573
 msgid "malformed --author parameter"
@@ -1086,47 +1086,47 @@ msgstr ""
 #: builtin/commit.c:664 builtin/commit.c:697 builtin/commit.c:994
 #, c-format
 msgid "could not lookup commit %s"
-msgstr ""
+msgstr "不能查询提交 %s"
 
 #: builtin/commit.c:676 builtin/shortlog.c:296
 #, c-format
 msgid "(reading log message from standard input)\n"
-msgstr ""
+msgstr "(正在从标准输入中读取日志信息)\n"
 
 #: builtin/commit.c:678
 msgid "could not read log from standard input"
-msgstr ""
+msgstr "不能从标准输入中读取日志"
 
 #: builtin/commit.c:682
 #, c-format
 msgid "could not read log file '%s'"
-msgstr ""
+msgstr "不能读取日志文件 '%s'"
 
 #: builtin/commit.c:688
 msgid "commit has empty message"
-msgstr ""
+msgstr "提交包含了空信息"
 
 #: builtin/commit.c:704
 msgid "could not read MERGE_MSG"
-msgstr ""
+msgstr "不能读取 MERGE_MSG"
 
 #: builtin/commit.c:708
 msgid "could not read SQUASH_MSG"
-msgstr ""
+msgstr "不能读取 SQUASH_MSG"
 
 #: builtin/commit.c:712
 #, c-format
 msgid "could not read '%s'"
-msgstr ""
+msgstr "不能读取 '%s'"
 
 #: builtin/commit.c:740
 #, c-format
 msgid "could not open '%s'"
-msgstr ""
+msgstr "不能打开 '%s'"
 
 #: builtin/commit.c:764
 msgid "could not write commit template"
-msgstr ""
+msgstr "不能编写提交模板"
 
 #: builtin/commit.c:777
 #, c-format
@@ -1137,16 +1137,23 @@ msgid ""
 "\t%s\n"
 "and try again.\n"
 msgstr ""
+"\n"
+"看起来你也许在提交一个 %s.\n"
+"假如这是不正确的，请删除文件\n"
+"\t%s\n"
+"并重试.\n"
 
 #: builtin/commit.c:790
 msgid "Please enter the commit message for your changes."
-msgstr ""
+msgstr "请为你的修改输入提交信息。"
 
 #: builtin/commit.c:793
 msgid ""
 " Lines starting\n"
 "with '#' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
+"起始行首\n"
+"包含 '#' 将被忽略，以及一个空信息舍弃提交。\n"
 
 #: builtin/commit.c:798
 msgid ""
@@ -1158,20 +1165,20 @@ msgstr ""
 #: builtin/commit.c:810
 #, c-format
 msgid "%sAuthor:    %s"
-msgstr ""
+msgstr "%s作者： %s"
 
 #: builtin/commit.c:817
 #, c-format
 msgid "%sCommitter: %s"
-msgstr ""
+msgstr "%s提交者: %s"
 
 #: builtin/commit.c:837
 msgid "Cannot read index"
-msgstr ""
+msgstr "不能读取索引"
 
 #: builtin/commit.c:874
 msgid "Error building trees"
-msgstr ""
+msgstr "构建代码树的时候发生错误"
 
 #: builtin/commit.c:889 builtin/tag.c:324
 #, c-format
@@ -1395,7 +1402,7 @@ msgstr ""
 
 #: builtin/diff.c:293
 msgid "Not a git repository"
-msgstr ""
+msgstr "不是一个 git 仓库"
 
 #: builtin/diff.c:343
 #, c-format
@@ -1424,11 +1431,11 @@ msgstr ""
 #: builtin/fetch.c:252
 #, c-format
 msgid "object %s not found"
-msgstr ""
+msgstr "对像 %s 没有发现"
 
 #: builtin/fetch.c:258
 msgid "[up to date]"
-msgstr ""
+msgstr "[最新]"
 
 #: builtin/fetch.c:272
 #, c-format
@@ -1437,11 +1444,11 @@ msgstr ""
 
 #: builtin/fetch.c:273 builtin/fetch.c:351
 msgid "[rejected]"
-msgstr ""
+msgstr "[被拒绝]"
 
 #: builtin/fetch.c:284
 msgid "[tag update]"
-msgstr ""
+msgstr "[tag 更新]"
 
 #: builtin/fetch.c:286 builtin/fetch.c:313 builtin/fetch.c:331
 msgid "  (unable to update local ref)"
@@ -1449,11 +1456,11 @@ msgstr ""
 
 #: builtin/fetch.c:298
 msgid "[new tag]"
-msgstr ""
+msgstr "[新 tag]"
 
 #: builtin/fetch.c:302
 msgid "[new branch]"
-msgstr ""
+msgstr "[新分支]"
 
 #: builtin/fetch.c:347
 msgid "unable to update local ref"
@@ -1461,7 +1468,7 @@ msgstr ""
 
 #: builtin/fetch.c:347
 msgid "forced update"
-msgstr ""
+msgstr "强制更新"
 
 #: builtin/fetch.c:353
 msgid "(non-fast-forward)"
@@ -1530,12 +1537,12 @@ msgstr ""
 #: builtin/fetch.c:879
 #, c-format
 msgid "Fetching %s\n"
-msgstr ""
+msgstr "正在获取 %s\n"
 
 #: builtin/fetch.c:881
 #, c-format
 msgid "Could not fetch %s"
-msgstr ""
+msgstr "不能获取 %s"
 
 #: builtin/fetch.c:898
 msgid ""
@@ -1567,11 +1574,11 @@ msgstr ""
 #: builtin/gc.c:63
 #, c-format
 msgid "Invalid %s: '%s'"
-msgstr ""
+msgstr "无效的  %s: '%s'"
 
 #: builtin/gc.c:78
 msgid "Too many options specified"
-msgstr ""
+msgstr "指定太多选项了"
 
 #: builtin/gc.c:103
 #, c-format
@@ -1618,12 +1625,13 @@ msgstr ""
 #: builtin/grep.c:514
 #, c-format
 msgid "Failed to chdir: %s"
-msgstr ""
+msgstr "无法  chdir: %s"
 
-#: builtin/grep.c:590 builtin/grep.c:624
+#: builtin/grep.c:590
+#: builtin/grep.c:624
 #, c-format
 msgid "unable to read tree (%s)"
-msgstr ""
+msgstr "无法读取代码树 (%s)"
 
 #: builtin/grep.c:638
 #, c-format
@@ -1638,7 +1646,7 @@ msgstr ""
 #: builtin/grep.c:713
 #, c-format
 msgid "cannot open '%s'"
-msgstr ""
+msgstr "不能打开  '%s'"
 
 #: builtin/grep.c:1001
 msgid "no pattern given."
@@ -1779,7 +1787,7 @@ msgstr ""
 
 #: builtin/init-db.c:421
 msgid " shared"
-msgstr ""
+msgstr "共享的"
 
 #: builtin/init-db.c:440
 msgid "cannot tell cwd"
@@ -1788,12 +1796,12 @@ msgstr ""
 #: builtin/init-db.c:521 builtin/init-db.c:528
 #, c-format
 msgid "cannot mkdir %s"
-msgstr ""
+msgstr "不能 mkdir %s"
 
 #: builtin/init-db.c:532
 #, c-format
 msgid "cannot chdir to %s"
-msgstr ""
+msgstr "不能 chdir 到 %s"
 
 #: builtin/init-db.c:554
 #, c-format
@@ -1804,12 +1812,12 @@ msgstr ""
 
 #: builtin/init-db.c:578
 msgid "Cannot access current working directory"
-msgstr ""
+msgstr "不能访问当前工作目录"
 
 #: builtin/init-db.c:585
 #, c-format
 msgid "Cannot access work tree '%s'"
-msgstr ""
+msgstr "不能访问工作代码树 '%s'"
 
 #: builtin/log.c:185
 #, c-format
@@ -1830,7 +1838,7 @@ msgstr ""
 #: builtin/log.c:503
 #, c-format
 msgid "Unknown type: %d"
-msgstr ""
+msgstr "未知类型：%d"
 
 #: builtin/log.c:592
 msgid "format.headers without value"
@@ -1851,7 +1859,7 @@ msgstr ""
 
 #: builtin/log.c:698
 msgid "Not a range."
-msgstr ""
+msgstr "不是一个范围"
 
 #: builtin/log.c:735
 msgid "Could not extract email from committer identity."
@@ -1911,7 +1919,7 @@ msgstr ""
 
 #: builtin/log.c:1406
 msgid "Failed to create output files"
-msgstr ""
+msgstr "无法创建输出文件"
 
 #: builtin/log.c:1510
 #, c-format
@@ -1922,7 +1930,7 @@ msgstr ""
 #: builtin/log.c:1526 builtin/log.c:1528 builtin/log.c:1540
 #, c-format
 msgid "Unknown commit %s"
-msgstr ""
+msgstr "未知提交 %s"
 
 #: builtin/merge.c:91
 msgid "switch `m' requires a value"
@@ -2830,7 +2838,7 @@ msgstr ""
 #: builtin/tag.c:177
 #, c-format
 msgid "tag '%s' not found."
-msgstr ""
+msgstr "tag '%s' 没有发现"
 
 #: builtin/tag.c:192
 #, c-format
@@ -2863,23 +2871,23 @@ msgstr ""
 
 #: builtin/tag.c:261
 msgid "unable to sign the tag"
-msgstr ""
+msgstr "无法签署 tag"
 
 #: builtin/tag.c:263
 msgid "unable to write tag file"
-msgstr ""
+msgstr "无法写 tag 文件"
 
 #: builtin/tag.c:288
 msgid "bad object type."
-msgstr ""
+msgstr "无效的对象类型"
 
 #: builtin/tag.c:301
 msgid "tag header too big."
-msgstr ""
+msgstr "tag 头太大"
 
 #: builtin/tag.c:333
 msgid "no tag message?"
-msgstr ""
+msgstr "无 tag 信息"
 
 #: builtin/tag.c:339
 #, c-format
@@ -3268,17 +3276,17 @@ msgstr ""
 #: git-submodule.sh:299
 #, sh-format
 msgid "Failed to add submodule '$path'"
-msgstr ""
+msgstr "无法添加子模块 '$path'"
 
 #: git-submodule.sh:304
 #, sh-format
 msgid "Failed to register submodule '$path'"
-msgstr ""
+msgstr "无法注册子模块 '$path'"
 
 #: git-submodule.sh:346
 #, sh-format
 msgid "Entering '$prefix$path'"
-msgstr ""
+msgstr "正在进入 '$prefix$path'"
 
 #: git-submodule.sh:358
 #, sh-format
@@ -3335,27 +3343,27 @@ msgstr ""
 #: git-submodule.sh:570
 #, sh-format
 msgid "Unable to merge '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法合并 '$sha1' 到子模块路径 '$path' 中"
 
 #: git-submodule.sh:571
 #, sh-format
 msgid "Submodule path '$path': merged in '$sha1'"
-msgstr ""
+msgstr "子模块路径 '$path': 已合并入 '$sha1'"
 
 #: git-submodule.sh:576
 #, sh-format
 msgid "Unable to checkout '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模块路径 '$path' 中检验  '$sha1'"
 
 #: git-submodule.sh:577
 #, sh-format
 msgid "Submodule path '$path': checked out '$sha1'"
-msgstr ""
+msgstr "子模块路径 '$path': 检查 '$sha1'"
 
 #: git-submodule.sh:599 git-submodule.sh:922
 #, sh-format
 msgid "Failed to recurse into submodule path '$path'"
-msgstr ""
+msgstr "无法递归进子模块路径 '$path'"
 
 #: git-submodule.sh:707
 msgid "--"
@@ -3364,17 +3372,17 @@ msgstr ""
 #: git-submodule.sh:765
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_src"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_src "
 
 #: git-submodule.sh:768
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_dst"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_dst"
 
 #: git-submodule.sh:771
 #, sh-format
 msgid "  Warn: $name doesn't contain commits $sha1_src and $sha1_dst"
-msgstr ""
+msgstr "警告：$name 不能包含提交 $sha1_src 和 $sha1_dst"
 
 #: git-submodule.sh:796
 msgid "blob"
@@ -3382,9 +3390,10 @@ msgstr ""
 
 #: git-submodule.sh:797
 msgid "submodule"
-msgstr ""
+msgstr "子模块"
 
 #: git-submodule.sh:968
 #, sh-format
 msgid "Synchronizing submodule url for '$name'"
-msgstr ""
+msgstr "为 '$name' 同步子模块 url"
+
