@@ -2823,6 +2823,8 @@ msgid ""
 "'%s' has staged content different from both the file and the HEAD\n"
 "(use -f to force removal)"
 msgstr ""
+"'%s' 暂存的内容和工作区文件及HEAD中的都不一样\n"
+"（使用 -f 强制删除）"
 
 #: builtin/rm.c:115
 #, c-format
@@ -2830,6 +2832,8 @@ msgid ""
 "'%s' has changes staged in the index\n"
 "(use --cached to keep the file, or -f to force removal)"
 msgstr ""
+"'%s' 有变更已加入暂存区中\n"
+"（使用 --cached 保存文件，或用 -f 强制删除）"
 
 #: builtin/rm.c:119
 #, c-format
@@ -2837,26 +2841,28 @@ msgid ""
 "'%s' has local modifications\n"
 "(use --cached to keep the file, or -f to force removal)"
 msgstr ""
+"'%s' 有本地修改\n"
+"（使用 --cached 保存文件，或用 -f 强制删除）"
 
 #: builtin/rm.c:194
 #, c-format
 msgid "not removing '%s' recursively without -r"
-msgstr ""
+msgstr "未提供 -r 选项不会递归删除 '%s'"
 
 #: builtin/rm.c:230
 #, c-format
 msgid "git rm: unable to remove %s"
-msgstr ""
+msgstr "git rm：不能删除 %s"
 
 #: builtin/shortlog.c:157
 #, c-format
 msgid "Missing author: %s"
-msgstr ""
+msgstr "缺少作者：%s"
 
 #: builtin/tag.c:172
 #, c-format
 msgid "tag name too long: %.*s..."
-msgstr ""
+msgstr "tag名字太长：%.*s..."
 
 #: builtin/tag.c:177
 #, c-format
@@ -2866,12 +2872,12 @@ msgstr "tag '%s' 未发现。"
 #: builtin/tag.c:192
 #, c-format
 msgid "Deleted tag '%s' (was %s)\n"
-msgstr ""
+msgstr "已删除tag '%s'（曾为 %s）\n"
 
 #: builtin/tag.c:204
 #, c-format
 msgid "could not verify the tag '%s'"
-msgstr ""
+msgstr "不能校验tag '%s'"
 
 #: builtin/tag.c:214
 msgid ""
@@ -2881,6 +2887,11 @@ msgid ""
 "# Lines starting with '#' will be ignored.\n"
 "#\n"
 msgstr ""
+"\n"
+"#\n"
+"# 输入一个tag说明\n"
+"# 以 '#' 开头的行将被忽略。\n"
+"#\n"
 
 #: builtin/tag.c:221
 msgid ""
@@ -2891,6 +2902,11 @@ msgid ""
 "want to.\n"
 "#\n"
 msgstr ""
+"\n"
+"#\n"
+"# 输入一个tag说明\n"
+"# 以 '#' 开头的行将被忽略，您可以删除它们如果您想这样做。\n"
+"#\n"
 
 #: builtin/tag.c:261
 msgid "unable to sign the tag"
@@ -2915,48 +2931,48 @@ msgstr "无tag说明？"
 #: builtin/tag.c:339
 #, c-format
 msgid "The tag message has been left in %s\n"
-msgstr ""
+msgstr "tag说明被保留在 %s\n"
 
 #: builtin/tag.c:448
 msgid "-n option is only allowed with -l."
-msgstr ""
+msgstr "-n 选项只允许和 -l 共用。"
 
 #: builtin/tag.c:450
 msgid "--contains option is only allowed with -l."
-msgstr ""
+msgstr "--contains 选项只允许和 -l 共用。"
 
 #: builtin/tag.c:458
 msgid "only one -F or -m option is allowed."
-msgstr ""
+msgstr "只允许一个 -F 或 -m 选项。"
 
 #: builtin/tag.c:478
 msgid "too many params"
-msgstr ""
+msgstr "太多参数"
 
 #: builtin/tag.c:484
 #, c-format
 msgid "'%s' is not a valid tag name."
-msgstr ""
+msgstr "'%s' 不是一个有效的tag名称"
 
 #: builtin/tag.c:489
 #, c-format
 msgid "tag '%s' already exists"
-msgstr ""
+msgstr "tag '%s' 已存在"
 
 #: builtin/tag.c:507
 #, c-format
 msgid "%s: cannot lock the ref"
-msgstr ""
+msgstr "%s：不能锁定引用"
 
 #: builtin/tag.c:509
 #, c-format
 msgid "%s: cannot update the ref"
-msgstr ""
+msgstr "%s：不能更新引用"
 
 #: builtin/tag.c:511
 #, c-format
 msgid "Updated tag '%s' (was %s)\n"
-msgstr ""
+msgstr "已更新tag '%s'（曾为 %s）\n"
 
 #: git-am.sh:48
 msgid "You need to set your committer info first"
