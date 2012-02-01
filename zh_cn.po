@@ -1854,18 +1854,18 @@ msgstr "不能访问工作区 '%s'"
 #: builtin/log.c:185
 #, c-format
 msgid "Final output: %d %s\n"
-msgstr ""
+msgstr "最终输出： %d %s\n"
 
 #: builtin/log.c:286 builtin/log.c:709 builtin/log.c:1325 builtin/log.c:1544
 #: builtin/merge.c:348 builtin/revert.c:651 builtin/revert.c:1110
 #: builtin/shortlog.c:181
 msgid "revision walk setup failed"
-msgstr ""
+msgstr "版本遍历设置失败"
 
 #: builtin/log.c:393 builtin/log.c:479
 #, c-format
 msgid "Could not read object %s"
-msgstr ""
+msgstr "无法读取对象 %s"
 
 #: builtin/log.c:503
 #, c-format
@@ -1874,20 +1874,20 @@ msgstr "未知类型：%d"
 
 #: builtin/log.c:592
 msgid "format.headers without value"
-msgstr ""
+msgstr "format.headers 没有值"
 
 #: builtin/log.c:665
 msgid "name of output directory is too long"
-msgstr ""
+msgstr "输出目录名太长"
 
 #: builtin/log.c:676
 #, c-format
 msgid "Cannot open patch file %s"
-msgstr ""
+msgstr "无法打开补丁文件 %s"
 
 #: builtin/log.c:690
 msgid "Need exactly one range."
-msgstr ""
+msgstr "需要一个范围"
 
 #: builtin/log.c:698
 msgid "Not a range."
@@ -1895,11 +1895,11 @@ msgstr "不是一个范围。"
 
 #: builtin/log.c:735
 msgid "Could not extract email from committer identity."
-msgstr ""
+msgstr "无法从提交者身份中提取 email"
 
 #: builtin/log.c:781
 msgid "Cover letter needs email format"
-msgstr ""
+msgstr "说明文件需要 email 格式"
 
 #: builtin/log.c:875
 #, c-format
@@ -1908,46 +1908,46 @@ msgstr ""
 
 #: builtin/log.c:948
 msgid "Two output directories?"
-msgstr ""
+msgstr "两个输出目录？"
 
 #: builtin/log.c:1169
 #, c-format
 msgid "bogus committer info %s"
-msgstr ""
+msgstr "虚假的提交者信息 %s"
 
 #: builtin/log.c:1214
 msgid "-n and -k are mutually exclusive."
-msgstr ""
+msgstr "-n 和 -k 相互排斥"
 
 #: builtin/log.c:1216
 msgid "--subject-prefix and -k are mutually exclusive."
-msgstr ""
+msgstr "--subject-prefix 和 -k 相互排斥"
 
 #: builtin/log.c:1221 builtin/shortlog.c:284
 #, c-format
 msgid "unrecognized argument: %s"
-msgstr ""
+msgstr "未确认参数： %s"
 
 #: builtin/log.c:1224
 msgid "--name-only does not make sense"
-msgstr ""
+msgstr "--name-only 无意义"
 
 #: builtin/log.c:1226
 msgid "--name-status does not make sense"
-msgstr ""
+msgstr "--name-status 无意义"
 
 #: builtin/log.c:1228
 msgid "--check does not make sense"
-msgstr ""
+msgstr "--check 无意义"
 
 #: builtin/log.c:1251
 msgid "standard output, or directory, which one?"
-msgstr ""
+msgstr "标准输出、或目录，哪一个？"
 
 #: builtin/log.c:1253
 #, c-format
 msgid "Could not create directory '%s'"
-msgstr ""
+msgstr "无法创建目录 '%s'"
 
 #: builtin/log.c:1406
 msgid "Failed to create output files"
@@ -1958,6 +1958,7 @@ msgstr "无法创建输出文件"
 msgid ""
 "Could not find a tracked remote branch, please specify <upstream> manually.\n"
 msgstr ""
+"无法找到跟踪的远程分支，请手动提供 <upstream> 。\n"
 
 #: builtin/log.c:1526 builtin/log.c:1528 builtin/log.c:1540
 #, c-format
