@@ -152,7 +152,7 @@ msgstr "  （使用 \"git %s <file>...\" 包含到提交列表）"
 
 #: wt-status.c:207
 msgid "bug"
-msgstr ""
+msgstr "bug"
 
 #: wt-status.c:212
 msgid "both deleted:"
@@ -579,7 +579,7 @@ msgstr "分支重命名失败"
 #: builtin/branch.c:604
 #, c-format
 msgid "Renamed a misnamed branch '%s' away"
-msgstr ""
+msgstr "重命名掉一个错误命名的旧分支 '%s'"
 
 #: builtin/branch.c:608
 #, c-format
@@ -1531,12 +1531,12 @@ msgstr ""
 #: builtin/fetch.c:540
 #, c-format
 msgid "   (%s will become dangling)\n"
-msgstr ""
+msgstr "   （%s 将成为悬空状态）\n"
 
 #: builtin/fetch.c:541
 #, c-format
 msgid "   (%s has become dangling)\n"
-msgstr ""
+msgstr "   （%s 已成为悬空状态）\n"
 
 #: builtin/fetch.c:548
 msgid "[deleted]"
@@ -1549,7 +1549,7 @@ msgstr "（无）"
 #: builtin/fetch.c:666
 #, c-format
 msgid "Refusing to fetch into current branch %s of non-bare repository"
-msgstr "拒绝获取到非裸版本库的当前分支 %"
+msgstr "拒绝获取到非裸版本库的当前分支 %s"
 
 #: builtin/fetch.c:700
 #, c-format
@@ -1581,6 +1581,7 @@ msgid ""
 "No remote repository specified.  Please, specify either a URL or a\n"
 "remote name from which new revisions should be fetched."
 msgstr ""
+"未提供远程版本库。请提供一个URL或远程版本库名，用于获取新版本。"
 
 #: builtin/fetch.c:918
 msgid "You need to specify a tag name."
@@ -1615,7 +1616,7 @@ msgstr "提供了太多的选项"
 #: builtin/gc.c:103
 #, c-format
 msgid "insanely long object directory %.*s"
-msgstr "疯狂的长对象目录 %.*s"
+msgstr "不正常的长对象目录 %.*s"
 
 #: builtin/gc.c:223
 #, c-format
@@ -1648,7 +1649,7 @@ msgstr "'%s'：无法读取 %s"
 #: builtin/grep.c:441
 #, c-format
 msgid "'%s': %s"
-msgstr ""
+msgstr "'%s'：%s"
 
 #: builtin/grep.c:452
 #, c-format
@@ -1673,7 +1674,7 @@ msgstr "无法 grep 来自于 %s 类型的对象"
 #: builtin/grep.c:696
 #, c-format
 msgid "switch `%c' expects a numerical value"
-msgstr ""
+msgstr "开关 `%c' 期望一个数字值"
 
 #: builtin/grep.c:713
 #, c-format
@@ -1682,7 +1683,7 @@ msgstr "不能打开 '%s'"
 
 #: builtin/grep.c:1001
 msgid "no pattern given."
-msgstr ""
+msgstr "为提供模式匹配。"
 
 #: builtin/grep.c:1015
 #, c-format
@@ -1695,109 +1696,109 @@ msgstr "--open-files-in-pager 仅用于工作区"
 
 #: builtin/grep.c:1080
 msgid "--cached or --untracked cannot be used with --no-index."
-msgstr "--cached 或 --untracked 不能与 --no-index 一起使用"
+msgstr "--cached 或 --untracked 不能与 --no-index 共用"
 
 #: builtin/grep.c:1085
 msgid "--no-index or --untracked cannot be used with revs."
-msgstr ""
+msgstr "--no-index 或 --untracked 不能和版本共用。"
 
 #: builtin/grep.c:1088
 msgid "--[no-]exclude-standard cannot be used for tracked contents."
-msgstr ""
+msgstr "--[no-]exclude-standard 不能用于跟踪内容。"
 
 #: builtin/grep.c:1096
 msgid "both --cached and trees are given."
-msgstr ""
+msgstr "同时给出了 --cached 和树对象。"
 
 #: builtin/init-db.c:35
 #, c-format
 msgid "Could not make %s writable by group"
-msgstr ""
+msgstr "不能设置 %s 为组可写"
 
 #: builtin/init-db.c:62
 #, c-format
 msgid "insanely long template name %s"
-msgstr ""
+msgstr "太长的模版名 %s"
 
 #: builtin/init-db.c:67
 #, c-format
 msgid "cannot stat '%s'"
-msgstr ""
+msgstr "不能枚举 '%s' 状态"
 
 #: builtin/init-db.c:73
 #, c-format
 msgid "cannot stat template '%s'"
-msgstr ""
+msgstr "不能枚举模版 '%s' 状态"
 
 #: builtin/init-db.c:80
 #, c-format
 msgid "cannot opendir '%s'"
-msgstr ""
+msgstr "不能打开目录 '%s'"
 
 #: builtin/init-db.c:97
 #, c-format
 msgid "cannot readlink '%s'"
-msgstr ""
+msgstr "不能读取链接 '%s'"
 
 #: builtin/init-db.c:99
 #, c-format
 msgid "insanely long symlink %s"
-msgstr ""
+msgstr "太长的符号链接 %s"
 
 #: builtin/init-db.c:102
 #, c-format
 msgid "cannot symlink '%s' '%s'"
-msgstr ""
+msgstr "不能创建符号链接 '%s' 到 '%s'"
 
 #: builtin/init-db.c:106
 #, c-format
 msgid "cannot copy '%s' to '%s'"
-msgstr ""
+msgstr "不能拷贝 '%s' 至 '%s'"
 
 #: builtin/init-db.c:110
 #, c-format
 msgid "ignoring template %s"
-msgstr ""
+msgstr "忽略模版 %s"
 
 #: builtin/init-db.c:133
 #, c-format
 msgid "insanely long template path %s"
-msgstr ""
+msgstr "太长的模版路径 %s"
 
 #: builtin/init-db.c:141
 #, c-format
 msgid "templates not found %s"
-msgstr ""
+msgstr "模版未找到 %s"
 
 #: builtin/init-db.c:154
 #, c-format
 msgid "not copying templates of a wrong format version %d from '%s'"
-msgstr ""
+msgstr "未复制错误版本 %d 的模版自 '%s'"
 
 #: builtin/init-db.c:192
 #, c-format
 msgid "insane git directory %s"
-msgstr ""
+msgstr "不正常的 git 目录 %s"
 
 #: builtin/init-db.c:322 builtin/init-db.c:325
 #, c-format
 msgid "%s already exists"
-msgstr ""
+msgstr "%s 已经存在"
 
 #: builtin/init-db.c:354
 #, c-format
 msgid "unable to handle file type %d"
-msgstr ""
+msgstr "不能处理 %d 类型的文件"
 
 #: builtin/init-db.c:357
 #, c-format
 msgid "unable to move %s to %s"
-msgstr ""
+msgstr "不能移动 %s 至 %s"
 
 #: builtin/init-db.c:362
 #, c-format
 msgid "Could not create git link %s"
-msgstr ""
+msgstr "不能创建 git link %s"
 
 #.
 #. * TRANSLATORS: The first '%s' is either "Reinitialized
@@ -1807,15 +1808,15 @@ msgstr ""
 #: builtin/init-db.c:419
 #, c-format
 msgid "%s%s Git repository in %s%s\n"
-msgstr ""
+msgstr "%s%s Git 版本库于 %s%s\n"
 
 #: builtin/init-db.c:420
 msgid "Reinitialized existing"
-msgstr ""
+msgstr "重新初始化现存的"
 
 #: builtin/init-db.c:420
 msgid "Initialized empty"
-msgstr ""
+msgstr "初始化空的"
 
 #: builtin/init-db.c:421
 msgid " shared"
@@ -1823,7 +1824,7 @@ msgstr "共享的"
 
 #: builtin/init-db.c:440
 msgid "cannot tell cwd"
-msgstr ""
+msgstr "无法获知当前路径"
 
 #: builtin/init-db.c:521 builtin/init-db.c:528
 #, c-format
@@ -1841,6 +1842,7 @@ msgid ""
 "%s (or --work-tree=<directory>) not allowed without specifying %s (or --git-"
 "dir=<directory>)"
 msgstr ""
+"不允许 %s（或 --work-tree=<directory>）而没有 %s（或 --git-dir=<directory>）"
 
 #: builtin/init-db.c:578
 msgid "Cannot access current working directory"
@@ -1904,7 +1906,7 @@ msgstr "信封需要邮件地址格式"
 #: builtin/log.c:875
 #, c-format
 msgid "insane in-reply-to: %s"
-msgstr ""
+msgstr "不正常的 in-reply-to：%s"
 
 #: builtin/log.c:948
 msgid "Two output directories?"
@@ -2098,7 +2100,7 @@ msgstr "自动合并失败，修正冲突然后提交修正的结果。\n"
 #: builtin/merge.c:1004
 #, c-format
 msgid "'%s' is not a commit"
-msgstr "'s' 不是一个提交"
+msgstr "'%s' 不是一个提交"
 
 #: builtin/merge.c:1045
 msgid "No current branch."
@@ -3470,7 +3472,7 @@ msgstr "  警告：$name 未包含提交 $sha1_src 和 $sha1_dst"
 
 #: git-submodule.sh:796
 msgid "blob"
-msgstr ""
+msgstr "blob"
 
 #: git-submodule.sh:797
 msgid "submodule"
