@@ -2274,54 +2274,54 @@ msgstr ""
 #: builtin/notes.c:139
 #, c-format
 msgid "unable to start 'show' for object '%s'"
-msgstr ""
+msgstr "不能为对象 '%s' 开始 'show'"
 
 #: builtin/notes.c:145
 msgid "can't fdopen 'show' output fd"
-msgstr ""
+msgstr "不能打开 'show' 输出文件句柄"
 
 #: builtin/notes.c:155
 #, c-format
 msgid "failed to close pipe to 'show' for object '%s'"
-msgstr ""
+msgstr "无法为对象 '%s' 的 'show' 关闭管道"
 
 #: builtin/notes.c:158
 #, c-format
 msgid "failed to finish 'show' for object '%s'"
-msgstr ""
+msgstr "无法为对象 '%s' 完成 'show'"
 
 #: builtin/notes.c:175 builtin/tag.c:310
 #, c-format
 msgid "could not create file '%s'"
-msgstr ""
+msgstr "不能创建文件 '%s'"
 
 #: builtin/notes.c:189
 msgid "Please supply the note contents using either -m or -F option"
-msgstr ""
+msgstr "请通过 -m 或 -F 选项为注解提供内容"
 
 #: builtin/notes.c:210 builtin/notes.c:973
 #, c-format
 msgid "Removing note for object %s\n"
-msgstr ""
+msgstr "删除对象 %s 的注解\n"
 
 #: builtin/notes.c:215
 msgid "unable to write note object"
-msgstr ""
+msgstr "不能写注解对象"
 
 #: builtin/notes.c:217
 #, c-format
 msgid "The note contents has been left in %s"
-msgstr ""
+msgstr "注解内容被留在文件 %s 中"
 
 #: builtin/notes.c:251 builtin/tag.c:465
 #, c-format
 msgid "cannot read '%s'"
-msgstr ""
+msgstr "不能读取 '%s'"
 
 #: builtin/notes.c:253 builtin/tag.c:468
 #, c-format
 msgid "could not open or read '%s'"
-msgstr ""
+msgstr "不能打开或读取 '%s'"
 
 #: builtin/notes.c:272 builtin/notes.c:445 builtin/notes.c:447
 #: builtin/notes.c:507 builtin/notes.c:561 builtin/notes.c:644
@@ -2329,54 +2329,54 @@ msgstr ""
 #: builtin/notes.c:968 builtin/reset.c:293 builtin/tag.c:481
 #, c-format
 msgid "Failed to resolve '%s' as a valid ref."
-msgstr ""
+msgstr "无法解析 '%s' 为一个有效引用"
 
 #: builtin/notes.c:275
 #, c-format
 msgid "Failed to read object '%s'."
-msgstr ""
+msgstr "无法读取对象 '%s'。"
 
 #: builtin/notes.c:299
 msgid "Cannot commit uninitialized/unreferenced notes tree"
-msgstr ""
+msgstr "不能提交未初始化/未引用的注解树"
 
 #: builtin/notes.c:340
 #, c-format
 msgid "Bad notes.rewriteMode value: '%s'"
-msgstr ""
+msgstr "错误的notes.rewriteMode值：'%s'"
 
 #: builtin/notes.c:350
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr ""
+msgstr "拒绝向%s(在refs/notes/之外)写入注解"
 
 #. TRANSLATORS: The first %s is the name of the
 #. environment variable, the second %s is its value
 #: builtin/notes.c:377
 #, c-format
 msgid "Bad %s value: '%s'"
-msgstr ""
+msgstr "错误的%s值：'%s'"
 
 #: builtin/notes.c:441
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr ""
+msgstr "畸形的输入行：'%s'。"
 
 #: builtin/notes.c:456
 #, c-format
 msgid "Failed to copy notes from '%s' to '%s'"
-msgstr ""
+msgstr "无法从 '%s' 拷贝注解到 '%s'"
 
 #: builtin/notes.c:500 builtin/notes.c:554 builtin/notes.c:627
 #: builtin/notes.c:639 builtin/notes.c:712 builtin/notes.c:759
 #: builtin/notes.c:1033
 msgid "too many parameters"
-msgstr ""
+msgstr "参数太多"
 
 #: builtin/notes.c:513 builtin/notes.c:772
 #, c-format
 msgid "No note found for object %s."
-msgstr ""
+msgstr "未发现对象%s的注解。"
 
 #: builtin/notes.c:580
 #, c-format
@@ -2384,15 +2384,16 @@ msgid ""
 "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"不能添加注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:585 builtin/notes.c:662
 #, c-format
 msgid "Overwriting existing notes for object %s\n"
-msgstr ""
+msgstr "覆盖对象 %s 现存注解\n"
 
 #: builtin/notes.c:635
 msgid "too few parameters"
-msgstr ""
+msgstr "参数太少"
 
 #: builtin/notes.c:656
 #, c-format
@@ -2400,11 +2401,12 @@ msgid ""
 "Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"不能拷贝注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:668
 #, c-format
 msgid "Missing notes on source object %s. Cannot copy."
-msgstr ""
+msgstr "源对象 %s 缺少注解。不能拷贝。"
 
 #: builtin/notes.c:717
 #, c-format
@@ -2412,16 +2414,18 @@ msgid ""
 "The -m/-F/-c/-C options have been deprecated for the 'edit' subcommand.\n"
 "Please use 'git notes add -f -m/-F/-c/-C' instead.\n"
 msgstr ""
+"选项 -m/-F/-c/-C 已为 'edit' 子命令废弃。\n"
+"请换用 'git notes add -f -m/-F/-c/-C'。\n"
 
 #: builtin/notes.c:971
 #, c-format
 msgid "Object %s has no note\n"
-msgstr ""
+msgstr "对象%s没有注解\n"
 
 #: builtin/notes.c:1103
 #, c-format
 msgid "Unknown subcommand: %s"
-msgstr ""
+msgstr "未知子命令：%s"
 
 #: builtin/push.c:44
 msgid "tag shorthand without <tag>"
@@ -2605,7 +2609,7 @@ msgstr ""
 #: builtin/reset.c:341
 #, c-format
 msgid "Could not reset index file to revision '%s'."
-msgstr ""
+msgstr "不能重置暂存区至版本 '%s'。"
 
 #: builtin/revert.c:114 builtin/revert.c:135
 #, c-format
