@@ -1966,257 +1966,261 @@ msgstr "未知提交 %s"
 
 #: builtin/merge.c:91
 msgid "switch `m' requires a value"
-msgstr ""
+msgstr "开关 `m' 需要一个值"
 
 #: builtin/merge.c:128
 #, c-format
 msgid "Could not find merge strategy '%s'.\n"
-msgstr ""
+msgstr "无法找到合并策略 '%s'。\n"
 
 #: builtin/merge.c:129
 #, c-format
 msgid "Available strategies are:"
-msgstr ""
+msgstr "可用的策略有："
 
 #: builtin/merge.c:134
 #, c-format
 msgid "Available custom strategies are:"
-msgstr ""
+msgstr "可用的自定义策略有："
 
 #: builtin/merge.c:241
 msgid "could not run stash."
-msgstr ""
+msgstr "不能进行进度保存。"
 
 #: builtin/merge.c:246
 msgid "stash failed"
-msgstr ""
+msgstr "进度保存失败"
 
 #: builtin/merge.c:251
 #, c-format
 msgid "not a valid object: %s"
-msgstr ""
+msgstr "不是一个有效对象：%s"
 
 #: builtin/merge.c:270 builtin/merge.c:287
 msgid "read-tree failed"
-msgstr ""
+msgstr "读取树失败"
 
 #: builtin/merge.c:317
 msgid " (nothing to squash)"
-msgstr ""
+msgstr "（无可压缩）"
 
 #: builtin/merge.c:330
 #, c-format
 msgid "Squash commit -- not updating HEAD\n"
-msgstr ""
+msgstr "压缩提交 -- 未更新HEAD\n"
 
 #: builtin/merge.c:334 builtin/merge.c:865 builtin/merge.c:1085
 #: builtin/merge.c:1098 builtin/revert.c:327
 #, c-format
 msgid "Could not write to '%s'"
-msgstr ""
+msgstr "无法写入 '%s'"
 
 #: builtin/merge.c:362
 msgid "Writing SQUASH_MSG"
-msgstr ""
+msgstr "写入 SQUASH_MSG"
 
 #: builtin/merge.c:364
 msgid "Finishing SQUASH_MSG"
-msgstr ""
+msgstr "完成 SQUASH_MSG"
 
 #: builtin/merge.c:386
 #, c-format
 msgid "No merge message -- not updating HEAD\n"
-msgstr ""
+msgstr "无合并信息 -- 未更新HEAD\n"
 
 #: builtin/merge.c:435
 #, c-format
 msgid "'%s' does not point to a commit"
-msgstr ""
+msgstr "'%s' 没有指向一个提交"
 
 #: builtin/merge.c:534
 #, c-format
 msgid "Bad branch.%s.mergeoptions string: %s"
-msgstr ""
+msgstr "错的 branch.%s.mergeoptions 字串：%s"
 
 #: builtin/merge.c:627
 msgid "git write-tree failed to write a tree"
-msgstr ""
+msgstr "git write-tree 无法写入一树对象"
 
 #: builtin/merge.c:677
 msgid "failed to read the cache"
-msgstr ""
+msgstr "无法读取缓存"
 
 #: builtin/merge.c:694
 msgid "Unable to write index."
-msgstr ""
+msgstr "不能写暂存区。"
 
 #: builtin/merge.c:707
 msgid "Not handling anything other than two heads merge."
-msgstr ""
+msgstr "不能处理两个头合并之外的任何操作。"
 
 #: builtin/merge.c:721
 #, c-format
 msgid "Unknown option for merge-recursive: -X%s"
-msgstr ""
+msgstr "merge-recursive 的未知选项：-X%s"
 
 #: builtin/merge.c:735
 #, c-format
 msgid "unable to write %s"
-msgstr ""
+msgstr "不能写 %s"
 
 #: builtin/merge.c:862 builtin/merge.c:973 builtin/merge.c:1083
 #: builtin/merge.c:1093 builtin/revert.c:325
 #, c-format
 msgid "Could not open '%s' for writing"
-msgstr ""
+msgstr "无法为写入打开 '%s'"
 
 #: builtin/merge.c:874
 #, c-format
 msgid "Could not read from '%s'"
-msgstr ""
+msgstr "不能从 '%s' 读取"
 
 #: builtin/merge.c:883
 #, c-format
 msgid "Not committing merge; use 'git commit' to complete the merge.\n"
-msgstr ""
+msgstr "未提交合并，使用 'git commit' 完成此次合并。\n"
 
 #: builtin/merge.c:903
 msgid "Empty commit message."
-msgstr ""
+msgstr "空提交信息。"
 
 #: builtin/merge.c:915
 #, c-format
 msgid "Wonderful.\n"
-msgstr ""
+msgstr "太棒了。\n"
 
 #: builtin/merge.c:988
 #, c-format
 msgid "Automatic merge failed; fix conflicts and then commit the result.\n"
-msgstr ""
+msgstr "自动合并失败，修正冲突然后提交修正的结果。\n"
 
 #: builtin/merge.c:1004
 #, c-format
 msgid "'%s' is not a commit"
-msgstr ""
+msgstr "'s' 不是一个提交"
 
 #: builtin/merge.c:1045
 msgid "No current branch."
-msgstr ""
+msgstr "当前不在分支上。"
 
 #: builtin/merge.c:1047
 msgid "No remote for the current branch."
-msgstr ""
+msgstr "当前分支没有远程版本库。"
 
 #: builtin/merge.c:1049
 msgid "No default upstream defined for the current branch."
-msgstr ""
+msgstr "当前分支未定义默认上游分支。"
 
 #: builtin/merge.c:1054
 #, c-format
 msgid "No remote tracking branch for %s from %s"
-msgstr ""
+msgstr "%s 没有来自 %s 的远程跟踪分支"
 
 #: builtin/merge.c:1149
 msgid "There is no merge to abort (MERGE_HEAD missing)."
-msgstr ""
+msgstr "没有要终止的合并（MERGE_HEAD 丢失）"
 
 #: builtin/merge.c:1165 git-pull.sh:31
 msgid ""
 "You have not concluded your merge (MERGE_HEAD exists).\n"
 "Please, commit your changes before you can merge."
 msgstr ""
+"您尚未结束您的合并（存在 MERGE_HEAD）。\n"
+"请先提交您的修改，您才能合并。"
 
 #: builtin/merge.c:1168 git-pull.sh:34
 msgid "You have not concluded your merge (MERGE_HEAD exists)."
-msgstr ""
+msgstr "您尚未结束您的合并（存在 MERGE_HEAD）。"
 
 #: builtin/merge.c:1172
 msgid ""
 "You have not concluded your cherry-pick (CHERRY_PICK_HEAD exists).\n"
 "Please, commit your changes before you can merge."
 msgstr ""
+"您尚未结束您的拣选（存在 CHERRY_PICK_HEAD）。\n"
+"请先提交您的修改，您才能合并。"
 
 #: builtin/merge.c:1175
 msgid "You have not concluded your cherry-pick (CHERRY_PICK_HEAD exists)."
-msgstr ""
+msgstr "您尚未结束您的拣选（存在 CHERRY_PICK_HEAD）。"
 
 #: builtin/merge.c:1184
 msgid "You cannot combine --squash with --no-ff."
-msgstr ""
+msgstr "您不能将 --squash 与 --no-ff 共用。"
 
 #: builtin/merge.c:1189
 msgid "You cannot combine --no-ff with --ff-only."
-msgstr ""
+msgstr "您不能将 --no-ff 与 --ff-only 共用。"
 
 #: builtin/merge.c:1196
 msgid "No commit specified and merge.defaultToUpstream not set."
-msgstr ""
+msgstr "未指出提交并且 merge.defaultToUpstream 未设置。"
 
 #: builtin/merge.c:1227
 msgid "Can merge only exactly one commit into empty head"
-msgstr ""
+msgstr "只可将一个提交合并到空分支上"
 
 #: builtin/merge.c:1230
 msgid "Squash commit into empty head not supported yet"
-msgstr ""
+msgstr "尚不支持到空分支的压缩提交"
 
 #: builtin/merge.c:1232
 msgid "Non-fast-forward commit does not make sense into an empty head"
-msgstr ""
+msgstr "到空分支的非快进式提交不合理"
 
 #: builtin/merge.c:1236 builtin/merge.c:1280
 #, c-format
 msgid "%s - not something we can merge"
-msgstr ""
+msgstr "%s - 不是我们可以合并的东西"
 
 #: builtin/merge.c:1341
 #, c-format
 msgid "Updating %s..%s\n"
-msgstr ""
+msgstr "更新 %s..%s\n"
 
 #: builtin/merge.c:1379
 #, c-format
 msgid "Trying really trivial in-index merge...\n"
-msgstr ""
+msgstr "尝试非常小的暂存区内合并...\n"
 
 #: builtin/merge.c:1386
 #, c-format
 msgid "Nope.\n"
-msgstr ""
+msgstr "无。\n"
 
 #: builtin/merge.c:1418
 msgid "Not possible to fast-forward, aborting."
-msgstr ""
+msgstr "不可能快进式，终止。"
 
 #: builtin/merge.c:1441 builtin/merge.c:1518
 #, c-format
 msgid "Rewinding the tree to pristine...\n"
-msgstr ""
+msgstr "将树回滚至原始状态...\n"
 
 #: builtin/merge.c:1445
 #, c-format
 msgid "Trying merge strategy %s...\n"
-msgstr ""
+msgstr "尝试合并策略 %s...\n"
 
 #: builtin/merge.c:1509
 #, c-format
 msgid "No merge strategy handled the merge.\n"
-msgstr ""
+msgstr "没有合并策略处理此合并。\n"
 
 #: builtin/merge.c:1511
 #, c-format
 msgid "Merge with strategy %s failed.\n"
-msgstr ""
+msgstr "使用策略 %s 合并失败。\n"
 
 #: builtin/merge.c:1520
 #, c-format
 msgid "Using the %s to prepare resolving by hand.\n"
-msgstr ""
+msgstr "使用 %s 以准备手工解决。\n"
 
 #: builtin/merge.c:1531
 #, c-format
 msgid "Automatic merge went well; stopped before committing as requested\n"
-msgstr ""
+msgstr "自动合并进展顺利，按要求在提交前停止\n"
 
 #: builtin/mv.c:108
 #, c-format
