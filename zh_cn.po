@@ -2559,81 +2559,81 @@ msgstr "--delete 没有跟任何引用不合理"
 
 #: builtin/reset.c:33
 msgid "mixed"
-msgstr ""
+msgstr "混杂"
 
 #: builtin/reset.c:33
 msgid "soft"
-msgstr ""
+msgstr "软性"
 
 #: builtin/reset.c:33
 msgid "hard"
-msgstr ""
+msgstr "硬性"
 
 #: builtin/reset.c:33
 msgid "merge"
-msgstr ""
+msgstr "合并"
 
 #: builtin/reset.c:33
 msgid "keep"
-msgstr ""
+msgstr "保持"
 
 #: builtin/reset.c:77
 msgid "You do not have a valid HEAD."
-msgstr ""
+msgstr "您没有一个有效的HEAD。"
 
 #: builtin/reset.c:79
 msgid "Failed to find tree of HEAD."
-msgstr ""
+msgstr "无法找到HEAD指向的树。"
 
 #: builtin/reset.c:85
 #, c-format
 msgid "Failed to find tree of %s."
-msgstr ""
+msgstr "无法找到 %s 指向的树。"
 
 #: builtin/reset.c:96
 msgid "Could not write new index file."
-msgstr ""
+msgstr "无法写入新的暂存区文件。"
 
 #: builtin/reset.c:106
 #, c-format
 msgid "HEAD is now at %s"
-msgstr ""
+msgstr "HEAD 现在位于 %s"
 
 #: builtin/reset.c:130
 msgid "Could not read index"
-msgstr ""
+msgstr "不能读取暂存区"
 
 #: builtin/reset.c:133
 msgid "Unstaged changes after reset:"
-msgstr ""
+msgstr "重置后变更撤出暂存区："
 
 #: builtin/reset.c:223
 #, c-format
 msgid "Cannot do a %s reset in the middle of a merge."
-msgstr ""
+msgstr "在合并过程中不能做%s重置操作。"
 
 #: builtin/reset.c:297
 #, c-format
 msgid "Could not parse object '%s'."
-msgstr ""
+msgstr "不能解析对象 '%s'。"
 
 #: builtin/reset.c:302
 msgid "--patch is incompatible with --{hard,mixed,soft}"
-msgstr ""
+msgstr "--patch 与 --{hard,mixed,soft} 不兼容"
 
 #: builtin/reset.c:311
 msgid "--mixed with paths is deprecated; use 'git reset -- <paths>' instead."
-msgstr ""
+msgstr "--mixed 带路径已弃用，代之以 'git reset -- <paths>'。"
 
 #: builtin/reset.c:313
 #, c-format
 msgid "Cannot do %s reset with paths."
-msgstr ""
+msgstr "不能带路径进行%s重置。"
 
 #: builtin/reset.c:325
 #, c-format
 msgid "%s reset is not allowed in a bare repository"
-msgstr ""
+msgstr "不能对裸版本库进行%s重置"
 
 #: builtin/reset.c:341
 #, c-format
