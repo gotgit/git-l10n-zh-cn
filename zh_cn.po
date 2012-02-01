@@ -3290,32 +3290,32 @@ msgstr "无法剥离一个组件 url '$remoteurl'"
 #: git-submodule.sh:108
 #, sh-format
 msgid "No submodule mapping found in .gitmodules for path '$path'"
-msgstr "在路径为 '$path' 的 .gitmodules 中没有发现子模块映射"
+msgstr "在路径为 '$path' 的 .gitmodules 中没有发现子模组映射"
 
 #: git-submodule.sh:172
 #, sh-format
 msgid "Clone of '$url' into submodule path '$path' failed"
-msgstr "克隆 '$url' 到子模块路径 '$path' 失败"
+msgstr "克隆 '$url' 到子模组路径 '$path' 失败"
 
 #: git-submodule.sh:246
 #, sh-format
 msgid "repo URL: '$repo' must be absolute or begin with ./|../"
-msgstr "仓库 URL: '$repo' 必须是绝对路径或起始于 ./|../"
+msgstr "版本库 URL: '$repo' 必须是绝对路径或起始于 ./|../"
 
 #: git-submodule.sh:263
 #, sh-format
 msgid "'$path' already exists in the index"
-msgstr "'$path' 已经存在于索引中"
+msgstr "'$path' 已经存在于暂存区中"
 
 #: git-submodule.sh:280
 #, sh-format
 msgid "'$path' already exists and is not a valid git repo"
-msgstr "'$path' 已经存在并且不是一个有效的 git 仓库"
+msgstr "'$path' 已经存在并且不是一个有效的 git 版本库"
 
 #: git-submodule.sh:294
 #, sh-format
 msgid "Unable to checkout submodule '$path'"
-msgstr "无法检验子模块 '$path'"
+msgstr "无法检验子模组 '$path'"
 
 #: git-submodule.sh:299
 #, sh-format
@@ -3340,22 +3340,22 @@ msgstr "停止于 '$path';脚本返回非零状态"
 #: git-submodule.sh:400
 #, sh-format
 msgid "No url found for submodule path '$path' in .gitmodules"
-msgstr "在 .gitmodules 中的子模块路径 '$path' 里没有发现 url"
+msgstr "在 .gitmodules 中的子模组路径 '$path' 里没有发现 url"
 
 #: git-submodule.sh:409
 #, sh-format
 msgid "Failed to register url for submodule path '$path'"
-msgstr "无法为子模块路径 '$path' 注册 url"
+msgstr "无法为子模组路径 '$path' 注册 url"
 
 #: git-submodule.sh:417
 #, sh-format
 msgid "Failed to register update mode for submodule path '$path'"
-msgstr "无法为子模块路径 '$path' 注册更新模式"
+msgstr "无法为子模组路径 '$path' 注册更新模式"
 
 #: git-submodule.sh:419
 #, sh-format
 msgid "Submodule '$name' ($url) registered for path '$path'"
-msgstr "子模块 '$name' ($url) 注册的路径为 '$path'"
+msgstr "子模组 '$name' ($url) 注册的路径为 '$path'"
 
 #: git-submodule.sh:518
 #, sh-format
@@ -3363,28 +3363,28 @@ msgid ""
 "Submodule path '$path' not initialized\n"
 "Maybe you want to use 'update --init'?"
 msgstr ""
-"子模块路径 '$path' 没有初始化\n"
+"子模组路径 '$path' 没有初始化\n"
 "也许你想要使用 'update --init'?"
 
 #: git-submodule.sh:531
 #, sh-format
 msgid "Unable to find current revision in submodule path '$path'"
-msgstr "在子模块路径 '$path' 中没有发现当前版本"
+msgstr "在子模组路径 '$path' 中没有发现当前版本"
 
 #: git-submodule.sh:550
 #, sh-format
 msgid "Unable to fetch in submodule path '$path'"
-msgstr "在子模块路径 '$path' 中无法获取"
+msgstr "在子模组路径 '$path' 中无法获取"
 
 #: git-submodule.sh:564
 #, sh-format
 msgid "Unable to rebase '$sha1' in submodule path '$path'"
-msgstr "在子模块路径 '$path' 中无法变基 '$sha1'"
+msgstr "在子模组路径 '$path' 中无法变基 '$sha1'"
 
 #: git-submodule.sh:565
 #, sh-format
 msgid "Submodule path '$path': rebased into '$sha1'"
-msgstr "子模块路径 '$path': 变基入 '$sha1'"
+msgstr "子模组路径 '$path': 变基入 '$sha1'"
 
 #: git-submodule.sh:570
 #, sh-format
