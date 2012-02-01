@@ -41,12 +41,12 @@ msgstr "无法运行 'git rev-list'"
 #: connected.c:48
 #, c-format
 msgid "failed write to rev-list: %s"
-msgstr "写入rev-list失败：%s"
+msgstr "写入 rev-list 失败：%s"
 
 #: connected.c:56
 #, c-format
 msgid "failed to close rev-list's stdin: %s"
-msgstr "关闭rev-list的标准输入失败：%s"
+msgstr "关闭 rev-list 的标准输入失败：%s"
 
 #: diff.c:104
 #, c-format
@@ -160,19 +160,19 @@ msgstr "双方删除："
 
 #: wt-status.c:213
 msgid "added by us:"
-msgstr "被我们添加："
+msgstr "由我们添加："
 
 #: wt-status.c:214
 msgid "deleted by them:"
-msgstr "被他们删除："
+msgstr "由他们删除："
 
 #: wt-status.c:215
 msgid "added by them:"
-msgstr "被他们添加："
+msgstr "由他们添加："
 
 #: wt-status.c:216
 msgid "deleted by us:"
-msgstr "被我们删除："
+msgstr "由我们删除："
 
 #: wt-status.c:217
 msgid "both added:"
@@ -237,7 +237,7 @@ msgstr "未合并：    %s"
 #: wt-status.c:290
 #, c-format
 msgid "bug: unhandled diff status %c"
-msgstr "bug：未处理的diff状态 %c"
+msgstr "bug: 未处理的diff状态 %c"
 
 #: wt-status.c:713
 msgid "On branch "
@@ -321,7 +321,7 @@ msgstr "落后 "
 
 #: wt-status.c:908 wt-status.c:911
 msgid "ahead "
-msgstr "，领先 "
+msgstr "领先 "
 
 #: wt-status.c:913
 msgid ", behind "
@@ -460,11 +460,11 @@ msgstr "远程错误：%s"
 
 #: builtin/archive.c:66
 msgid "git archive: protocol error"
-msgstr "git archive：协议错误"
+msgstr "git archive: 协议错误"
 
 #: builtin/archive.c:71
 msgid "git archive: expected a flush"
-msgstr "git archive：预期一个刷新"
+msgstr "git archive: 预期一个刷新"
 
 #: builtin/branch.c:137
 #, c-format
@@ -533,7 +533,7 @@ msgstr "已删除 %s分支 %s（曾为 %s）。\n"
 
 #: builtin/branch.c:224
 msgid "Update of config-file failed"
-msgstr "更新config文件失败"
+msgstr "更新 config 文件失败"
 
 #: builtin/branch.c:322
 #, c-format
@@ -1364,7 +1364,7 @@ msgstr "%s 不是一个有效的 '%s' 对象"
 #: builtin/describe.c:287
 #, c-format
 msgid "no tag exactly matches '%s'"
-msgstr "没有 tag 完全匹配 '%s'"
+msgstr "没有标签准确匹配 '%s'"
 
 #: builtin/describe.c:289
 #, c-format
