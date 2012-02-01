@@ -1339,42 +1339,42 @@ msgstr ""
 #: builtin/describe.c:234
 #, c-format
 msgid "annotated tag %s not available"
-msgstr ""
+msgstr "注释 tag %s 无效"
 
 #: builtin/describe.c:238
 #, c-format
 msgid "annotated tag %s has no embedded name"
-msgstr ""
+msgstr "注释 tag %s 没有嵌入名称"
 
 #: builtin/describe.c:240
 #, c-format
 msgid "tag '%s' is really '%s' here"
-msgstr ""
+msgstr "tag '%s' 确实 '%s' 这里"
 
 #: builtin/describe.c:267
 #, c-format
 msgid "Not a valid object name %s"
-msgstr ""
+msgstr "不是一个有效的对象名 %s"
 
 #: builtin/describe.c:270
 #, c-format
 msgid "%s is not a valid '%s' object"
-msgstr ""
+msgstr "%s 不是一个有效的 '%s' 对象"
 
 #: builtin/describe.c:287
 #, c-format
 msgid "no tag exactly matches '%s'"
-msgstr ""
+msgstr "没有 tag 完全匹配 '%s'"
 
 #: builtin/describe.c:289
 #, c-format
 msgid "searching to describe %s\n"
-msgstr ""
+msgstr "搜索描述 %s\n"
 
 #: builtin/describe.c:329
 #, c-format
 msgid "finished search at %s\n"
-msgstr ""
+msgstr "完成搜索 %s\n"
 
 #: builtin/describe.c:353
 #, c-format
@@ -1382,6 +1382,8 @@ msgid ""
 "No annotated tags can describe '%s'.\n"
 "However, there were unannotated tags: try --tags."
 msgstr ""
+"没有注释 tag 能描述 '%s'。\n"
+"无论如何, 这些是非注释 tag：请尝试 --tags 。"
 
 #: builtin/describe.c:357
 #, c-format
@@ -1389,11 +1391,12 @@ msgid ""
 "No tags can describe '%s'.\n"
 "Try --always, or create some tags."
 msgstr ""
-
+"没有注释 tag 能描述 '%s'。\n"
+"请尝试 --always ，或创建一些 tag 。"
 #: builtin/describe.c:378
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr ""
+msgstr "遍历 %lu 提交\n"
 
 #: builtin/describe.c:381
 #, c-format
@@ -1401,18 +1404,20 @@ msgid ""
 "more than %i tags found; listed %i most recent\n"
 "gave up search at %s\n"
 msgstr ""
+"发现多于 %i 个 tag；列出最近的 %i 个\n"
+"在 %s 中放弃搜索\n"
 
 #: builtin/describe.c:436
 msgid "--long is incompatible with --abbrev=0"
-msgstr ""
+msgstr "--long 与 --abbrev=0 不兼容"
 
 #: builtin/describe.c:462
 msgid "No names found, cannot describe anything."
-msgstr ""
+msgstr "没有发现名称，无法描述任何东西"
 
 #: builtin/describe.c:482
 msgid "--dirty is incompatible with committishes"
-msgstr ""
+msgstr "--dirty 无法与 committishes 兼容"
 
 #: builtin/diff.c:77
 #, c-format
@@ -3314,7 +3319,11 @@ msgstr "无法从url '$remoteurl' 剥离一个组件"
 #: git-submodule.sh:108
 #, sh-format
 msgid "No submodule mapping found in .gitmodules for path '$path'"
+<<<<<<< HEAD
+msgstr "在路径为 '$path' 的 .gitmodules 中没有发现子模组映射"
+=======
 msgstr "未在.gitmodules中发现路径 '$path' 的子模组映射"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:172
 #, sh-format
@@ -3324,7 +3333,11 @@ msgstr "克隆 '$url' 到子模组路径 '$path' 失败"
 #: git-submodule.sh:246
 #, sh-format
 msgid "repo URL: '$repo' must be absolute or begin with ./|../"
+<<<<<<< HEAD
+msgstr "版本库 URL: '$repo' 必须是绝对路径或起始于 ./|../"
+=======
 msgstr "版本库URL：'$repo' 必须是绝对路径或以 ./|../ 起始"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:263
 #, sh-format
@@ -3334,12 +3347,20 @@ msgstr "'$path' 已经存在于暂存区中"
 #: git-submodule.sh:280
 #, sh-format
 msgid "'$path' already exists and is not a valid git repo"
+<<<<<<< HEAD
+msgstr "'$path' 已经存在并且不是一个有效的 git 版本库"
+=======
 msgstr "'$path' 已存在且不是一个有效的git版本库"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:294
 #, sh-format
 msgid "Unable to checkout submodule '$path'"
+<<<<<<< HEAD
+msgstr "无法检验子模组 '$path'"
+=======
 msgstr "不能检出子模组 '$path'"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:299
 #, sh-format
@@ -3364,7 +3385,11 @@ msgstr "停止于 '$path'，脚本返回非零值。"
 #: git-submodule.sh:400
 #, sh-format
 msgid "No url found for submodule path '$path' in .gitmodules"
+<<<<<<< HEAD
+msgstr "在 .gitmodules 中的子模组路径 '$path' 里没有发现 url"
+=======
 msgstr "在.gitmodules中未找到子模组路径 '$path' 的url"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:409
 #, sh-format
@@ -3379,7 +3404,11 @@ msgstr "无法为子模组路径 '$path' 注册更新模式"
 #: git-submodule.sh:419
 #, sh-format
 msgid "Submodule '$name' ($url) registered for path '$path'"
+<<<<<<< HEAD
+msgstr "子模组 '$name' ($url) 注册的路径为 '$path'"
+=======
 msgstr "子模组 '$name' ($url) 已为路径 '$path' 注册"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:518
 #, sh-format
@@ -3388,27 +3417,47 @@ msgid ""
 "Maybe you want to use 'update --init'?"
 msgstr ""
 "子模组路径 '$path' 没有初始化\n"
+<<<<<<< HEAD
+"也许你想要使用 'update --init'？"
+=======
 "也许你想用 'update --init'？"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:531
 #, sh-format
 msgid "Unable to find current revision in submodule path '$path'"
+<<<<<<< HEAD
+msgstr "在子模组路径 '$path' 中没有发现当前版本"
+=======
 msgstr "无法在子模组路径 '$path' 中找到当前版本"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:550
 #, sh-format
 msgid "Unable to fetch in submodule path '$path'"
+<<<<<<< HEAD
+msgstr "在子模组路径 '$path' 中无法获取"
+=======
 msgstr "无法在子模组路径 '$path' 中获取"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:564
 #, sh-format
 msgid "Unable to rebase '$sha1' in submodule path '$path'"
+<<<<<<< HEAD
+msgstr "在子模组路径 '$path' 中无法变基 '$sha1'"
+=======
 msgstr "无法在子模组路径 '$path' 中变基 '$sha1'"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:565
 #, sh-format
 msgid "Submodule path '$path': rebased into '$sha1'"
+<<<<<<< HEAD
+msgstr "子模组路径 '$path': 变基入 '$sha1'"
+=======
 msgstr "子模组路径 '$path'：变基至 '$sha1'"
+>>>>>>> gotgit/master
 
 #: git-submodule.sh:570
 #, sh-format
