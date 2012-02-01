@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2012-02-01 19:55+0800\n"
+"POT-Creation-Date: 2012-02-01 20:42+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,29 @@ msgstr ""
 msgid ""
 "'%s' appears to be a git command, but we were not\n"
 "able to execute it. Maybe git-%s is broken?"
+msgstr ""
+
+#: remote.c:1575
+#, c-format
+msgid "Your branch is ahead of '%s' by %d %s.\n"
+msgstr ""
+
+#: remote.c:1577 remote.c:1582
+msgid "commit"
+msgid_plural "commits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: remote.c:1579
+#, c-format
+msgid "Your branch is behind '%s' by %d %s, and can be fast-forwarded.\n"
+msgstr ""
+
+#: remote.c:1584
+#, c-format
+msgid ""
+"Your branch and '%s' have diverged,\n"
+"and have %d and %d different commit(s) each, respectively.\n"
 msgstr ""
 
 #: wt-status.c:134
