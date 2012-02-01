@@ -1,12 +1,12 @@
 # Chinese translations for Git package
 # Git 软件包的简体中文翻译.
-# Copyright (C) 2012 Jiang Xin <worldhello.net@gmail.com>
+# Copyright (C) 2012 Jiang Xin <worldhello.net AT gmail.com>
 # This file is distributed under the same license as the Git package.
 # Contributers:
-#   - Jiang Xin <worldhello.net@gmail.com>
-#   - Riku <lu.riku@gmail.com>
-#   - Zhuang Ya <zhuangya@me.com>
-#   - Lian Cheng <rhythm.mail@gmail.com>
+#   - Jiang Xin <worldhello.net AT gmail.com>
+#   - Riku <lu.riku AT gmail.com>
+#   - Zhuang Ya <zhuangya AT me.com>
+#   - Lian Cheng <rhythm.mail AT gmail.com>
 #
 msgid ""
 msgstr ""
@@ -284,6 +284,7 @@ msgstr "忽略的"
 msgid "Untracked files not listed%s"
 msgstr "未跟踪的文件没有列出%s"
 
+#  注意保持前导空格
 #: wt-status.c:751
 msgid " (use -u option to show untracked files)"
 msgstr " （使用 -u 参数显示未跟踪的文件）"
@@ -359,7 +360,7 @@ msgstr "，落后 "
 #: builtin/add.c:62
 #, c-format
 msgid "unexpected diff status %c"
-msgstr "意外的diff状态 %c"
+msgstr "意外的差异状态 %c"
 
 #: builtin/add.c:67 builtin/commit.c:298
 msgid "updating files failed"
@@ -439,7 +440,7 @@ msgstr "-A 和 -u 选项互斥"
 
 #: builtin/add.c:392
 msgid "Option --ignore-missing can only be used together with --dry-run"
-msgstr "选项 --ignore-missing 只能和 --dry-run 一起使用"
+msgstr "选项 --ignore-missing 只能和 --dry-run 共用"
 
 #: builtin/add.c:412
 #, c-format
@@ -471,7 +472,7 @@ msgstr "无法重定向输出"
 
 #: builtin/archive.c:37
 msgid "git archive: Remote with no URL"
-msgstr "git archive：未提供远程URL"
+msgstr "git archive: 未提供远程URL"
 
 #: builtin/archive.c:58
 msgid "git archive: expected ACK/NAK, got EOF"
@@ -502,7 +503,7 @@ msgid ""
 "         '%s', but not yet merged to HEAD."
 msgstr ""
 "要删除的分支 '%s' 已经合并到\n"
-"         '%s'，但未合并到HEAD。"
+"         '%s'，但未合并到 HEAD。"
 
 #: builtin/branch.c:141
 #, c-format
@@ -511,7 +512,7 @@ msgid ""
 "         '%s', even though it is merged to HEAD."
 msgstr ""
 "不要删除分支 '%s' 其尚未合并到\n"
-"         '%s'，虽然它已经合并到HEAD。"
+"         '%s'，虽然它已经合并到 HEAD。"
 
 #  汉字之间无空格，故删除尾部空格
 #. TRANSLATORS: This is "remote " in "remote branch '%s' not found"
@@ -525,7 +526,7 @@ msgstr "不能将 -a 和 -d 共用"
 
 #: builtin/branch.c:177
 msgid "Couldn't look up commit object for HEAD"
-msgstr "无法查询HEAD指向的提交对象"
+msgstr "无法查询 HEAD 指向的提交对象"
 
 #: builtin/branch.c:182
 #, c-format
@@ -643,7 +644,7 @@ msgstr "未在 /refs/heads 下发现 HEAD！"
 
 #: builtin/branch.c:790
 msgid "-a and -r options to 'git branch' do not make sense with a branch name"
-msgstr "'git branch' 的 -a 和 -r 选项带一个分支名参数不合理"
+msgstr "'git branch' 的 -a 和 -r 选项带一个分支名参数没有意义"
 
 #: builtin/bundle.c:47
 #, c-format
@@ -722,7 +723,7 @@ msgstr "不能对 '%s' 保存引用日志\n"
 
 #: builtin/checkout.c:579
 msgid "HEAD is now at"
-msgstr "HEAD目前位于"
+msgstr "HEAD 目前位于"
 
 #: builtin/checkout.c:586
 #, c-format
@@ -794,7 +795,7 @@ msgstr "在版本遍历时遇到内部错误"
 
 #: builtin/checkout.c:710
 msgid "Previous HEAD position was"
-msgstr "之前的HEAD位置是"
+msgstr "之前的 HEAD 位置是"
 
 #: builtin/checkout.c:736
 msgid "You are on a branch yet to be born"
@@ -1037,7 +1038,7 @@ msgstr "不知道如何克隆 %s"
 #: builtin/clone.c:680
 #, c-format
 msgid "Remote branch %s not found in upstream %s, using HEAD instead"
-msgstr "远程分支 %s 在上游 %s 未发现，改为使用HEAD"
+msgstr "远程分支 %s 在上游 %s 未发现，改为使用 HEAD"
 
 #: builtin/clone.c:690
 msgid "You appear to have cloned an empty repository."
@@ -1045,7 +1046,7 @@ msgstr "您似乎克隆了一个空版本库。"
 
 #: builtin/clone.c:732
 msgid "remote HEAD refers to nonexistent ref, unable to checkout.\n"
-msgstr "远程HEAD指向一个不存在的引用，无法检出。\n"
+msgstr "远程 HEAD 指向一个不存在的引用，无法检出。\n"
 
 #: builtin/commit.c:42
 msgid ""
@@ -1061,7 +1062,7 @@ msgid ""
 "    git commit --amend --reset-author\n"
 msgstr ""
 "您的姓名和邮件地址会基于您的用户名和主机地址自动配置。请检查它们\n"
-"正确与否。您可通过下面命令对其显示声明以避免重复出现类似提示：\n"
+"正确与否。您可通过下面命令对其显式声明以避免重复出现类似提示：\n"
 "\n"
 "    git config --global user.name \"Your Name\"\n"
 "    git config --global user.email you@example.com\n"
@@ -1096,7 +1097,7 @@ msgstr ""
 
 #: builtin/commit.c:325
 msgid "failed to unpack HEAD tree object"
-msgstr "解包HEAD树对象失败"
+msgstr "解包 HEAD 树对象失败"
 
 #: builtin/commit.c:367
 msgid "unable to create temporary index"
@@ -1110,6 +1111,7 @@ msgstr "交互式添加失败"
 msgid "unable to write new_index file"
 msgstr "无法写入新暂存区文件"
 
+#  %s若翻为中文，前后不需要空格
 #: builtin/commit.c:457
 #, c-format
 msgid "cannot do a partial commit during a %s."
@@ -1130,12 +1132,12 @@ msgstr "无效的提交：%s"
 
 #: builtin/commit.c:573
 msgid "malformed --author parameter"
-msgstr "畸形的 --author 参数"
+msgstr "非法的 --author 参数"
 
 #: builtin/commit.c:629
 #, c-format
 msgid "Malformed ident string: '%s'"
-msgstr "畸形的识别字串：'%s'"
+msgstr "非法的识别字串：'%s'"
 
 #: builtin/commit.c:664 builtin/commit.c:697 builtin/commit.c:994
 #, c-format
@@ -1182,6 +1184,7 @@ msgstr "无法打开 '%s'"
 msgid "could not write commit template"
 msgstr "无法写提交模版"
 
+#  %s若翻为中文，前后不需要空格
 #: builtin/commit.c:777
 #, c-format
 msgid ""
@@ -1197,6 +1200,7 @@ msgstr ""
 "\t%s\n"
 "然后重试。\n"
 
+#  注意保持前导空格
 #: builtin/commit.c:790
 msgid "Please enter the commit message for your changes."
 msgstr "请为您的修改输入提交说明。"
@@ -1209,6 +1213,7 @@ msgstr ""
 " 以 '#' 开头\n"
 "的行将被忽略，而且空提交说明将会终止提交。\n"
 
+#  注意保持前导空格
 #: builtin/commit.c:798
 msgid ""
 " Lines starting\n"
@@ -1218,11 +1223,13 @@ msgstr ""
 " 以 '#' 开头\n"
 "的行将被保留，您可以删除它们如果您想这样做。空提交说明将会终止提交。\n"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: builtin/commit.c:810
 #, c-format
 msgid "%sAuthor:    %s"
 msgstr "%s作者：     %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: builtin/commit.c:817
 #, c-format
 msgid "%sCommitter: %s"
@@ -1234,7 +1241,7 @@ msgstr "无法读取暂存区"
 
 #: builtin/commit.c:874
 msgid "Error building trees"
-msgstr "创建树遇到错误"
+msgstr "无法创建树对象"
 
 #: builtin/commit.c:889 builtin/tag.c:324
 #, c-format
@@ -1249,16 +1256,17 @@ msgstr "没有找到匹配 '%s' 的作者"
 #: builtin/commit.c:984 builtin/commit.c:1176
 #, c-format
 msgid "Invalid untracked files mode '%s'"
-msgstr "无效的非追踪文件选项 '%s'"
+msgstr "无效的非追踪文件参数 '%s'"
 
 #: builtin/commit.c:1024
 msgid "Using both --reset-author and --author does not make sense"
-msgstr "同时使用 --reset-author 和 --author 不合理"
+msgstr "同时使用 --reset-author 和 --author 没有意义"
 
 #: builtin/commit.c:1035
 msgid "You have nothing to amend."
 msgstr "您没有要修补。"
 
+#  %s若翻为中文，前后不需要空格
 #: builtin/commit.c:1037
 #, c-format
 msgid "You are in the middle of a %s -- cannot amend."
@@ -1266,7 +1274,7 @@ msgstr "您正处于一个%s过程中 -- 无法修补提交。"
 
 #: builtin/commit.c:1039
 msgid "Options --squash and --fixup cannot be used together"
-msgstr "选项 --squash 和 --fixup 不能同时使用"
+msgstr "选项 --squash 和 --fixup 不能共用"
 
 #: builtin/commit.c:1049
 msgid "Only one of -c/-C/-F/--fixup can be used."
@@ -1278,7 +1286,7 @@ msgstr "选项 -m 不能和 -c/-C/-F/--fixup 共用。"
 
 #: builtin/commit.c:1057
 msgid "--reset-author can be used only with -C, -c or --amend."
-msgstr "--reset-author 只能和 -C, -c 或 --amend 一起使用。"
+msgstr "--reset-author 只能和 -C, -c 或 --amend 共用。"
 
 #: builtin/commit.c:1074
 msgid "Only one of --include/--only/--all/--interactive/--patch can be used."
@@ -1286,11 +1294,11 @@ msgstr "只能用一个 --include/--only/--all/--interactive/--patch 选项。"
 
 #: builtin/commit.c:1076
 msgid "No paths with --include/--only does not make sense."
-msgstr "参数 --include/--only 不跟路径不合理。"
+msgstr "参数 --include/--only 不跟路径没有意义。"
 
 #: builtin/commit.c:1078
 msgid "Clever... amending the last one with dirty index."
-msgstr "聪明... 在暂存区不干净下修补最后的提交"
+msgstr "聪明... 在暂存区不干净下修补最后的提交。"
 
 #: builtin/commit.c:1080
 msgid "Explicit paths specified without -i nor -o; assuming --only paths..."
@@ -1303,7 +1311,7 @@ msgstr "无效的清理模式 %s"
 
 #: builtin/commit.c:1095
 msgid "Paths with -a does not make sense."
-msgstr "路径和 -a 选项共用不合理。"
+msgstr "路径和 -a 选项共用没有意义。"
 
 #: builtin/commit.c:1274
 msgid "couldn't look up newly created commit"
@@ -1324,7 +1332,7 @@ msgstr " （根提交）"
 
 #: builtin/commit.c:1409
 msgid "could not parse HEAD commit"
-msgstr "无法解析HEAD提交"
+msgstr "无法解析 HEAD 提交"
 
 #: builtin/commit.c:1446 builtin/merge.c:507
 #, c-format
@@ -1338,7 +1346,7 @@ msgstr "损坏的 MERGE_HEAD 文件 (%s)"
 
 #: builtin/commit.c:1460
 msgid "could not read MERGE_MODE"
-msgstr "无法读取MERGE_MODE"
+msgstr "无法读取 MERGE_MODE"
 
 #: builtin/commit.c:1479
 #, c-format
@@ -1356,11 +1364,11 @@ msgstr "写提交对象失败"
 
 #: builtin/commit.c:1529
 msgid "cannot lock HEAD ref"
-msgstr "无法锁定HEAD引用"
+msgstr "无法锁定 HEAD 引用"
 
 #: builtin/commit.c:1533
 msgid "cannot update HEAD ref"
-msgstr "无法更新HEAD引用"
+msgstr "无法更新 HEAD 引用"
 
 #: builtin/commit.c:1544
 msgid ""
@@ -1399,7 +1407,7 @@ msgstr "%s 不是一个有效的 '%s' 对象"
 #: builtin/describe.c:287
 #, c-format
 msgid "no tag exactly matches '%s'"
-msgstr "没有标签准确匹配 '%s'"
+msgstr "没有 tag 准确匹配 '%s'"
 
 #: builtin/describe.c:289
 #, c-format
@@ -1466,7 +1474,7 @@ msgstr "无效选项：%s"
 
 #: builtin/diff.c:293
 msgid "Not a git repository"
-msgstr "不是一个git版本库"
+msgstr "不是一个 git 版本库"
 
 #: builtin/diff.c:343
 #, c-format
@@ -1476,12 +1484,12 @@ msgstr "提供了无效对象 '%s'。"
 #: builtin/diff.c:348
 #, c-format
 msgid "more than %d trees given: '%s'"
-msgstr "提供了超过%d个树对象：'%s'"
+msgstr "提供了超过 %d 个树对象：'%s'"
 
 #: builtin/diff.c:358
 #, c-format
 msgid "more than two blobs given: '%s'"
-msgstr "提供了超过两个blob对象：'%s'"
+msgstr "提供了超过两个 blob 对象：'%s'"
 
 #: builtin/diff.c:366
 #, c-format
@@ -1490,7 +1498,7 @@ msgstr "提供了无法处理的对象 '%s'。"
 
 #: builtin/fetch.c:200
 msgid "Couldn't find remote ref HEAD"
-msgstr "无法发现远程HEAD引用"
+msgstr "无法发现远程 HEAD 引用"
 
 #: builtin/fetch.c:252
 #, c-format
@@ -1673,7 +1681,7 @@ msgstr ""
 msgid ""
 "There are too many unreachable loose objects; run 'git prune' to remove them."
 msgstr ""
-"有太多无指向的松散对象；运行 'git prune' 删除它们。"
+"有太多无指向的松散对象，运行 'git prune' 删除它们。"
 #: builtin/grep.c:275
 #, c-format
 msgid "grep: failed to create thread: %s"
@@ -1692,7 +1700,7 @@ msgstr "'%s'：%s"
 #: builtin/grep.c:452
 #, c-format
 msgid "'%s': short read %s"
-msgstr "'%s'：读取不足 %s"
+msgstr "'%s'：读取不完整 %s"
 
 #: builtin/grep.c:514
 #, c-format
@@ -1707,7 +1715,7 @@ msgstr "无法读取代码树（%s）"
 #: builtin/grep.c:638
 #, c-format
 msgid "unable to grep from object of type %s"
-msgstr "无法 grep 来自于 %s 类型的对象"
+msgstr "无法抓取来自于 %s 类型的对象"
 
 #: builtin/grep.c:696
 #, c-format
@@ -1721,7 +1729,7 @@ msgstr "不能打开 '%s'"
 
 #: builtin/grep.c:1001
 msgid "no pattern given."
-msgstr "为提供模式匹配。"
+msgstr "未提供模式匹配。"
 
 #: builtin/grep.c:1015
 #, c-format
@@ -1856,7 +1864,7 @@ msgstr "重新初始化现存的"
 msgid "Initialized empty"
 msgstr "初始化空的"
 
-#  汉字之间无空格，故删除前导空格
+#  汉字字串合并，之间无空格，故删除前导空格
 #: builtin/init-db.c:421
 msgid " shared"
 msgstr "共享的"
@@ -1928,7 +1936,7 @@ msgstr "无法打开补丁文件 %s"
 
 #: builtin/log.c:690
 msgid "Need exactly one range."
-msgstr "只需要一个范围"
+msgstr "只需要一个范围。"
 
 #: builtin/log.c:698
 msgid "Not a range."
@@ -1936,7 +1944,7 @@ msgstr "不是一个范围。"
 
 #: builtin/log.c:735
 msgid "Could not extract email from committer identity."
-msgstr "无法从提交者身份中提取邮件地址"
+msgstr "无法从提交者身份中提取邮件地址。"
 
 #: builtin/log.c:781
 msgid "Cover letter needs email format"
@@ -1958,11 +1966,11 @@ msgstr "虚假的提交者信息 %s"
 
 #: builtin/log.c:1214
 msgid "-n and -k are mutually exclusive."
-msgstr "-n 和 -k 互斥"
+msgstr "-n 和 -k 互斥。"
 
 #: builtin/log.c:1216
 msgid "--subject-prefix and -k are mutually exclusive."
-msgstr "--subject-prefix 和 -k 互斥"
+msgstr "--subject-prefix 和 -k 互斥。"
 
 #: builtin/log.c:1221 builtin/shortlog.c:284
 #, c-format
@@ -2050,7 +2058,7 @@ msgstr " （无可压缩）"
 #: builtin/merge.c:330
 #, c-format
 msgid "Squash commit -- not updating HEAD\n"
-msgstr "压缩提交 -- 未更新HEAD\n"
+msgstr "压缩提交 -- 未更新 HEAD\n"
 
 #: builtin/merge.c:334 builtin/merge.c:865 builtin/merge.c:1085
 #: builtin/merge.c:1098 builtin/revert.c:327
@@ -2069,7 +2077,7 @@ msgstr "完成 SQUASH_MSG"
 #: builtin/merge.c:386
 #, c-format
 msgid "No merge message -- not updating HEAD\n"
-msgstr "无合并信息 -- 未更新HEAD\n"
+msgstr "无合并信息 -- 未更新 HEAD\n"
 
 #: builtin/merge.c:435
 #, c-format
@@ -2209,7 +2217,7 @@ msgstr "尚不支持到空分支的压缩提交"
 
 #: builtin/merge.c:1232
 msgid "Non-fast-forward commit does not make sense into an empty head"
-msgstr "到空分支的非快进式提交不合理"
+msgstr "到空分支的非快进式提交没有意义"
 
 #: builtin/merge.c:1236 builtin/merge.c:1280
 #, c-format
@@ -2399,24 +2407,24 @@ msgstr "不能提交未初始化/未引用的注解树"
 #: builtin/notes.c:340
 #, c-format
 msgid "Bad notes.rewriteMode value: '%s'"
-msgstr "错误的notes.rewriteMode值：'%s'"
+msgstr "错误的 notes.rewriteMode 值：'%s'"
 
 #: builtin/notes.c:350
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr "拒绝向%s(在refs/notes/之外)写入注解"
+msgstr "拒绝向 %s（在 refs/notes/ 之外）写入注解"
 
 #. TRANSLATORS: The first %s is the name of the
 #. environment variable, the second %s is its value
 #: builtin/notes.c:377
 #, c-format
 msgid "Bad %s value: '%s'"
-msgstr "错误的%s值：'%s'"
+msgstr "错误的 %s 值：'%s'"
 
 #: builtin/notes.c:441
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr "畸形的输入行：'%s'。"
+msgstr "非法的输入行：'%s'。"
 
 #: builtin/notes.c:456
 #, c-format
@@ -2432,7 +2440,7 @@ msgstr "参数太多"
 #: builtin/notes.c:513 builtin/notes.c:772
 #, c-format
 msgid "No note found for object %s."
-msgstr "未发现对象%s的注解。"
+msgstr "未发现对象 %s 的注解。"
 
 #: builtin/notes.c:580
 #, c-format
@@ -2440,7 +2448,7 @@ msgid ""
 "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
-"不能添加注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
+"不能添加注解。发现对象 %s 已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:585 builtin/notes.c:662
 #, c-format
@@ -2457,7 +2465,7 @@ msgid ""
 "Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
-"不能拷贝注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
+"不能拷贝注解。发现对象 %s 已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:668
 #, c-format
@@ -2476,7 +2484,7 @@ msgstr ""
 #: builtin/notes.c:971
 #, c-format
 msgid "Object %s has no note\n"
-msgstr "对象%s没有注解\n"
+msgstr "对象 %s 没有注解\n"
 
 #: builtin/notes.c:1103
 #, c-format
@@ -2485,7 +2493,7 @@ msgstr "未知子命令：%s"
 
 #: builtin/push.c:44
 msgid "tag shorthand without <tag>"
-msgstr "tag简写没有跟<tag>参数"
+msgstr "tag 简写没有跟 <tag> 参数"
 
 #: builtin/push.c:63
 msgid "--delete only accepts plain target ref names"
@@ -2602,7 +2610,7 @@ msgstr "--delete 与 --all、--mirror 及 --tags 不兼容"
 
 #: builtin/push.c:274
 msgid "--delete doesn't make sense without any refs"
-msgstr "--delete 没有跟任何引用不合理"
+msgstr "--delete 未接任何引用没有意义"
 
 #: builtin/reset.c:33
 msgid "mixed"
@@ -2626,11 +2634,11 @@ msgstr "保持"
 
 #: builtin/reset.c:77
 msgid "You do not have a valid HEAD."
-msgstr "您没有一个有效的HEAD。"
+msgstr "您没有一个有效的 HEAD。"
 
 #: builtin/reset.c:79
 msgid "Failed to find tree of HEAD."
-msgstr "无法找到HEAD指向的树。"
+msgstr "无法找到 HEAD 指向的树。"
 
 #: builtin/reset.c:85
 #, c-format
@@ -2654,6 +2662,7 @@ msgstr "不能读取暂存区"
 msgid "Unstaged changes after reset:"
 msgstr "重置后变更撤出暂存区："
 
+#  汉字之间无空格，故删除%s前后空格
 #: builtin/reset.c:223
 #, c-format
 msgid "Cannot do a %s reset in the middle of a merge."
@@ -2672,11 +2681,13 @@ msgstr "--patch 与 --{hard,mixed,soft} 不兼容"
 msgid "--mixed with paths is deprecated; use 'git reset -- <paths>' instead."
 msgstr "--mixed 带路径已弃用，代之以 'git reset -- <paths>'。"
 
+#  汉字之间无空格，故删除%s前后空格
 #: builtin/reset.c:313
 #, c-format
 msgid "Cannot do %s reset with paths."
 msgstr "不能带路径进行%s重置。"
 
+#  汉字之间无空格，故删除%s前后空格
 #: builtin/reset.c:325
 #, c-format
 msgid "%s reset is not allowed in a bare repository"
@@ -2730,7 +2741,7 @@ msgstr "您的暂存区文件未完成合并。"
 
 #: builtin/revert.c:502
 msgid "You do not have a valid HEAD"
-msgstr "您没有一个有效的HEAD"
+msgstr "您没有一个有效的 HEAD"
 
 #: builtin/revert.c:517
 #, c-format
@@ -2791,7 +2802,7 @@ msgstr "无法 %s 在 %s 过程中"
 #: builtin/revert.c:774
 #, c-format
 msgid "Could not parse line %d."
-msgstr "无法解析第%d行。"
+msgstr "无法解析第 %d 行。"
 
 #: builtin/revert.c:779
 msgid "No commits parsed."
@@ -2825,7 +2836,7 @@ msgstr "无效的 %s 值：%s"
 #: builtin/revert.c:846
 #, c-format
 msgid "Malformed options sheet: %s"
-msgstr "畸形选项表单：%s"
+msgstr "非法的选项表单：%s"
 
 #: builtin/revert.c:867
 msgid "a cherry-pick or revert is already in progress"
@@ -2851,7 +2862,7 @@ msgstr "没有拣选或还原操作在进行"
 
 #: builtin/revert.c:909
 msgid "cannot resolve HEAD"
-msgstr "不能解析HEAD"
+msgstr "不能解析 HEAD"
 
 #: builtin/revert.c:911
 msgid "cannot abort from a branch yet to be born"
@@ -2874,7 +2885,7 @@ msgstr "未预期的文件结束"
 #: builtin/revert.c:943
 #, c-format
 msgid "stored pre-cherry-pick HEAD file '%s' is corrupt"
-msgstr "保存预拣选提交的HEAD文件 '%s' 损坏"
+msgstr "保存预拣选提交的 HEAD 文件 '%s' 损坏"
 
 #: builtin/revert.c:966
 #, c-format
@@ -2887,7 +2898,7 @@ msgstr "不能作为初始提交还原"
 
 #: builtin/revert.c:1129
 msgid "Can't cherry-pick into empty head"
-msgstr "不能拣选到空head"
+msgstr "不能拣选到空分支"
 
 #: builtin/revert.c:1149
 msgid "revert failed"
@@ -2903,7 +2914,7 @@ msgid ""
 "'%s' has staged content different from both the file and the HEAD\n"
 "(use -f to force removal)"
 msgstr ""
-"'%s' 暂存的内容和工作区文件及HEAD中的都不一样\n"
+"'%s' 暂存的内容和工作区文件及 HEAD 中的都不一样\n"
 "（使用 -f 强制删除）"
 
 #: builtin/rm.c:115
@@ -2942,7 +2953,7 @@ msgstr "缺少作者：%s"
 #: builtin/tag.c:172
 #, c-format
 msgid "tag name too long: %.*s..."
-msgstr "tag名字太长：%.*s..."
+msgstr "tag 名字太长：%.*s..."
 
 #: builtin/tag.c:177
 #, c-format
@@ -2952,12 +2963,12 @@ msgstr "tag '%s' 未发现。"
 #: builtin/tag.c:192
 #, c-format
 msgid "Deleted tag '%s' (was %s)\n"
-msgstr "已删除tag '%s'（曾为 %s）\n"
+msgstr "已删除 tag '%s'（曾为 %s）\n"
 
 #: builtin/tag.c:204
 #, c-format
 msgid "could not verify the tag '%s'"
-msgstr "不能校验tag '%s'"
+msgstr "不能校验 tag '%s'"
 
 #: builtin/tag.c:214
 msgid ""
@@ -2969,7 +2980,7 @@ msgid ""
 msgstr ""
 "\n"
 "#\n"
-"# 输入一个tag说明\n"
+"# 输入一个 tag 说明\n"
 "# 以 '#' 开头的行将被忽略。\n"
 "#\n"
 
@@ -2984,17 +2995,17 @@ msgid ""
 msgstr ""
 "\n"
 "#\n"
-"# 输入一个tag说明\n"
+"# 输入一个 tag 说明\n"
 "# 以 '#' 开头的行将被忽略，您可以删除它们如果您想这样做。\n"
 "#\n"
 
 #: builtin/tag.c:261
 msgid "unable to sign the tag"
-msgstr "无法签署tag"
+msgstr "无法签署 tag"
 
 #: builtin/tag.c:263
 msgid "unable to write tag file"
-msgstr "无法写tag文件"
+msgstr "无法写 tag 文件"
 
 #: builtin/tag.c:288
 msgid "bad object type."
@@ -3002,16 +3013,16 @@ msgstr "无效的对象类型"
 
 #: builtin/tag.c:301
 msgid "tag header too big."
-msgstr "tag头信息太大"
+msgstr "tag 头信息太大"
 
 #: builtin/tag.c:333
 msgid "no tag message?"
-msgstr "无tag说明？"
+msgstr "无 tag 说明？"
 
 #: builtin/tag.c:339
 #, c-format
 msgid "The tag message has been left in %s\n"
-msgstr "tag说明被保留在 %s\n"
+msgstr "tag 说明被保留在 %s\n"
 
 #: builtin/tag.c:448
 msgid "-n option is only allowed with -l."
@@ -3060,7 +3071,7 @@ msgstr "您需要先设置你的提交者信息"
 
 #: git-am.sh:134
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
-msgstr "版本库缺乏必要的blob数据以进行三路合并。"
+msgstr "版本库缺乏必要的 blob 数据以进行三路合并。"
 
 #: git-am.sh:143
 msgid ""
@@ -3076,7 +3087,7 @@ msgstr "转而使用补丁应用的基础版本和三路合并..."
 
 #: git-am.sh:264
 msgid "Only one StGIT patch series can be applied at once"
-msgstr "一次只能有一个StGIT补丁队列被应用"
+msgstr "一次只能有一个 StGIT 补丁队列被应用"
 
 #: git-am.sh:351
 #, sh-format
@@ -3154,7 +3165,7 @@ msgstr "'$arg' 看起来不像是一个有效的版本"
 
 #: git-bisect.sh:117
 msgid "Bad HEAD - I need a HEAD"
-msgstr "坏的HEAD - 我需要一个HEAD"
+msgstr "坏的 HEAD - 我需要一个 HEAD"
 
 #: git-bisect.sh:130
 #, sh-format
@@ -3169,7 +3180,7 @@ msgstr "不会在已查找过的树上二分查找"
 
 #: git-bisect.sh:144
 msgid "Bad HEAD - strange symbolic ref"
-msgstr "错误的HEAD - 奇怪的符号引用"
+msgstr "错误的 HEAD - 奇怪的符号引用"
 
 #: git-bisect.sh:189
 #, sh-format
@@ -3213,7 +3224,7 @@ msgid ""
 "Could not check out original HEAD '$branch'.\n"
 "Try 'git bisect reset <commit>'."
 msgstr ""
-"不能检出原始HEAD '$branch'.\n"
+"不能检出原始 HEAD '$branch'。\n"
 "尝试 'git bisect reset <commit>'。"
 
 #: git-bisect.sh:390
@@ -3227,7 +3238,7 @@ msgstr "不能读取 $file 来重放"
 
 #: git-bisect.sh:408
 msgid "?? what are you talking about?"
-msgstr "？？ 您在说什么？"
+msgstr "?? 您在说什么?"
 
 #: git-bisect.sh:474
 msgid "We are not bisecting."
@@ -3355,7 +3366,7 @@ msgstr "丢弃了 ${REV} ($s)"
 #: git-stash.sh:492
 #, sh-format
 msgid "${REV}: Could not drop stash entry"
-msgstr "${REV}: 无法丢弃stash条目"
+msgstr "${REV}: 无法丢弃进度条目"
 
 #: git-stash.sh:499
 msgid "No branch name specified"
@@ -3368,12 +3379,12 @@ msgstr "（为恢复数据输入 \"git stash apply\"）"
 #: git-submodule.sh:56
 #, sh-format
 msgid "cannot strip one component off url '$remoteurl'"
-msgstr "无法从url '$remoteurl' 剥离一个组件"
+msgstr "无法从 url '$remoteurl' 剥离一个组件"
 
 #: git-submodule.sh:108
 #, sh-format
 msgid "No submodule mapping found in .gitmodules for path '$path'"
-msgstr "未在.gitmodules中发现路径 '$path' 的子模组映射"
+msgstr "未在 .gitmodules 中发现路径 '$path' 的子模组映射"
 
 #: git-submodule.sh:172
 #, sh-format
@@ -3393,7 +3404,7 @@ msgstr "'$path' 已经存在于暂存区中"
 #: git-submodule.sh:280
 #, sh-format
 msgid "'$path' already exists and is not a valid git repo"
-msgstr "'$path' 已存在且不是一个有效的git版本库"
+msgstr "'$path' 已存在且不是一个有效的 git 版本库"
 
 #: git-submodule.sh:294
 #, sh-format
@@ -3423,7 +3434,7 @@ msgstr "停止于 '$path'，脚本返回非零值。"
 #: git-submodule.sh:400
 #, sh-format
 msgid "No url found for submodule path '$path' in .gitmodules"
-msgstr "在.gitmodules中未找到子模组路径 '$path' 的url"
+msgstr "在 .gitmodules 中未找到子模组路径 '$path' 的url"
 
 #: git-submodule.sh:409
 #, sh-format
