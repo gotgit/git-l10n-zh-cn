@@ -2429,11 +2429,11 @@ msgstr "未知子命令：%s"
 
 #: builtin/push.c:44
 msgid "tag shorthand without <tag>"
-msgstr ""
+msgstr "tag简写没有跟<tag>参数"
 
 #: builtin/push.c:63
 msgid "--delete only accepts plain target ref names"
-msgstr ""
+msgstr "--delete 只接受简单的引用名称"
 
 #: builtin/push.c:73
 #, c-format
@@ -2444,6 +2444,10 @@ msgid ""
 "\n"
 "    git push %s HEAD:<name-of-remote-branch>\n"
 msgstr ""
+"您当前不在一个分支上。\n"
+"现在为推送当前历史（分离头指针），使用\n"
+"\n"
+"    git push %s HEAD:<name-of-remote-branch>\n"
 
 #: builtin/push.c:80
 #, c-format
@@ -2453,26 +2457,31 @@ msgid ""
 "\n"
 "    git push --set-upstream %s %s\n"
 msgstr ""
+"当前分支 %s 没有对应的上游分支。\n"
+"为推送当前分支并建立与远程上游的跟踪，使用\n"
+"\n"
+"    git push --set-upstream %s %s\n"
 
 #: builtin/push.c:88
 #, c-format
 msgid "The current branch %s has multiple upstream branches, refusing to push."
-msgstr ""
+msgstr "当前分支 %s 有多个上游分支，拒绝推送。"
 
 #: builtin/push.c:111
 msgid ""
 "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
+"您没有为推送提供任何引用表达式，并且 push.default 为 \"nothing\"。"
 
 #: builtin/push.c:131
 #, c-format
 msgid "Pushing to %s\n"
-msgstr ""
+msgstr "推送到 %s\n"
 
 #: builtin/push.c:135
 #, c-format
 msgid "failed to push some refs to '%s'"
-msgstr ""
+msgstr "无法推送一些引用到 '%s'"
 
 #: builtin/push.c:143
 #, c-format
@@ -2481,11 +2490,14 @@ msgid ""
 "Merge the remote changes (e.g. 'git pull') before pushing again.  See the\n"
 "'Note about fast-forwards' section of 'git push --help' for details.\n"
 msgstr ""
+"为防止您丢失提交历史，禁止非快进式推送。\n"
+"再次推送前先与远程变更合并（如 'git pull'）。详见\n"
+"'git push --help' 中的 'Note about fast-forwards' 小节。\n"
 
 #: builtin/push.c:160
 #, c-format
 msgid "bad repository '%s'"
-msgstr ""
+msgstr "错误的版本库 '%s'"
 
 #: builtin/push.c:161
 msgid ""
@@ -2499,34 +2511,42 @@ msgid ""
 "\n"
 "    git push <name>\n"
 msgstr ""
+"未配置推送目标。\n"
+"或者通过命令行提供URL，或者用下面命令配置一个远程版本库\n"
+"\n"
+"    git remote add <name> <url>\n"
+"\n"
+"然后使用该远程版本库名执行推送\n"
+"\n"
+"    git push <name>\n"
 
 #: builtin/push.c:176
 msgid "--all and --tags are incompatible"
-msgstr ""
+msgstr "--all 和 --tags 不兼容"
 
 #: builtin/push.c:177
 msgid "--all can't be combined with refspecs"
-msgstr ""
+msgstr "--all 不能和引用表达式共用"
 
 #: builtin/push.c:182
 msgid "--mirror and --tags are incompatible"
-msgstr ""
+msgstr "--mirror 和 --tags 不兼容"
 
 #: builtin/push.c:183
 msgid "--mirror can't be combined with refspecs"
-msgstr ""
+msgstr "--mirror 不能和引用表达式共用"
 
 #: builtin/push.c:188
 msgid "--all and --mirror are incompatible"
-msgstr ""
+msgstr "--all 和 --mirror 不兼容"
 
 #: builtin/push.c:272
 msgid "--delete is incompatible with --all, --mirror and --tags"
-msgstr ""
+msgstr "--delete 与 --all、--mirror 及 --tags 不兼容"
 
 #: builtin/push.c:274
 msgid "--delete doesn't make sense without any refs"
-msgstr ""
+msgstr "--delete 没有跟任何引用不合理"
 
 #: builtin/reset.c:33
 msgid "mixed"
