@@ -3442,22 +3442,22 @@ msgstr "无法递归进子模组路径 '$path'"
 
 #: git-submodule.sh:707
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: git-submodule.sh:765
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_src"
-msgstr "警告：$name 未包含提交 $sha1_src "
+msgstr "  警告：$name 未包含提交 $sha1_src "
 
 #: git-submodule.sh:768
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_dst"
-msgstr "警告：$name 未包含提交 $sha1_dst"
+msgstr "  警告：$name 未包含提交 $sha1_dst"
 
 #: git-submodule.sh:771
 #, sh-format
 msgid "  Warn: $name doesn't contain commits $sha1_src and $sha1_dst"
-msgstr "警告：$name 未包含提交 $sha1_src 和 $sha1_dst"
+msgstr "  警告：$name 未包含提交 $sha1_src 和 $sha1_dst"
 
 #: git-submodule.sh:796
 msgid "blob"
