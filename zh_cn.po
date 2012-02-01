@@ -2,7 +2,9 @@
 # Git 软件包的简体中文翻译.
 # Copyright (C) 2012 Jiang Xin <worldhello.net@gmail.com>
 # This file is distributed under the same license as the Git package.
-# Jiang Xin <worldhello.net@gmail.com>, 2012.
+# Contributers:
+#   - Jiang Xin <worldhello.net@gmail.com>
+#   - riku <lu.riku@gmail.com>
 #
 msgid ""
 msgstr ""
@@ -10,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2012-01-30 00:00+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
-"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Last-Translator: riku <lu.riku@gmail.com>\n"
 "Language-Team: Git Mailing List <git@vger.kernel.org>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
@@ -239,7 +241,7 @@ msgstr "bug: 未处理的diff状态 %c"
 
 #: wt-status.c:713
 msgid "On branch "
-msgstr "于分支 "
+msgstr "位于分支 "
 
 #: wt-status.c:720
 msgid "Not currently on any branch."
@@ -291,7 +293,7 @@ msgstr " （使用 \"git add\" 建立跟踪）"
 #: wt-status.c:769 wt-status.c:772 wt-status.c:775
 #, c-format
 msgid "nothing to commit%s\n"
-msgstr "空提交%s\n"
+msgstr "无须提交%s\n"
 
 #: wt-status.c:770
 msgid " (create/copy files and use \"git add\" to track)"
@@ -869,27 +871,27 @@ msgstr ""
 #: builtin/clean.c:155 builtin/clean.c:176
 #, c-format
 msgid "Would remove %s\n"
-msgstr "将移除 %s\n"
+msgstr "将删除 %s\n"
 
 #: builtin/clean.c:159 builtin/clean.c:179
 #, c-format
 msgid "Removing %s\n"
-msgstr "正移除 %s\n"
+msgstr "正删除 %s\n"
 
 #: builtin/clean.c:162 builtin/clean.c:182
 #, c-format
 msgid "failed to remove %s"
-msgstr "无法移除 %s"
+msgstr "无法删除 %s"
 
 #: builtin/clean.c:166
 #, c-format
 msgid "Would not remove %s\n"
-msgstr "不会移除 %s\n"
+msgstr "不会删除 %s\n"
 
 #: builtin/clean.c:168
 #, c-format
 msgid "Not removing %s\n"
-msgstr "未移除 %s\n"
+msgstr "未删除 %s\n"
 
 #: builtin/clone.c:244
 #, c-format
@@ -947,7 +949,7 @@ msgstr "太多参数。"
 
 #: builtin/clone.c:498
 msgid "You must specify a repository to clone."
-msgstr "您必须提供一个要克隆的版本库。"
+msgstr "你必须指定一个版本库来克隆"
 
 #: builtin/clone.c:506
 #, c-format
@@ -991,7 +993,7 @@ msgstr "克隆到裸版本库 '%s'...\n"
 #: builtin/clone.c:582
 #, c-format
 msgid "Cloning into '%s'...\n"
-msgstr "克隆到 '%s'...\n"
+msgstr "正克隆到 '%s'...\n"
 
 #: builtin/clone.c:641
 #, c-format
@@ -1104,16 +1106,16 @@ msgstr "畸形的识别字串：'%s'"
 #: builtin/commit.c:664 builtin/commit.c:697 builtin/commit.c:994
 #, c-format
 msgid "could not lookup commit %s"
-msgstr "无法查询提交 %s"
+msgstr "不能查询提交 %s"
 
 #: builtin/commit.c:676 builtin/shortlog.c:296
 #, c-format
 msgid "(reading log message from standard input)\n"
-msgstr "（正从标准输入读取说明信息）\n"
+msgstr "（正从标准输入中读取说明信息）\n"
 
 #: builtin/commit.c:678
 msgid "could not read log from standard input"
-msgstr "无法从标准输入读取说明信息"
+msgstr "无法从标准输入中读取说明信息"
 
 #: builtin/commit.c:682
 #, c-format
@@ -1157,13 +1159,13 @@ msgid ""
 msgstr ""
 "\n"
 "看起来您正在提交一个%s。\n"
-"如果不是这样，请移除文件\n"
+"如果不是这样，请删除文件\n"
 "\t%s\n"
 "然后重试。\n"
 
 #: builtin/commit.c:790
 msgid "Please enter the commit message for your changes."
-msgstr "请针对您所做的变更输入提交说明。"
+msgstr "请为您的修改输入提交说明。"
 
 #: builtin/commit.c:793
 msgid ""
@@ -1337,27 +1339,27 @@ msgstr ""
 #: builtin/describe.c:234
 #, c-format
 msgid "annotated tag %s not available"
-msgstr ""
+msgstr "注释 tag %s 无效"
 
 #: builtin/describe.c:238
 #, c-format
 msgid "annotated tag %s has no embedded name"
-msgstr ""
+msgstr "注释 tag %s 没有嵌入名称"
 
 #: builtin/describe.c:240
 #, c-format
 msgid "tag '%s' is really '%s' here"
-msgstr ""
+msgstr "tag '%s' 确是在 '%s'"
 
 #: builtin/describe.c:267
 #, c-format
 msgid "Not a valid object name %s"
-msgstr ""
+msgstr "不是一个有效的对象名 %s"
 
 #: builtin/describe.c:270
 #, c-format
 msgid "%s is not a valid '%s' object"
-msgstr ""
+msgstr "%s 不是一个有效的 '%s' 对象"
 
 #: builtin/describe.c:287
 #, c-format
@@ -1367,12 +1369,12 @@ msgstr "没有标签准确匹配 '%s'"
 #: builtin/describe.c:289
 #, c-format
 msgid "searching to describe %s\n"
-msgstr ""
+msgstr "搜索描述 %s\n"
 
 #: builtin/describe.c:329
 #, c-format
 msgid "finished search at %s\n"
-msgstr ""
+msgstr "完成搜索 %s\n"
 
 #: builtin/describe.c:353
 #, c-format
@@ -1380,6 +1382,8 @@ msgid ""
 "No annotated tags can describe '%s'.\n"
 "However, there were unannotated tags: try --tags."
 msgstr ""
+"没有注释 tag 能描述 '%s'。\n"
+"然而，有非注释 tag：尝试 --tags。"
 
 #: builtin/describe.c:357
 #, c-format
@@ -1387,11 +1391,12 @@ msgid ""
 "No tags can describe '%s'.\n"
 "Try --always, or create some tags."
 msgstr ""
-
+"没有注释 tag 能描述 '%s'。\n"
+"尝试 --always，或创建一些 tag。"
 #: builtin/describe.c:378
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr ""
+msgstr "已遍历 %lu 个提交\n"
 
 #: builtin/describe.c:381
 #, c-format
@@ -1399,107 +1404,109 @@ msgid ""
 "more than %i tags found; listed %i most recent\n"
 "gave up search at %s\n"
 msgstr ""
+"发现多于 %i 个 tag；列出最近的 %i 个\n"
+"放弃搜索 %s\n"
 
 #: builtin/describe.c:436
 msgid "--long is incompatible with --abbrev=0"
-msgstr ""
+msgstr "--long 与 --abbrev=0 不兼容"
 
 #: builtin/describe.c:462
 msgid "No names found, cannot describe anything."
-msgstr ""
+msgstr "没有发现名称，无法描述任何东西"
 
 #: builtin/describe.c:482
 msgid "--dirty is incompatible with committishes"
-msgstr ""
+msgstr "--dirty 不能与提交共用"
 
 #: builtin/diff.c:77
 #, c-format
 msgid "'%s': not a regular file or symlink"
-msgstr ""
+msgstr "'%s'：不是一个正规文件或符号链接"
 
 #: builtin/diff.c:220
 #, c-format
 msgid "invalid option: %s"
-msgstr ""
+msgstr "无效选项：%s"
 
 #: builtin/diff.c:293
 msgid "Not a git repository"
-msgstr ""
+msgstr "不是一个git版本库"
 
 #: builtin/diff.c:343
 #, c-format
 msgid "invalid object '%s' given."
-msgstr ""
+msgstr "提供了无效对象 '%s'。"
 
 #: builtin/diff.c:348
 #, c-format
 msgid "more than %d trees given: '%s'"
-msgstr ""
+msgstr "提供了超过%d个树对象：'%s'"
 
 #: builtin/diff.c:358
 #, c-format
 msgid "more than two blobs given: '%s'"
-msgstr ""
+msgstr "提供了超过两个blob对象：'%s'"
 
 #: builtin/diff.c:366
 #, c-format
 msgid "unhandled object '%s' given."
-msgstr ""
+msgstr "提供了无法处理的对象 '%s'。"
 
 #: builtin/fetch.c:200
 msgid "Couldn't find remote ref HEAD"
-msgstr ""
+msgstr "无法发现远程HEAD引用"
 
 #: builtin/fetch.c:252
 #, c-format
 msgid "object %s not found"
-msgstr ""
+msgstr "对象 %s 未发现"
 
 #: builtin/fetch.c:258
 msgid "[up to date]"
-msgstr ""
+msgstr "[最新]"
 
 #: builtin/fetch.c:272
 #, c-format
 msgid "! %-*s %-*s -> %s  (can't fetch in current branch)"
-msgstr ""
+msgstr "! %-*s %-*s -> %s  （在当前分支下不能获取）"
 
 #: builtin/fetch.c:273 builtin/fetch.c:351
 msgid "[rejected]"
-msgstr ""
+msgstr "[已拒绝]"
 
 #: builtin/fetch.c:284
 msgid "[tag update]"
-msgstr ""
+msgstr "[tag更新]"
 
 #: builtin/fetch.c:286 builtin/fetch.c:313 builtin/fetch.c:331
 msgid "  (unable to update local ref)"
-msgstr ""
+msgstr "  （不能更新本地引用）"
 
 #: builtin/fetch.c:298
 msgid "[new tag]"
-msgstr ""
+msgstr "[新tag]"
 
 #: builtin/fetch.c:302
 msgid "[new branch]"
-msgstr ""
+msgstr "[新分支]"
 
 #: builtin/fetch.c:347
 msgid "unable to update local ref"
-msgstr ""
+msgstr "不能更新本地引用"
 
 #: builtin/fetch.c:347
 msgid "forced update"
-msgstr ""
+msgstr "强制更新"
 
 #: builtin/fetch.c:353
 msgid "(non-fast-forward)"
-msgstr ""
+msgstr "（非快进式推送）"
 
 #: builtin/fetch.c:384 builtin/fetch.c:676
 #, c-format
 msgid "cannot open %s: %s\n"
-msgstr ""
+msgstr "无法打开 %s：%s\n"
 
 #: builtin/fetch.c:393
 #, c-format
@@ -1559,12 +1566,12 @@ msgstr ""
 #: builtin/fetch.c:879
 #, c-format
 msgid "Fetching %s\n"
-msgstr ""
+msgstr "正获取 %s\n"
 
 #: builtin/fetch.c:881
 #, c-format
 msgid "Could not fetch %s"
-msgstr ""
+msgstr "不能获取 %s"
 
 #: builtin/fetch.c:898
 msgid ""
@@ -1596,11 +1603,11 @@ msgstr ""
 #: builtin/gc.c:63
 #, c-format
 msgid "Invalid %s: '%s'"
-msgstr ""
+msgstr "无效的 %s：'%s'"
 
 #: builtin/gc.c:78
 msgid "Too many options specified"
-msgstr ""
+msgstr "指定了太多的选项"
 
 #: builtin/gc.c:103
 #, c-format
@@ -1647,12 +1654,12 @@ msgstr ""
 #: builtin/grep.c:514
 #, c-format
 msgid "Failed to chdir: %s"
-msgstr ""
+msgstr "无法切换目录：%s"
 
 #: builtin/grep.c:590 builtin/grep.c:624
 #, c-format
 msgid "unable to read tree (%s)"
-msgstr ""
+msgstr "无法读取代码树（%s）"
 
 #: builtin/grep.c:638
 #, c-format
@@ -1667,7 +1674,7 @@ msgstr ""
 #: builtin/grep.c:713
 #, c-format
 msgid "cannot open '%s'"
-msgstr ""
+msgstr "不能打开 '%s'"
 
 #: builtin/grep.c:1001
 msgid "no pattern given."
@@ -1808,7 +1815,7 @@ msgstr ""
 
 #: builtin/init-db.c:421
 msgid " shared"
-msgstr ""
+msgstr "共享的"
 
 #: builtin/init-db.c:440
 msgid "cannot tell cwd"
@@ -1817,12 +1824,12 @@ msgstr ""
 #: builtin/init-db.c:521 builtin/init-db.c:528
 #, c-format
 msgid "cannot mkdir %s"
-msgstr ""
+msgstr "不能创建目录 %s"
 
 #: builtin/init-db.c:532
 #, c-format
 msgid "cannot chdir to %s"
-msgstr ""
+msgstr "不能切换目录到 %s"
 
 #: builtin/init-db.c:554
 #, c-format
@@ -1833,12 +1840,12 @@ msgstr ""
 
 #: builtin/init-db.c:578
 msgid "Cannot access current working directory"
-msgstr ""
+msgstr "不能访问当前工作目录"
 
 #: builtin/init-db.c:585
 #, c-format
 msgid "Cannot access work tree '%s'"
-msgstr ""
+msgstr "不能访问工作区 '%s'"
 
 #: builtin/log.c:185
 #, c-format
@@ -1859,7 +1866,7 @@ msgstr ""
 #: builtin/log.c:503
 #, c-format
 msgid "Unknown type: %d"
-msgstr ""
+msgstr "未知类型：%d"
 
 #: builtin/log.c:592
 msgid "format.headers without value"
@@ -1880,7 +1887,7 @@ msgstr ""
 
 #: builtin/log.c:698
 msgid "Not a range."
-msgstr ""
+msgstr "不是一个范围。"
 
 #: builtin/log.c:735
 msgid "Could not extract email from committer identity."
@@ -1940,7 +1947,7 @@ msgstr ""
 
 #: builtin/log.c:1406
 msgid "Failed to create output files"
-msgstr ""
+msgstr "无法创建输出文件"
 
 #: builtin/log.c:1510
 #, c-format
@@ -1951,7 +1958,7 @@ msgstr ""
 #: builtin/log.c:1526 builtin/log.c:1528 builtin/log.c:1540
 #, c-format
 msgid "Unknown commit %s"
-msgstr ""
+msgstr "未知提交 %s"
 
 #: builtin/merge.c:91
 msgid "switch `m' requires a value"
@@ -2272,54 +2279,54 @@ msgstr ""
 #: builtin/notes.c:139
 #, c-format
 msgid "unable to start 'show' for object '%s'"
-msgstr ""
+msgstr "不能为对象 '%s' 开始 'show'"
 
 #: builtin/notes.c:145
 msgid "can't fdopen 'show' output fd"
-msgstr ""
+msgstr "不能打开 'show' 输出文件句柄"
 
 #: builtin/notes.c:155
 #, c-format
 msgid "failed to close pipe to 'show' for object '%s'"
-msgstr ""
+msgstr "无法为对象 '%s' 的 'show' 关闭管道"
 
 #: builtin/notes.c:158
 #, c-format
 msgid "failed to finish 'show' for object '%s'"
-msgstr ""
+msgstr "无法为对象 '%s' 完成 'show'"
 
 #: builtin/notes.c:175 builtin/tag.c:310
 #, c-format
 msgid "could not create file '%s'"
-msgstr ""
+msgstr "不能创建文件 '%s'"
 
 #: builtin/notes.c:189
 msgid "Please supply the note contents using either -m or -F option"
-msgstr ""
+msgstr "请通过 -m 或 -F 选项为注解提供内容"
 
 #: builtin/notes.c:210 builtin/notes.c:973
 #, c-format
 msgid "Removing note for object %s\n"
-msgstr ""
+msgstr "删除对象 %s 的注解\n"
 
 #: builtin/notes.c:215
 msgid "unable to write note object"
-msgstr ""
+msgstr "不能写注解对象"
 
 #: builtin/notes.c:217
 #, c-format
 msgid "The note contents has been left in %s"
-msgstr ""
+msgstr "注解内容被留在文件 %s 中"
 
 #: builtin/notes.c:251 builtin/tag.c:465
 #, c-format
 msgid "cannot read '%s'"
-msgstr ""
+msgstr "不能读取 '%s'"
 
 #: builtin/notes.c:253 builtin/tag.c:468
 #, c-format
 msgid "could not open or read '%s'"
-msgstr ""
+msgstr "不能打开或读取 '%s'"
 
 #: builtin/notes.c:272 builtin/notes.c:445 builtin/notes.c:447
 #: builtin/notes.c:507 builtin/notes.c:561 builtin/notes.c:644
@@ -2327,54 +2334,54 @@ msgstr ""
 #: builtin/notes.c:968 builtin/reset.c:293 builtin/tag.c:481
 #, c-format
 msgid "Failed to resolve '%s' as a valid ref."
-msgstr ""
+msgstr "无法解析 '%s' 为一个有效引用"
 
 #: builtin/notes.c:275
 #, c-format
 msgid "Failed to read object '%s'."
-msgstr ""
+msgstr "无法读取对象 '%s'。"
 
 #: builtin/notes.c:299
 msgid "Cannot commit uninitialized/unreferenced notes tree"
-msgstr ""
+msgstr "不能提交未初始化/未引用的注解树"
 
 #: builtin/notes.c:340
 #, c-format
 msgid "Bad notes.rewriteMode value: '%s'"
-msgstr ""
+msgstr "错误的notes.rewriteMode值：'%s'"
 
 #: builtin/notes.c:350
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr ""
+msgstr "拒绝向%s(在refs/notes/之外)写入注解"
 
 #. TRANSLATORS: The first %s is the name of the
 #. environment variable, the second %s is its value
 #: builtin/notes.c:377
 #, c-format
 msgid "Bad %s value: '%s'"
-msgstr ""
+msgstr "错误的%s值：'%s'"
 
 #: builtin/notes.c:441
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr ""
+msgstr "畸形的输入行：'%s'。"
 
 #: builtin/notes.c:456
 #, c-format
 msgid "Failed to copy notes from '%s' to '%s'"
-msgstr ""
+msgstr "无法从 '%s' 拷贝注解到 '%s'"
 
 #: builtin/notes.c:500 builtin/notes.c:554 builtin/notes.c:627
 #: builtin/notes.c:639 builtin/notes.c:712 builtin/notes.c:759
 #: builtin/notes.c:1033
 msgid "too many parameters"
-msgstr ""
+msgstr "参数太多"
 
 #: builtin/notes.c:513 builtin/notes.c:772
 #, c-format
 msgid "No note found for object %s."
-msgstr ""
+msgstr "未发现对象%s的注解。"
 
 #: builtin/notes.c:580
 #, c-format
@@ -2382,15 +2389,16 @@ msgid ""
 "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"不能添加注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:585 builtin/notes.c:662
 #, c-format
 msgid "Overwriting existing notes for object %s\n"
-msgstr ""
+msgstr "覆盖对象 %s 现存注解\n"
 
 #: builtin/notes.c:635
 msgid "too few parameters"
-msgstr ""
+msgstr "参数太少"
 
 #: builtin/notes.c:656
 #, c-format
@@ -2398,11 +2406,12 @@ msgid ""
 "Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"不能拷贝注解。发现对象%s已存在注解。使用 '-f' 覆盖现存注解"
 
 #: builtin/notes.c:668
 #, c-format
 msgid "Missing notes on source object %s. Cannot copy."
-msgstr ""
+msgstr "源对象 %s 缺少注解。不能拷贝。"
 
 #: builtin/notes.c:717
 #, c-format
@@ -2410,24 +2419,26 @@ msgid ""
 "The -m/-F/-c/-C options have been deprecated for the 'edit' subcommand.\n"
 "Please use 'git notes add -f -m/-F/-c/-C' instead.\n"
 msgstr ""
+"选项 -m/-F/-c/-C 已为 'edit' 子命令废弃。\n"
+"请换用 'git notes add -f -m/-F/-c/-C'。\n"
 
 #: builtin/notes.c:971
 #, c-format
 msgid "Object %s has no note\n"
-msgstr ""
+msgstr "对象%s没有注解\n"
 
 #: builtin/notes.c:1103
 #, c-format
 msgid "Unknown subcommand: %s"
-msgstr ""
+msgstr "未知子命令：%s"
 
 #: builtin/push.c:44
 msgid "tag shorthand without <tag>"
-msgstr ""
+msgstr "tag简写没有跟<tag>参数"
 
 #: builtin/push.c:63
 msgid "--delete only accepts plain target ref names"
-msgstr ""
+msgstr "--delete 只接受简单的引用名称"
 
 #: builtin/push.c:73
 #, c-format
@@ -2438,6 +2449,10 @@ msgid ""
 "\n"
 "    git push %s HEAD:<name-of-remote-branch>\n"
 msgstr ""
+"您当前不在一个分支上。\n"
+"现在为推送当前历史（分离头指针），使用\n"
+"\n"
+"    git push %s HEAD:<name-of-remote-branch>\n"
 
 #: builtin/push.c:80
 #, c-format
@@ -2447,26 +2462,31 @@ msgid ""
 "\n"
 "    git push --set-upstream %s %s\n"
 msgstr ""
+"当前分支 %s 没有对应的上游分支。\n"
+"为推送当前分支并建立与远程上游的跟踪，使用\n"
+"\n"
+"    git push --set-upstream %s %s\n"
 
 #: builtin/push.c:88
 #, c-format
 msgid "The current branch %s has multiple upstream branches, refusing to push."
-msgstr ""
+msgstr "当前分支 %s 有多个上游分支，拒绝推送。"
 
 #: builtin/push.c:111
 msgid ""
 "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
+"您没有为推送提供任何引用表达式，并且 push.default 为 \"nothing\"。"
 
 #: builtin/push.c:131
 #, c-format
 msgid "Pushing to %s\n"
-msgstr ""
+msgstr "推送到 %s\n"
 
 #: builtin/push.c:135
 #, c-format
 msgid "failed to push some refs to '%s'"
-msgstr ""
+msgstr "无法推送一些引用到 '%s'"
 
 #: builtin/push.c:143
 #, c-format
@@ -2475,11 +2495,14 @@ msgid ""
 "Merge the remote changes (e.g. 'git pull') before pushing again.  See the\n"
 "'Note about fast-forwards' section of 'git push --help' for details.\n"
 msgstr ""
+"为防止您丢失提交历史，禁止非快进式推送。\n"
+"再次推送前先与远程变更合并（如 'git pull'）。详见\n"
+"'git push --help' 中的 'Note about fast-forwards' 小节。\n"
 
 #: builtin/push.c:160
 #, c-format
 msgid "bad repository '%s'"
-msgstr ""
+msgstr "错误的版本库 '%s'"
 
 #: builtin/push.c:161
 msgid ""
@@ -2493,34 +2516,42 @@ msgid ""
 "\n"
 "    git push <name>\n"
 msgstr ""
+"未配置推送目标。\n"
+"或者通过命令行提供URL，或者用下面命令配置一个远程版本库\n"
+"\n"
+"    git remote add <name> <url>\n"
+"\n"
+"然后使用该远程版本库名执行推送\n"
+"\n"
+"    git push <name>\n"
 
 #: builtin/push.c:176
 msgid "--all and --tags are incompatible"
-msgstr ""
+msgstr "--all 和 --tags 不兼容"
 
 #: builtin/push.c:177
 msgid "--all can't be combined with refspecs"
-msgstr ""
+msgstr "--all 不能和引用表达式共用"
 
 #: builtin/push.c:182
 msgid "--mirror and --tags are incompatible"
-msgstr ""
+msgstr "--mirror 和 --tags 不兼容"
 
 #: builtin/push.c:183
 msgid "--mirror can't be combined with refspecs"
-msgstr ""
+msgstr "--mirror 不能和引用表达式共用"
 
 #: builtin/push.c:188
 msgid "--all and --mirror are incompatible"
-msgstr ""
+msgstr "--all 和 --mirror 不兼容"
 
 #: builtin/push.c:272
 msgid "--delete is incompatible with --all, --mirror and --tags"
-msgstr ""
+msgstr "--delete 与 --all、--mirror 及 --tags 不兼容"
 
 #: builtin/push.c:274
 msgid "--delete doesn't make sense without any refs"
-msgstr ""
+msgstr "--delete 没有跟任何引用不合理"
 
 #: builtin/reset.c:33
 msgid "mixed"
@@ -2603,217 +2634,217 @@ msgstr ""
 #: builtin/reset.c:341
 #, c-format
 msgid "Could not reset index file to revision '%s'."
-msgstr ""
+msgstr "不能重置暂存区至版本 '%s'。"
 
 #: builtin/revert.c:114 builtin/revert.c:135
 #, c-format
 msgid "%s: %s cannot be used with %s"
-msgstr ""
+msgstr "%s: %s 不能和 %s 共用"
 
 #: builtin/revert.c:170
 msgid "program error"
-msgstr ""
+msgstr "程序错误"
 
 #: builtin/revert.c:360 builtin/revert.c:886 builtin/revert.c:969
 #, c-format
 msgid "Could not write to %s"
-msgstr ""
+msgstr "不能写入 %s"
 
 #: builtin/revert.c:363
 #, c-format
 msgid "Error wrapping up %s"
-msgstr ""
+msgstr "错误收尾 %s"
 
 #: builtin/revert.c:378
 msgid "Your local changes would be overwritten by cherry-pick."
-msgstr ""
+msgstr "您的本地修改将被拣选操作覆盖。"
 
 #: builtin/revert.c:380
 msgid "Your local changes would be overwritten by revert."
-msgstr ""
+msgstr "您的本地修改将被还原操作覆盖。"
 
 #: builtin/revert.c:383
 msgid "Commit your changes or stash them to proceed."
-msgstr ""
+msgstr "提交您的修改或保存进度后再继续。"
 
 #. TRANSLATORS: %s will be "revert" or "cherry-pick"
 #: builtin/revert.c:433
 #, c-format
 msgid "%s: Unable to write new index file"
-msgstr ""
+msgstr "%s：无法写入新暂存区文件"
 
 #: builtin/revert.c:499
 msgid "Your index file is unmerged."
-msgstr ""
+msgstr "您的暂存区文件未完成合并。"
 
 #: builtin/revert.c:502
 msgid "You do not have a valid HEAD"
-msgstr ""
+msgstr "您没有一个有效的HEAD"
 
 #: builtin/revert.c:517
 #, c-format
 msgid "Commit %s is a merge but no -m option was given."
-msgstr ""
+msgstr "提交 %s 是一个合并提交但未提供 -m 选项。"
 
 #: builtin/revert.c:525
 #, c-format
 msgid "Commit %s does not have parent %d"
-msgstr ""
+msgstr "提交 %s 没有父提交 %d"
 
 #: builtin/revert.c:529
 #, c-format
 msgid "Mainline was specified but commit %s is not a merge."
-msgstr ""
+msgstr "提供了主线但提交 %s 不是一个合并。"
 
 #. TRANSLATORS: The first %s will be "revert" or
 #. "cherry-pick", the second %s a SHA1
 #: builtin/revert.c:540
 #, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr ""
+msgstr "%s：不能解析父提交 %s"
 
 #: builtin/revert.c:544
 #, c-format
 msgid "Cannot get commit message for %s"
-msgstr ""
+msgstr "不能得到 %s 的提交说明"
 
 #: builtin/revert.c:628
 #, c-format
 msgid "could not revert %s... %s"
-msgstr ""
+msgstr "不能还原 %s... %s"
 
 #: builtin/revert.c:629
 #, c-format
 msgid "could not apply %s... %s"
-msgstr ""
+msgstr "不能应用 %s... %s"
 
 #: builtin/revert.c:654
 msgid "empty commit set passed"
-msgstr ""
+msgstr "提供了空的提交集"
 
 #: builtin/revert.c:662
 #, c-format
 msgid "git %s: failed to read the index"
-msgstr ""
+msgstr "git %s: 无法读取暂存区"
 
 #: builtin/revert.c:667
 #, c-format
 msgid "git %s: failed to refresh the index"
-msgstr ""
+msgstr "git %s: 无法刷新暂存区"
 
 #: builtin/revert.c:752
 #, c-format
 msgid "Cannot %s during a %s"
-msgstr ""
+msgstr "无法 %s 在 %s 过程中"
 
 #: builtin/revert.c:774
 #, c-format
 msgid "Could not parse line %d."
-msgstr ""
+msgstr "无法解析第%d行。"
 
 #: builtin/revert.c:779
 msgid "No commits parsed."
-msgstr ""
+msgstr "未有提交被解析。"
 
 #: builtin/revert.c:792
 #, c-format
 msgid "Could not open %s"
-msgstr ""
+msgstr "不能打开 %s"
 
 #: builtin/revert.c:796
 #, c-format
 msgid "Could not read %s."
-msgstr ""
+msgstr "不能读取 %s。"
 
 #: builtin/revert.c:803
 #, c-format
 msgid "Unusable instruction sheet: %s"
-msgstr ""
+msgstr "无用的指令表单：%s"
 
 #: builtin/revert.c:831
 #, c-format
 msgid "Invalid key: %s"
-msgstr ""
+msgstr "无效键名：%s"
 
 #: builtin/revert.c:834
 #, c-format
 msgid "Invalid value for %s: %s"
-msgstr ""
+msgstr "无效的 %s 值：%s"
 
 #: builtin/revert.c:846
 #, c-format
 msgid "Malformed options sheet: %s"
-msgstr ""
+msgstr "畸形选项表单：%s"
 
 #: builtin/revert.c:867
 msgid "a cherry-pick or revert is already in progress"
-msgstr ""
+msgstr "一个拣选或还原操作已在进行"
 
 #: builtin/revert.c:868
 msgid "try \"git cherry-pick (--continue | --quit | --abort)\""
-msgstr ""
+msgstr "尝试 \"git cherry-pick (--continue | --quit | --abort)\""
 
 #: builtin/revert.c:872
 #, c-format
 msgid "Could not create sequencer directory %s"
-msgstr ""
+msgstr "无法创建序列目录 %s"
 
 #: builtin/revert.c:888 builtin/revert.c:973
 #, c-format
 msgid "Error wrapping up %s."
-msgstr ""
+msgstr "错误收尾 %s。"
 
 #: builtin/revert.c:907 builtin/revert.c:1041
 msgid "no cherry-pick or revert in progress"
-msgstr ""
+msgstr "没有拣选或还原操作在进行"
 
 #: builtin/revert.c:909
 msgid "cannot resolve HEAD"
-msgstr ""
+msgstr "不能解析HEAD"
 
 #: builtin/revert.c:911
 msgid "cannot abort from a branch yet to be born"
-msgstr ""
+msgstr "不能从未初始分支终止"
 
 #: builtin/revert.c:933
 #, c-format
 msgid "cannot open %s: %s"
-msgstr ""
+msgstr "不能打开 %s：%s"
 
 #: builtin/revert.c:936
 #, c-format
 msgid "cannot read %s: %s"
-msgstr ""
+msgstr "不能读取 %s：%s"
 
 #: builtin/revert.c:937
 msgid "unexpected end of file"
-msgstr ""
+msgstr "未预期的文件结束"
 
 #: builtin/revert.c:943
 #, c-format
 msgid "stored pre-cherry-pick HEAD file '%s' is corrupt"
-msgstr ""
+msgstr "保存预拣选提交的HEAD文件 '%s' 损坏"
 
 #: builtin/revert.c:966
 #, c-format
 msgid "Could not format %s."
-msgstr ""
+msgstr "不能格式化 %s。"
 
 #: builtin/revert.c:1128
 msgid "Can't revert as initial commit"
-msgstr ""
+msgstr "不能作为初始提交还原"
 
 #: builtin/revert.c:1129
 msgid "Can't cherry-pick into empty head"
-msgstr ""
+msgstr "不能拣选到空head"
 
 #: builtin/revert.c:1149
 msgid "revert failed"
-msgstr ""
+msgstr "还原失败"
 
 #: builtin/revert.c:1164
 msgid "cherry-pick failed"
-msgstr ""
+msgstr "拣选失败"
 
 #: builtin/rm.c:109
 #, c-format
@@ -2821,6 +2852,8 @@ msgid ""
 "'%s' has staged content different from both the file and the HEAD\n"
 "(use -f to force removal)"
 msgstr ""
+"'%s' 暂存的内容和工作区文件及HEAD中的都不一样\n"
+"（使用 -f 强制删除）"
 
 #: builtin/rm.c:115
 #, c-format
@@ -2828,6 +2861,8 @@ msgid ""
 "'%s' has changes staged in the index\n"
 "(use --cached to keep the file, or -f to force removal)"
 msgstr ""
+"'%s' 有变更已加入暂存区中\n"
+"（使用 --cached 保存文件，或用 -f 强制删除）"
 
 #: builtin/rm.c:119
 #, c-format
@@ -2835,41 +2870,43 @@ msgid ""
 "'%s' has local modifications\n"
 "(use --cached to keep the file, or -f to force removal)"
 msgstr ""
+"'%s' 有本地修改\n"
+"（使用 --cached 保存文件，或用 -f 强制删除）"
 
 #: builtin/rm.c:194
 #, c-format
 msgid "not removing '%s' recursively without -r"
-msgstr ""
+msgstr "未提供 -r 选项不会递归删除 '%s'"
 
 #: builtin/rm.c:230
 #, c-format
 msgid "git rm: unable to remove %s"
-msgstr ""
+msgstr "git rm：不能删除 %s"
 
 #: builtin/shortlog.c:157
 #, c-format
 msgid "Missing author: %s"
-msgstr ""
+msgstr "缺少作者：%s"
 
 #: builtin/tag.c:172
 #, c-format
 msgid "tag name too long: %.*s..."
-msgstr ""
+msgstr "tag名字太长：%.*s..."
 
 #: builtin/tag.c:177
 #, c-format
 msgid "tag '%s' not found."
-msgstr ""
+msgstr "tag '%s' 未发现。"
 
 #: builtin/tag.c:192
 #, c-format
 msgid "Deleted tag '%s' (was %s)\n"
-msgstr ""
+msgstr "已删除tag '%s'（曾为 %s）\n"
 
 #: builtin/tag.c:204
 #, c-format
 msgid "could not verify the tag '%s'"
-msgstr ""
+msgstr "不能校验tag '%s'"
 
 #: builtin/tag.c:214
 msgid ""
@@ -2879,6 +2916,11 @@ msgid ""
 "# Lines starting with '#' will be ignored.\n"
 "#\n"
 msgstr ""
+"\n"
+"#\n"
+"# 输入一个tag说明\n"
+"# 以 '#' 开头的行将被忽略。\n"
+"#\n"
 
 #: builtin/tag.c:221
 msgid ""
@@ -2889,219 +2931,227 @@ msgid ""
 "want to.\n"
 "#\n"
 msgstr ""
+"\n"
+"#\n"
+"# 输入一个tag说明\n"
+"# 以 '#' 开头的行将被忽略，您可以删除它们如果您想这样做。\n"
+"#\n"
 
 #: builtin/tag.c:261
 msgid "unable to sign the tag"
-msgstr ""
+msgstr "无法签署tag"
 
 #: builtin/tag.c:263
 msgid "unable to write tag file"
-msgstr ""
+msgstr "无法写tag文件"
 
 #: builtin/tag.c:288
 msgid "bad object type."
-msgstr ""
+msgstr "无效的对象类型"
 
 #: builtin/tag.c:301
 msgid "tag header too big."
-msgstr ""
+msgstr "tag头信息太大"
 
 #: builtin/tag.c:333
 msgid "no tag message?"
-msgstr ""
+msgstr "无tag说明？"
 
 #: builtin/tag.c:339
 #, c-format
 msgid "The tag message has been left in %s\n"
-msgstr ""
+msgstr "tag说明被保留在 %s\n"
 
 #: builtin/tag.c:448
 msgid "-n option is only allowed with -l."
-msgstr ""
+msgstr "-n 选项只允许和 -l 共用。"
 
 #: builtin/tag.c:450
 msgid "--contains option is only allowed with -l."
-msgstr ""
+msgstr "--contains 选项只允许和 -l 共用。"
 
 #: builtin/tag.c:458
 msgid "only one -F or -m option is allowed."
-msgstr ""
+msgstr "只允许一个 -F 或 -m 选项。"
 
 #: builtin/tag.c:478
 msgid "too many params"
-msgstr ""
+msgstr "太多参数"
 
 #: builtin/tag.c:484
 #, c-format
 msgid "'%s' is not a valid tag name."
-msgstr ""
+msgstr "'%s' 不是一个有效的tag名称"
 
 #: builtin/tag.c:489
 #, c-format
 msgid "tag '%s' already exists"
-msgstr ""
+msgstr "tag '%s' 已存在"
 
 #: builtin/tag.c:507
 #, c-format
 msgid "%s: cannot lock the ref"
-msgstr ""
+msgstr "%s：不能锁定引用"
 
 #: builtin/tag.c:509
 #, c-format
 msgid "%s: cannot update the ref"
-msgstr ""
+msgstr "%s：不能更新引用"
 
 #: builtin/tag.c:511
 #, c-format
 msgid "Updated tag '%s' (was %s)\n"
-msgstr ""
+msgstr "已更新tag '%s'（曾为 %s）\n"
 
 #: git-am.sh:48
 msgid "You need to set your committer info first"
-msgstr ""
+msgstr "您需要先设置你的提交者信息"
 
 #: git-am.sh:134
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
-msgstr ""
+msgstr "版本库缺乏必要的blob数据以进行三路合并。"
 
 #: git-am.sh:143
 msgid ""
 "Did you hand edit your patch?\n"
 "It does not apply to blobs recorded in its index."
 msgstr ""
+"您是否曾手动编辑过您的补丁？\n"
+"无法应用补丁到暂存区的数据中。"
 
 #: git-am.sh:152
 msgid "Falling back to patching base and 3-way merge..."
-msgstr ""
+msgstr "转而使用补丁应用的基础版本和三路合并..."
 
 #: git-am.sh:264
 msgid "Only one StGIT patch series can be applied at once"
-msgstr ""
+msgstr "一次只能有一个StGIT补丁队列被应用"
 
 #: git-am.sh:351
 #, sh-format
 msgid "Patch format $patch_format is not supported."
-msgstr ""
+msgstr "不支持 $patch_format 补丁格式。"
 
 #: git-am.sh:353
 msgid "Patch format detection failed."
-msgstr ""
+msgstr "补丁格式检测失败。"
 
 #: git-am.sh:403
 msgid "-d option is no longer supported.  Do not use."
-msgstr ""
+msgstr "不再支持 -d 选项。不要使用。"
 
 #: git-am.sh:466
 #, sh-format
 msgid "previous rebase directory $dotest still exists but mbox given."
-msgstr ""
+msgstr "之前的变基目录 $dotest 仍然存在但给出了mbox。"
 
 #: git-am.sh:471
 msgid "Please make up your mind. --skip or --abort?"
-msgstr ""
+msgstr "请下决心。--skip 或是 --abort ？"
 
 #: git-am.sh:498
 msgid "Resolve operation not in progress, we are not resuming."
-msgstr ""
+msgstr "解决操作未进行，我们不会继续。"
 
 #: git-am.sh:564
 #, sh-format
 msgid "Dirty index: cannot apply patches (dirty: $files)"
-msgstr ""
+msgstr "脏的暂存区：不能应用补丁（脏文件：$files）"
 
 #: git-am.sh:731
 msgid "cannot be interactive without stdin connected to a terminal."
-msgstr ""
+msgstr "没有和终端关联的标准输入不能进行交互式操作。"
 
 #. TRANSLATORS: Make sure to include [y], [n], [e], [v] and [a]
 #. in your translation. The program will only accept English
 #. input at this point.
 #: git-am.sh:742
 msgid "Apply? [y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all "
-msgstr ""
+msgstr "应用？[y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all "
 
 #: git-am.sh:778
 #, sh-format
 msgid "Applying: $FIRSTLINE"
-msgstr ""
+msgstr "正应用：$FIRSTLINE"
 
 #: git-am.sh:823
 msgid "No changes -- Patch already applied."
-msgstr "没有变更 —— 补丁已应用。"
+msgstr "没有变更 -- 补丁已经应用过。"
 
 #: git-am.sh:849
 msgid "applying to an empty history"
-msgstr ""
+msgstr "正应用到一个空历史上"
 
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:54
 msgid "Do you want me to do it for you [Y/n]? "
-msgstr ""
+msgstr "您想让我为您这样做么[Y/n]？"
 
 #: git-bisect.sh:95
 #, sh-format
 msgid "unrecognised option: '$arg'"
-msgstr ""
+msgstr "未识别的选项：'$arg'"
 
 #: git-bisect.sh:99
 #, sh-format
 msgid "'$arg' does not appear to be a valid revision"
-msgstr ""
+msgstr "'$arg' 看起来不像是一个有效的版本"
 
 #: git-bisect.sh:117
 msgid "Bad HEAD - I need a HEAD"
-msgstr ""
+msgstr "坏的HEAD - 我需要一个HEAD"
 
 #: git-bisect.sh:130
 #, sh-format
 msgid ""
 "Checking out '$start_head' failed. Try 'git bisect reset <validbranch>'."
 msgstr ""
+"检出 '$start_head' 失败。尝试 'git bisect reset <validbranch>'。"
 
 #: git-bisect.sh:140
 msgid "won't bisect on seeked tree"
-msgstr ""
+msgstr "不会在已查找过的树上二分查找"
 
 #: git-bisect.sh:144
 msgid "Bad HEAD - strange symbolic ref"
-msgstr ""
+msgstr "错误的HEAD - 奇怪的符号引用"
 
 #: git-bisect.sh:189
 #, sh-format
 msgid "Bad bisect_write argument: $state"
-msgstr ""
+msgstr "错误的bisect_write参数：$state"
 
 #: git-bisect.sh:218
 #, sh-format
 msgid "Bad rev input: $arg"
-msgstr ""
+msgstr "输入错误版本：$arg"
 
 #: git-bisect.sh:232
 msgid "Please call 'bisect_state' with at least one argument."
-msgstr ""
+msgstr "请在调用 'bisect_state' 时跟至少一个参数。"
 
 #: git-bisect.sh:244
 #, sh-format
 msgid "Bad rev input: $rev"
-msgstr ""
+msgstr "输入坏的版本：$rev"
 
 #: git-bisect.sh:250
 msgid "'git bisect bad' can take only one argument."
-msgstr ""
+msgstr "'git bisect bad' 只能带一个参数。"
 
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:279
 msgid "Are you sure [Y/n]? "
-msgstr ""
+msgstr "您确认么[Y/n]？"
 
 #: git-bisect.sh:354
 #, sh-format
 msgid "'$invalid' is not a valid commit"
-msgstr ""
+msgstr "'$invalid' 不是一个有效的提交"
 
 #: git-bisect.sh:363
 #, sh-format
@@ -3109,23 +3159,25 @@ msgid ""
 "Could not check out original HEAD '$branch'.\n"
 "Try 'git bisect reset <commit>'."
 msgstr ""
+"不能检出原始HEAD '$branch'.\n"
+"尝试 'git bisect reset <commit>'。"
 
 #: git-bisect.sh:390
 msgid "No logfile given"
-msgstr ""
+msgstr "未提供日志文件"
 
 #: git-bisect.sh:391
 #, sh-format
 msgid "cannot read $file for replaying"
-msgstr ""
+msgstr "不能读取 $file 来重放"
 
 #: git-bisect.sh:408
 msgid "?? what are you talking about?"
-msgstr ""
+msgstr "？？ 您在说什么？"
 
 #: git-bisect.sh:474
 msgid "We are not bisecting."
-msgstr ""
+msgstr "我们没有进行二分查找。"
 
 #: git-pull.sh:21
 msgid ""
@@ -3195,7 +3247,7 @@ msgstr "无法保存当前状态"
 
 #: git-stash.sh:253
 msgid "Cannot remove worktree changes"
-msgstr "无法移除工作区变更"
+msgstr "无法删除工作区变更"
 
 #: git-stash.sh:352
 msgid "No stash found."
@@ -3262,77 +3314,77 @@ msgstr "（为恢复数据输入 \"git stash apply\"）"
 #: git-submodule.sh:56
 #, sh-format
 msgid "cannot strip one component off url '$remoteurl'"
-msgstr ""
+msgstr "无法从url '$remoteurl' 剥离一个组件"
 
 #: git-submodule.sh:108
 #, sh-format
 msgid "No submodule mapping found in .gitmodules for path '$path'"
-msgstr ""
+msgstr "未在.gitmodules中发现路径 '$path' 的子模组映射"
 
 #: git-submodule.sh:172
 #, sh-format
 msgid "Clone of '$url' into submodule path '$path' failed"
-msgstr ""
+msgstr "克隆 '$url' 到子模组路径 '$path' 失败"
 
 #: git-submodule.sh:246
 #, sh-format
 msgid "repo URL: '$repo' must be absolute or begin with ./|../"
-msgstr ""
+msgstr "版本库URL：'$repo' 必须是绝对路径或以 ./|../ 起始"
 
 #: git-submodule.sh:263
 #, sh-format
 msgid "'$path' already exists in the index"
-msgstr ""
+msgstr "'$path' 已经存在于暂存区中"
 
 #: git-submodule.sh:280
 #, sh-format
 msgid "'$path' already exists and is not a valid git repo"
-msgstr ""
+msgstr "'$path' 已存在且不是一个有效的git版本库"
 
 #: git-submodule.sh:294
 #, sh-format
 msgid "Unable to checkout submodule '$path'"
-msgstr ""
+msgstr "不能检出子模组 '$path'"
 
 #: git-submodule.sh:299
 #, sh-format
 msgid "Failed to add submodule '$path'"
-msgstr ""
+msgstr "无法添加子模组 '$path'"
 
 #: git-submodule.sh:304
 #, sh-format
 msgid "Failed to register submodule '$path'"
-msgstr ""
+msgstr "无法注册子模组 '$path'"
 
 #: git-submodule.sh:346
 #, sh-format
 msgid "Entering '$prefix$path'"
-msgstr ""
+msgstr "正在进入 '$prefix$path'"
 
 #: git-submodule.sh:358
 #, sh-format
 msgid "Stopping at '$path'; script returned non-zero status."
-msgstr ""
+msgstr "停止于 '$path'，脚本返回非零值。"
 
 #: git-submodule.sh:400
 #, sh-format
 msgid "No url found for submodule path '$path' in .gitmodules"
-msgstr ""
+msgstr "在.gitmodules中未找到子模组路径 '$path' 的url"
 
 #: git-submodule.sh:409
 #, sh-format
 msgid "Failed to register url for submodule path '$path'"
-msgstr ""
+msgstr "无法为子模组路径 '$path' 注册 url"
 
 #: git-submodule.sh:417
 #, sh-format
 msgid "Failed to register update mode for submodule path '$path'"
-msgstr ""
+msgstr "无法为子模组路径 '$path' 注册更新模式"
 
 #: git-submodule.sh:419
 #, sh-format
 msgid "Submodule '$name' ($url) registered for path '$path'"
-msgstr ""
+msgstr "子模组 '$name' ($url) 已为路径 '$path' 注册"
 
 #: git-submodule.sh:518
 #, sh-format
@@ -3340,70 +3392,72 @@ msgid ""
 "Submodule path '$path' not initialized\n"
 "Maybe you want to use 'update --init'?"
 msgstr ""
+"子模组路径 '$path' 没有初始化\n"
+"也许你想用 'update --init'？"
 
 #: git-submodule.sh:531
 #, sh-format
 msgid "Unable to find current revision in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模组路径 '$path' 中找到当前版本"
 
 #: git-submodule.sh:550
 #, sh-format
 msgid "Unable to fetch in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模组路径 '$path' 中获取"
 
 #: git-submodule.sh:564
 #, sh-format
 msgid "Unable to rebase '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模组路径 '$path' 中变基 '$sha1'"
 
 #: git-submodule.sh:565
 #, sh-format
 msgid "Submodule path '$path': rebased into '$sha1'"
-msgstr ""
+msgstr "子模组路径 '$path'：变基至 '$sha1'"
 
 #: git-submodule.sh:570
 #, sh-format
 msgid "Unable to merge '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法合并 '$sha1' 到子模组路径 '$path' 中"
 
 #: git-submodule.sh:571
 #, sh-format
 msgid "Submodule path '$path': merged in '$sha1'"
-msgstr ""
+msgstr "子模组路径 '$path'：已合并入 '$sha1'"
 
 #: git-submodule.sh:576
 #, sh-format
 msgid "Unable to checkout '$sha1' in submodule path '$path'"
-msgstr ""
+msgstr "无法在子模组路径 '$path' 中检出 '$sha1'"
 
 #: git-submodule.sh:577
 #, sh-format
 msgid "Submodule path '$path': checked out '$sha1'"
-msgstr ""
+msgstr "子模组路径 '$path'：检出 '$sha1'"
 
 #: git-submodule.sh:599 git-submodule.sh:922
 #, sh-format
 msgid "Failed to recurse into submodule path '$path'"
-msgstr ""
+msgstr "无法递归进子模组路径 '$path'"
 
 #: git-submodule.sh:707
 msgid "--"
-msgstr ""
+msgstr "--"
 
 #: git-submodule.sh:765
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_src"
-msgstr ""
+msgstr "  警告：$name 未包含提交 $sha1_src "
 
 #: git-submodule.sh:768
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_dst"
-msgstr ""
+msgstr "  警告：$name 未包含提交 $sha1_dst"
 
 #: git-submodule.sh:771
 #, sh-format
 msgid "  Warn: $name doesn't contain commits $sha1_src and $sha1_dst"
-msgstr ""
+msgstr "  警告：$name 未包含提交 $sha1_src 和 $sha1_dst"
 
 #: git-submodule.sh:796
 msgid "blob"
@@ -3411,9 +3465,9 @@ msgstr ""
 
 #: git-submodule.sh:797
 msgid "submodule"
-msgstr ""
+msgstr "子模组"
 
 #: git-submodule.sh:968
 #, sh-format
 msgid "Synchronizing submodule url for '$name'"
-msgstr ""
+msgstr "为 '$name' 同步子模组url"
