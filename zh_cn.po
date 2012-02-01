@@ -1511,12 +1511,12 @@ msgstr "无法打开 %s：%s\n"
 #: builtin/fetch.c:393
 #, c-format
 msgid "%s did not send all necessary objects\n"
-msgstr ""
+msgstr "%s 无法发送所有必要的对象\n"
 
 #: builtin/fetch.c:479
 #, c-format
 msgid "From %.*s\n"
-msgstr ""
+msgstr "来自 %.*s\n"
 
 #: builtin/fetch.c:490
 #, c-format
@@ -1524,6 +1524,9 @@ msgid ""
 "some local refs could not be updated; try running\n"
 " 'git remote prune %s' to remove any old, conflicting branches"
 msgstr ""
+"一些本地引用不能被更新；尝试运行\n"
+" 'git remote prune %s' 来删除旧的，有冲突的分支"
+
 
 #: builtin/fetch.c:540
 #, c-format
@@ -1537,31 +1540,31 @@ msgstr ""
 
 #: builtin/fetch.c:548
 msgid "[deleted]"
-msgstr ""
+msgstr "[已删除]"
 
 #: builtin/fetch.c:549
 msgid "(none)"
-msgstr ""
+msgstr "(无)"
 
 #: builtin/fetch.c:666
 #, c-format
 msgid "Refusing to fetch into current branch %s of non-bare repository"
-msgstr ""
+msgstr "拒绝获取到非裸版本库的当前分支 %"
 
 #: builtin/fetch.c:700
 #, c-format
 msgid "Don't know how to fetch from %s"
-msgstr ""
+msgstr "不知道如何从 %s 获取"
 
 #: builtin/fetch.c:777
 #, c-format
 msgid "Option \"%s\" value \"%s\" is not valid for %s"
-msgstr ""
+msgstr "%s 的选项 \"%s\" 值 \"%s\" 是无效的"
 
 #: builtin/fetch.c:780
 #, c-format
 msgid "Option \"%s\" is ignored for %s\n"
-msgstr ""
+msgstr "%s 的选项 \"%s\" 是被忽略的\n"
 
 #: builtin/fetch.c:879
 #, c-format
@@ -1581,24 +1584,24 @@ msgstr ""
 
 #: builtin/fetch.c:918
 msgid "You need to specify a tag name."
-msgstr ""
+msgstr "你需要提供一个 tag 名称"
 
 #: builtin/fetch.c:970
 msgid "fetch --all does not take a repository argument"
-msgstr ""
+msgstr "fetch --all 不能带一个版本库参数"
 
 #: builtin/fetch.c:972
 msgid "fetch --all does not make sense with refspecs"
-msgstr ""
+msgstr "fetch --all 与引用表达式没有任何意义"
 
 #: builtin/fetch.c:983
 #, c-format
 msgid "No such remote or remote group: %s"
-msgstr ""
+msgstr "没有这样的远程或远程组：%s"
 
 #: builtin/fetch.c:991
 msgid "Fetching a group and specifying refspecs does not make sense"
-msgstr ""
+msgstr "获取组和提供的引用表达式没有意义"
 
 #: builtin/gc.c:63
 #, c-format
@@ -1607,17 +1610,17 @@ msgstr "无效的 %s：'%s'"
 
 #: builtin/gc.c:78
 msgid "Too many options specified"
-msgstr "指定了太多的选项"
+msgstr "提供了太多的选项"
 
 #: builtin/gc.c:103
 #, c-format
 msgid "insanely long object directory %.*s"
-msgstr ""
+msgstr "疯狂的长对象目录 %.*s"
 
 #: builtin/gc.c:223
 #, c-format
 msgid "Auto packing the repository for optimum performance.\n"
-msgstr ""
+msgstr "以最佳性能来自动打包版本库。\n"
 
 #: builtin/gc.c:226
 #, c-format
@@ -1625,21 +1628,22 @@ msgid ""
 "Auto packing the repository for optimum performance. You may also\n"
 "run \"git gc\" manually. See \"git help gc\" for more information.\n"
 msgstr ""
-
+"以最佳性能来自动打包版本库。你还可以\n"
+"手动运行 \"git gc\"。 使用 \"git help gc\" 来获取更多信息。\n"
 #: builtin/gc.c:256
 msgid ""
 "There are too many unreachable loose objects; run 'git prune' to remove them."
 msgstr ""
-
+"有太多无效对象；运行 'git prune' 来删除它们。"
 #: builtin/grep.c:275
 #, c-format
 msgid "grep: failed to create thread: %s"
-msgstr ""
+msgstr "grep: 无法创建线程：%s"
 
 #: builtin/grep.c:390
 #, c-format
 msgid "'%s': unable to read %s"
-msgstr ""
+msgstr "'%s'：无法读取 %s"
 
 #: builtin/grep.c:441
 #, c-format
@@ -1649,7 +1653,7 @@ msgstr ""
 #: builtin/grep.c:452
 #, c-format
 msgid "'%s': short read %s"
-msgstr ""
+msgstr "'%s'：简要读取 %s"
 
 #: builtin/grep.c:514
 #, c-format
@@ -1664,7 +1668,7 @@ msgstr "无法读取代码树（%s）"
 #: builtin/grep.c:638
 #, c-format
 msgid "unable to grep from object of type %s"
-msgstr ""
+msgstr "无法 grep 来自于 %s 类型的对象"
 
 #: builtin/grep.c:696
 #, c-format
@@ -1683,15 +1687,15 @@ msgstr ""
 #: builtin/grep.c:1015
 #, c-format
 msgid "bad object %s"
-msgstr ""
+msgstr "坏对象 %s"
 
 #: builtin/grep.c:1057
 msgid "--open-files-in-pager only works on the worktree"
-msgstr ""
+msgstr "--open-files-in-pager 仅工作于工作树"
 
 #: builtin/grep.c:1080
 msgid "--cached or --untracked cannot be used with --no-index."
-msgstr ""
+msgstr "--cached 或 --untracked 不能与 --no-index 一起使用"
 
 #: builtin/grep.c:1085
 msgid "--no-index or --untracked cannot be used with revs."
