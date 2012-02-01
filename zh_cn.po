@@ -1349,7 +1349,7 @@ msgstr "注释 tag %s 没有嵌入名称"
 #: builtin/describe.c:240
 #, c-format
 msgid "tag '%s' is really '%s' here"
-msgstr "tag '%s' 确实 '%s' 这里"
+msgstr "tag '%s' 确是在 '%s'"
 
 #: builtin/describe.c:267
 #, c-format
@@ -1383,7 +1383,7 @@ msgid ""
 "However, there were unannotated tags: try --tags."
 msgstr ""
 "没有注释 tag 能描述 '%s'。\n"
-"无论如何, 这些是非注释 tag：请尝试 --tags 。"
+"然而，有非注释 tag：尝试 --tags。"
 
 #: builtin/describe.c:357
 #, c-format
@@ -1392,11 +1392,11 @@ msgid ""
 "Try --always, or create some tags."
 msgstr ""
 "没有注释 tag 能描述 '%s'。\n"
-"请尝试 --always ，或创建一些 tag 。"
+"尝试 --always，或创建一些 tag。"
 #: builtin/describe.c:378
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr "遍历 %lu 提交\n"
+msgstr "已遍历 %lu 个提交\n"
 
 #: builtin/describe.c:381
 #, c-format
@@ -1405,7 +1405,7 @@ msgid ""
 "gave up search at %s\n"
 msgstr ""
 "发现多于 %i 个 tag；列出最近的 %i 个\n"
-"在 %s 中放弃搜索\n"
+"放弃搜索 %s\n"
 
 #: builtin/describe.c:436
 msgid "--long is incompatible with --abbrev=0"
@@ -1417,7 +1417,7 @@ msgstr "没有发现名称，无法描述任何东西"
 
 #: builtin/describe.c:482
 msgid "--dirty is incompatible with committishes"
-msgstr "--dirty 无法与 committishes 兼容"
+msgstr "--dirty 不能与提交共用"
 
 #: builtin/diff.c:77
 #, c-format
