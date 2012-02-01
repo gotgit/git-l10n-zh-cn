@@ -2221,64 +2221,64 @@ msgstr ""
 #: builtin/mv.c:108
 #, c-format
 msgid "Checking rename of '%s' to '%s'\n"
-msgstr ""
+msgstr "检查 '%s' 到 '%s' 的重命名\n"
 
 #: builtin/mv.c:112
 msgid "bad source"
-msgstr ""
+msgstr "坏的源"
 
 #: builtin/mv.c:115
 msgid "can not move directory into itself"
-msgstr ""
+msgstr "不能将目录移动到自身"
 
 #: builtin/mv.c:118
 msgid "cannot move directory over file"
-msgstr ""
+msgstr "不能将目录移动到文件"
 
 #: builtin/mv.c:128
 #, c-format
 msgid "Huh? %.*s is in index?"
-msgstr ""
+msgstr "嗯？%.*s 在暂存区中？"
 
 #: builtin/mv.c:140
 msgid "source directory is empty"
-msgstr ""
+msgstr "源目录为空"
 
 #: builtin/mv.c:171
 msgid "not under version control"
-msgstr ""
+msgstr "不在版本控制之下"
 
 #: builtin/mv.c:173
 msgid "destination exists"
-msgstr ""
+msgstr "目标已存在"
 
 #: builtin/mv.c:181
 #, c-format
 msgid "overwriting '%s'"
-msgstr ""
+msgstr "覆盖 '%s'"
 
 #: builtin/mv.c:184
 msgid "Cannot overwrite"
-msgstr ""
+msgstr "不能覆盖"
 
 #: builtin/mv.c:187
 msgid "multiple sources for the same target"
-msgstr ""
+msgstr "同一目标具有多个源"
 
 #: builtin/mv.c:202
 #, c-format
 msgid "%s, source=%s, destination=%s"
-msgstr ""
+msgstr "%s，源=%s，目标=%s"
 
 #: builtin/mv.c:212
 #, c-format
 msgid "Renaming %s to %s\n"
-msgstr ""
+msgstr "重命名 %s 至 %s\n"
 
 #: builtin/mv.c:215
 #, c-format
 msgid "renaming '%s' failed"
-msgstr ""
+msgstr "重命名 '%s' 失败"
 
 #: builtin/notes.c:139
 #, c-format
