@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2012-02-01 19:55+0800\n"
+"POT-Creation-Date: 2012-02-01 20:28+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
 "Last-Translator: riku <lu.riku@gmail.com>\n"
 "Language-Team: GitHub <https://github.com/gotgit/git-l10n-zh-cn/>\n"
@@ -100,6 +100,30 @@ msgid ""
 msgstr ""
 "'%s' 像是一个 git 命令，但却无法运行。\n"
 "可能是 git-%s 受损？"
+
+#: remote.c:1575
+#, c-format
+msgid "Your branch is ahead of '%s' by %d %s.\n"
+msgstr "您的分支领先 '%s' 共 %d 个%s。\n"
+
+#: remote.c:1577 remote.c:1582
+msgid "commit"
+msgid_plural "commits"
+msgstr[0] "提交"
+
+#: remote.c:1579
+#, c-format
+msgid "Your branch is behind '%s' by %d %s, and can be fast-forwarded.\n"
+msgstr "您的分支落后 '%s' 共 %d 个%s，且可以快进式推送。\n"
+
+#: remote.c:1584
+#, c-format
+msgid ""
+"Your branch and '%s' have diverged,\n"
+"and have %d and %d different commit(s) each, respectively.\n"
+msgstr ""
+"您的分支和 '%s' 出现了偏离，\n"
+"并且各自分别有 %d 和 %d 处不同的提交。\n"
 
 #: wt-status.c:134
 msgid "Unmerged paths:"
