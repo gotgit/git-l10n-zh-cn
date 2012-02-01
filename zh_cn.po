@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2012-02-01 20:28+0800\n"
+"POT-Creation-Date: 2012-02-01 20:52+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
 "Last-Translator: riku <lu.riku@gmail.com>\n"
 "Language-Team: GitHub <https://github.com/gotgit/git-l10n-zh-cn/>\n"
@@ -70,6 +70,11 @@ msgid ""
 msgstr ""
 "配置变量 'diff.dirstat' 出错：\n"
 "%s"
+
+#: diff.c:1479 diff.c:1510 builtin/apply.c:3244
+#, c-format
+msgid " %d files changed, %d insertions(+), %d deletions(-)\n"
+msgstr " %d 个文件被修改, %d 处添加(+), %d 处删除(-)\n"
 
 #: diff.c:3308
 #, c-format

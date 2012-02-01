@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2012-02-01 20:42+0800\n"
+"POT-Creation-Date: 2012-02-01 20:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,11 @@ msgstr ""
 msgid ""
 "Found errors in 'diff.dirstat' config variable:\n"
 "%s"
+msgstr ""
+
+#: diff.c:1479 diff.c:1510 builtin/apply.c:3244
+#, c-format
+msgid " %d files changed, %d insertions(+), %d deletions(-)\n"
 msgstr ""
 
 #: diff.c:3308
