@@ -1339,42 +1339,42 @@ msgstr ""
 #: builtin/describe.c:234
 #, c-format
 msgid "annotated tag %s not available"
-msgstr ""
+msgstr "注释 tag %s 无效"
 
 #: builtin/describe.c:238
 #, c-format
 msgid "annotated tag %s has no embedded name"
-msgstr ""
+msgstr "注释 tag %s 没有嵌入名称"
 
 #: builtin/describe.c:240
 #, c-format
 msgid "tag '%s' is really '%s' here"
-msgstr ""
+msgstr "tag '%s' 确实 '%s' 这里"
 
 #: builtin/describe.c:267
 #, c-format
 msgid "Not a valid object name %s"
-msgstr ""
+msgstr "不是一个有效的对象名 %s"
 
 #: builtin/describe.c:270
 #, c-format
 msgid "%s is not a valid '%s' object"
-msgstr ""
+msgstr "%s 不是一个有效的 '%s' 对象"
 
 #: builtin/describe.c:287
 #, c-format
 msgid "no tag exactly matches '%s'"
-msgstr ""
+msgstr "没有 tag 完全匹配 '%s'"
 
 #: builtin/describe.c:289
 #, c-format
 msgid "searching to describe %s\n"
-msgstr ""
+msgstr "搜索描述 %s\n"
 
 #: builtin/describe.c:329
 #, c-format
 msgid "finished search at %s\n"
-msgstr ""
+msgstr "完成搜索 %s\n"
 
 #: builtin/describe.c:353
 #, c-format
@@ -1382,6 +1382,8 @@ msgid ""
 "No annotated tags can describe '%s'.\n"
 "However, there were unannotated tags: try --tags."
 msgstr ""
+"没有注释 tag 能描述 '%s'。\n"
+"无论如何, 这些是非注释 tag：请尝试 --tags 。"
 
 #: builtin/describe.c:357
 #, c-format
@@ -1389,11 +1391,12 @@ msgid ""
 "No tags can describe '%s'.\n"
 "Try --always, or create some tags."
 msgstr ""
-
+"没有注释 tag 能描述 '%s'。\n"
+"请尝试 --always ，或创建一些 tag 。"
 #: builtin/describe.c:378
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr ""
+msgstr "遍历 %lu 提交\n"
 
 #: builtin/describe.c:381
 #, c-format
@@ -1401,18 +1404,20 @@ msgid ""
 "more than %i tags found; listed %i most recent\n"
 "gave up search at %s\n"
 msgstr ""
+"发现多于 %i 个 tag；列出最近的 %i 个\n"
+"在 %s 中放弃搜索\n"
 
 #: builtin/describe.c:436
 msgid "--long is incompatible with --abbrev=0"
-msgstr ""
+msgstr "--long 与 --abbrev=0 不兼容"
 
 #: builtin/describe.c:462
 msgid "No names found, cannot describe anything."
-msgstr ""
+msgstr "没有发现名称，无法描述任何东西"
 
 #: builtin/describe.c:482
 msgid "--dirty is incompatible with committishes"
-msgstr ""
+msgstr "--dirty 无法与 committishes 兼容"
 
 #: builtin/diff.c:77
 #, c-format
