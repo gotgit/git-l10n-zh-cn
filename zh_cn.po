@@ -2976,150 +2976,153 @@ msgstr "已更新tag '%s'（曾为 %s）\n"
 
 #: git-am.sh:48
 msgid "You need to set your committer info first"
-msgstr ""
+msgstr "您需要先设置你的提交者信息"
 
 #: git-am.sh:134
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
-msgstr ""
+msgstr "版本库缺乏必要的blob数据以进行三路合并。"
 
 #: git-am.sh:143
 msgid ""
 "Did you hand edit your patch?\n"
 "It does not apply to blobs recorded in its index."
 msgstr ""
+"您是否曾手动编辑过您的补丁？\n"
+"无法应用补丁到暂存区的数据中。"
 
 #: git-am.sh:152
 msgid "Falling back to patching base and 3-way merge..."
-msgstr ""
+msgstr "转而使用补丁应用的基础版本和三路合并..."
 
 #: git-am.sh:264
 msgid "Only one StGIT patch series can be applied at once"
-msgstr ""
+msgstr "一次只能有一个StGIT补丁队列被应用"
 
 #: git-am.sh:351
 #, sh-format
 msgid "Patch format $patch_format is not supported."
-msgstr ""
+msgstr "不支持 $patch_format 补丁格式。"
 
 #: git-am.sh:353
 msgid "Patch format detection failed."
-msgstr ""
+msgstr "补丁格式检测失败。"
 
 #: git-am.sh:403
 msgid "-d option is no longer supported.  Do not use."
-msgstr ""
+msgstr "不再支持 -d 选项。不要使用。"
 
 #: git-am.sh:466
 #, sh-format
 msgid "previous rebase directory $dotest still exists but mbox given."
-msgstr ""
+msgstr "之前的变基目录 $dotest 仍然存在但给出了mbox。"
 
 #: git-am.sh:471
 msgid "Please make up your mind. --skip or --abort?"
-msgstr ""
+msgstr "请下决心。--skip 或是 --abort ？"
 
 #: git-am.sh:498
 msgid "Resolve operation not in progress, we are not resuming."
-msgstr ""
+msgstr "解决操作未进行，我们不会继续。"
 
 #: git-am.sh:564
 #, sh-format
 msgid "Dirty index: cannot apply patches (dirty: $files)"
-msgstr ""
+msgstr "脏的暂存区：不能应用补丁（脏文件：$files）"
 
 #: git-am.sh:731
 msgid "cannot be interactive without stdin connected to a terminal."
-msgstr ""
+msgstr "没有和终端关联的标准输入不能进行交互式操作。"
 
 #. TRANSLATORS: Make sure to include [y], [n], [e], [v] and [a]
 #. in your translation. The program will only accept English
 #. input at this point.
 #: git-am.sh:742
 msgid "Apply? [y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all "
-msgstr ""
+msgstr "应用？[y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all "
 
 #: git-am.sh:778
 #, sh-format
 msgid "Applying: $FIRSTLINE"
-msgstr ""
+msgstr "正应用：$FIRSTLINE"
 
 #: git-am.sh:823
 msgid "No changes -- Patch already applied."
-msgstr ""
+msgstr "没有变更 -- 补丁已经应用过。"
 
 #: git-am.sh:849
 msgid "applying to an empty history"
-msgstr ""
+msgstr "正应用到一个空历史上"
 
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:54
 msgid "Do you want me to do it for you [Y/n]? "
-msgstr ""
+msgstr "您想让我为您这样做么[Y/n]？"
 
 #: git-bisect.sh:95
 #, sh-format
 msgid "unrecognised option: '$arg'"
-msgstr ""
+msgstr "未识别的选项：'$arg'"
 
 #: git-bisect.sh:99
 #, sh-format
 msgid "'$arg' does not appear to be a valid revision"
-msgstr ""
+msgstr "'$arg' 看起来不像是一个有效的版本"
 
 #: git-bisect.sh:117
 msgid "Bad HEAD - I need a HEAD"
-msgstr ""
+msgstr "坏的HEAD - 我需要一个HEAD"
 
 #: git-bisect.sh:130
 #, sh-format
 msgid ""
 "Checking out '$start_head' failed. Try 'git bisect reset <validbranch>'."
 msgstr ""
+"检出 '$start_head' 失败。尝试 'git bisect reset <validbranch>'。"
 
 #: git-bisect.sh:140
 msgid "won't bisect on seeked tree"
-msgstr ""
+msgstr "不会在已查找过的树上二分查找"
 
 #: git-bisect.sh:144
 msgid "Bad HEAD - strange symbolic ref"
-msgstr ""
+msgstr "错误的HEAD - 奇怪的符号引用"
 
 #: git-bisect.sh:189
 #, sh-format
 msgid "Bad bisect_write argument: $state"
-msgstr ""
+msgstr "错误的bisect_write参数：$state"
 
 #: git-bisect.sh:218
 #, sh-format
 msgid "Bad rev input: $arg"
-msgstr ""
+msgstr "输入错误版本：$arg"
 
 #: git-bisect.sh:232
 msgid "Please call 'bisect_state' with at least one argument."
-msgstr ""
+msgstr "请在调用 'bisect_state' 时跟至少一个参数。"
 
 #: git-bisect.sh:244
 #, sh-format
 msgid "Bad rev input: $rev"
-msgstr ""
+msgstr "输入坏的版本：$rev"
 
 #: git-bisect.sh:250
 msgid "'git bisect bad' can take only one argument."
-msgstr ""
+msgstr "'git bisect bad' 只能带一个参数。"
 
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:279
 msgid "Are you sure [Y/n]? "
-msgstr ""
+msgstr "您确认么[Y/n]？"
 
 #: git-bisect.sh:354
 #, sh-format
 msgid "'$invalid' is not a valid commit"
-msgstr ""
+msgstr "'$invalid' 不是一个有效的提交"
 
 #: git-bisect.sh:363
 #, sh-format
@@ -3127,23 +3130,25 @@ msgid ""
 "Could not check out original HEAD '$branch'.\n"
 "Try 'git bisect reset <commit>'."
 msgstr ""
+"不能检出原始HEAD '$branch'.\n"
+"尝试 'git bisect reset <commit>'。"
 
 #: git-bisect.sh:390
 msgid "No logfile given"
-msgstr ""
+msgstr "未提供日志文件"
 
 #: git-bisect.sh:391
 #, sh-format
 msgid "cannot read $file for replaying"
-msgstr ""
+msgstr "不能读取 $file 来重放"
 
 #: git-bisect.sh:408
 msgid "?? what are you talking about?"
-msgstr ""
+msgstr "？？ 您在说什么？"
 
 #: git-bisect.sh:474
 msgid "We are not bisecting."
-msgstr ""
+msgstr "我们没有进行二分查找。"
 
 #: git-pull.sh:21
 msgid ""
