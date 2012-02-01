@@ -4,17 +4,19 @@
 # This file is distributed under the same license as the Git package.
 # Contributers:
 #   - Jiang Xin <worldhello.net@gmail.com>
-#   - riku <lu.riku@gmail.com>
+#   - Riku <lu.riku@gmail.com>
+#   - Zhuang Ya <zhuangya@me.com>
+#   - Lian Cheng <rhythm.mail@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Git\n"
-"Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
+"Report-Msgid-Bugs-To: git-l10n-zh-cn project <https://github.com/gotgit/git-l10n-zh-cn/>\n"
 "POT-Creation-Date: 2012-01-30 00:00+0800\n"
 "PO-Revision-Date: 2012-01-30 00:00+0800\n"
 "Last-Translator: riku <lu.riku@gmail.com>\n"
-"Language-Team: Git Mailing List <git@vger.kernel.org>\n"
-"Language: zh_cn\n"
+"Language-Team: git-l10n-zh-cn project <https://github.com/gotgit/git-l10n-zh-cn/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +25,7 @@ msgstr ""
 #: commit.c:47
 #, c-format
 msgid "could not parse %s"
-msgstr "无法解析 %s"
+msgstr "不能解析 %s"
 
 #: commit.c:49
 #, c-format
@@ -36,7 +38,7 @@ msgstr "内存耗尽"
 
 #: connected.c:39
 msgid "Could not run 'git rev-list'"
-msgstr "无法运行 'git rev-list'"
+msgstr "不能执行 'git rev-list'"
 
 #: connected.c:48
 #, c-format
@@ -48,11 +50,13 @@ msgstr "无法写入 rev-list：%s"
 msgid "failed to close rev-list's stdin: %s"
 msgstr "无法关闭 rev-list 的标准输入：%s"
 
+#  注意保持前导空格
 #: diff.c:104
 #, c-format
 msgid "  Failed to parse dirstat cut-off percentage '%.*s'\n"
 msgstr "  无法解析 dirstat 阈值 '%.*s'\n"
 
+#  注意保持前导空格
 #: diff.c:109
 #, c-format
 msgid "  Unknown dirstat parameter '%.*s'\n"
@@ -78,7 +82,7 @@ msgstr ""
 
 #: gpg-interface.c:59
 msgid "could not run gpg."
-msgstr "无法运行 gpg。"
+msgstr "不能执行 gpg。"
 
 #: gpg-interface.c:71
 msgid "gpg did not accept the data"
@@ -86,7 +90,7 @@ msgstr "gpg 没有接受数据"
 
 #: gpg-interface.c:82
 msgid "gpg failed to sign the data"
-msgstr "gpg 为数据签名失败"
+msgstr "gpg 无法为数据签名"
 
 #: help.c:309
 #, c-format
@@ -99,17 +103,20 @@ msgstr ""
 
 #: wt-status.c:134
 msgid "Unmerged paths:"
-msgstr "未合并路径："
+msgstr "未合并的路径："
 
+#  注意保持前导空格
 #: wt-status.c:140 wt-status.c:157
 #, c-format
 msgid "  (use \"git reset %s <file>...\" to unstage)"
 msgstr "  （使用 \"git reset %s <file>...\" 撤出暂存区）"
 
+#  注意保持前导空格
 #: wt-status.c:142 wt-status.c:159
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
 msgstr "  （使用 \"git rm --cached <file>...\" 撤出暂存区）"
 
+#  注意保持前导空格
 #: wt-status.c:143
 msgid "  (use \"git add/rm <file>...\" as appropriate to mark resolution)"
 msgstr "  （酌情使用 \"git add/rm <file>...\" 标记解决方案）"
@@ -120,22 +127,26 @@ msgstr "要提交的变更："
 
 #: wt-status.c:169
 msgid "Changes not staged for commit:"
-msgstr "未暂存而不提交的变更："
+msgstr "未暂存至提交的变更："
 
+#  注意保持前导空格
 #: wt-status.c:173
 msgid "  (use \"git add <file>...\" to update what will be committed)"
 msgstr "  （使用 \"git add <file>...\" 更新要提交的内容）"
 
+#  注意保持前导空格
 #: wt-status.c:175
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
 msgstr "  （使用 \"git add/rm <file>...\" 更新要提交的内容）"
 
+#  注意保持前导空格
 #: wt-status.c:176
 msgid ""
 "  (use \"git checkout -- <file>...\" to discard changes in working directory)"
 msgstr 
 "  （使用 \"git checkout -- <file>...\" 丢弃工作区的改动）"
 
+#  注意保持前导空格
 #: wt-status.c:178
 msgid "  (commit or discard the untracked or modified content in submodules)"
 msgstr "  （提交或丢弃子模组中未跟踪或修改的内容）"
@@ -145,6 +156,7 @@ msgstr "  （提交或丢弃子模组中未跟踪或修改的内容）"
 msgid "%s files:"
 msgstr "%s文件："
 
+#  注意保持前导空格
 #: wt-status.c:190
 #, c-format
 msgid "  (use \"git %s <file>...\" to include in what will be committed)"
@@ -194,41 +206,49 @@ msgstr "修改的内容，"
 msgid "untracked content, "
 msgstr "未跟踪的内容，"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:266
 #, c-format
 msgid "new file:   %s"
 msgstr "新文件：    %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:269
 #, c-format
 msgid "copied:     %s -> %s"
 msgstr "拷贝：      %s -> %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:272
 #, c-format
 msgid "deleted:    %s"
 msgstr "删除：      %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:275
 #, c-format
 msgid "modified:   %s"
 msgstr "修改：      %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:278
 #, c-format
 msgid "renamed:    %s -> %s"
 msgstr "重命名：    %s -> %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:281
 #, c-format
 msgid "typechange: %s"
 msgstr "类型变更：  %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:284
 #, c-format
 msgid "unknown:    %s"
 msgstr "未知：      %s"
 
+#  为保证在输出中对齐，注意调整句中空格！
 #: wt-status.c:287
 #, c-format
 msgid "unmerged:   %s"
@@ -237,7 +257,7 @@ msgstr "未合并：    %s"
 #: wt-status.c:290
 #, c-format
 msgid "bug: unhandled diff status %c"
-msgstr "bug: 未处理的diff状态 %c"
+msgstr "bug: 未处理的差异状态 %c"
 
 #: wt-status.c:713
 msgid "On branch "
@@ -245,7 +265,7 @@ msgstr "位于分支 "
 
 #: wt-status.c:720
 msgid "Not currently on any branch."
-msgstr "当前不属于任何分支。"
+msgstr "当前不在任何分支上。"
 
 #: wt-status.c:731
 msgid "Initial commit"
@@ -277,6 +297,7 @@ msgstr "没有修改"
 msgid "no changes added to commit%s\n"
 msgstr "修改尚未加入提交%s\n"
 
+#  注意保持前导空格
 #: wt-status.c:763
 msgid " (use \"git add\" and/or \"git commit -a\")"
 msgstr " （使用 \"git add\" 和/或 \"git commit -a\"）"
@@ -286,6 +307,7 @@ msgstr " （使用 \"git add\" 和/或 \"git commit -a\"）"
 msgid "nothing added to commit but untracked files present%s\n"
 msgstr "空提交但存在未跟踪文件%s\n"
 
+#  注意保持前导空格
 #: wt-status.c:767
 msgid " (use \"git add\" to track)"
 msgstr " （使用 \"git add\" 建立跟踪）"
@@ -295,14 +317,17 @@ msgstr " （使用 \"git add\" 建立跟踪）"
 msgid "nothing to commit%s\n"
 msgstr "无须提交%s\n"
 
+#  注意保持前导空格
 #: wt-status.c:770
 msgid " (create/copy files and use \"git add\" to track)"
 msgstr " （新建/拷贝的文件使用 \"git add\" 建立跟踪）"
 
+#  注意保持前导空格
 #: wt-status.c:773
 msgid " (use -u to show untracked files)"
 msgstr " （使用 -u 显示未跟踪文件）"
 
+#  注意保持前导空格
 #: wt-status.c:776
 msgid " (working directory clean)"
 msgstr " （干净的工作区）"
@@ -311,18 +336,22 @@ msgstr " （干净的工作区）"
 msgid "HEAD (no branch)"
 msgstr "头（非分支）"
 
+#  注意保持句尾空格
 #: wt-status.c:890
 msgid "Initial commit on "
 msgstr "初始提交于 "
 
+#  注意保持句尾空格
 #: wt-status.c:905
 msgid "behind "
 msgstr "落后 "
 
+#  注意保持句尾空格
 #: wt-status.c:908 wt-status.c:911
 msgid "ahead "
 msgstr "领先 "
 
+#  注意保持句尾空格
 #: wt-status.c:913
 msgid ", behind "
 msgstr "，落后 "
@@ -484,6 +513,7 @@ msgstr ""
 "不要删除分支 '%s' 其尚未合并到\n"
 "         '%s'，虽然它已经合并到HEAD。"
 
+#  汉字之间无空格，故删除尾部空格
 #. TRANSLATORS: This is "remote " in "remote branch '%s' not found"
 #: builtin/branch.c:163
 msgid "remote "
@@ -540,16 +570,19 @@ msgstr "无法更新 config 文件"
 msgid "branch '%s' does not point at a commit"
 msgstr "分支 '%s' 未指向一个提交"
 
+#  注意保持句尾空格
 #: builtin/branch.c:394
 #, c-format
 msgid "behind %d] "
 msgstr "落后 %d] "
 
+#  注意保持句尾空格
 #: builtin/branch.c:396
 #, c-format
 msgid "ahead %d] "
 msgstr "领先 %d] "
 
+#  注意保持句尾空格
 #: builtin/branch.c:398
 #, c-format
 msgid "ahead %d, behind %d] "
@@ -716,6 +749,7 @@ msgstr "切换到一个新分支 '%s'\n"
 msgid "Switched to branch '%s'\n"
 msgstr "切换到分支 '%s'\n"
 
+#  注意保持前导空格
 #: builtin/checkout.c:653
 #, c-format
 msgid " ... and %d more.\n"
@@ -1283,6 +1317,7 @@ msgstr "无法解析新创建的提交"
 msgid "detached HEAD"
 msgstr "分离头指针"
 
+#  注意保持前导空格
 #: builtin/commit.c:1319
 msgid " (root-commit)"
 msgstr " （根提交）"
@@ -1479,6 +1514,7 @@ msgstr "[已拒绝]"
 msgid "[tag update]"
 msgstr "[tag更新]"
 
+#  注意保持前导空格
 #: builtin/fetch.c:286 builtin/fetch.c:313 builtin/fetch.c:331
 msgid "  (unable to update local ref)"
 msgstr "  （不能更新本地引用）"
@@ -1528,11 +1564,13 @@ msgstr ""
 " 'git remote prune %s' 来删除旧的、有冲突的分支"
 
 
+#  注意保持前导空格
 #: builtin/fetch.c:540
 #, c-format
 msgid "   (%s will become dangling)\n"
 msgstr "   （%s 将成为悬空状态）\n"
 
+#  注意保持前导空格
 #: builtin/fetch.c:541
 #, c-format
 msgid "   (%s has become dangling)\n"
@@ -1818,6 +1856,7 @@ msgstr "重新初始化现存的"
 msgid "Initialized empty"
 msgstr "初始化空的"
 
+#  汉字之间无空格，故删除前导空格
 #: builtin/init-db.c:421
 msgid " shared"
 msgstr "共享的"
@@ -2003,9 +2042,10 @@ msgstr "不是一个有效对象：%s"
 msgid "read-tree failed"
 msgstr "读取树失败"
 
+#  注意保持前导空格
 #: builtin/merge.c:317
 msgid " (nothing to squash)"
-msgstr "（无可压缩）"
+msgstr " （无可压缩）"
 
 #: builtin/merge.c:330
 #, c-format
@@ -3073,6 +3113,7 @@ msgstr "脏的暂存区：不能应用补丁（脏文件：$files）"
 msgid "cannot be interactive without stdin connected to a terminal."
 msgstr "没有和终端关联的标准输入不能进行交互式操作。"
 
+#  注意保持句尾空格
 #. TRANSLATORS: Make sure to include [y], [n], [e], [v] and [a]
 #. in your translation. The program will only accept English
 #. input at this point.
@@ -3093,12 +3134,13 @@ msgstr "没有变更 -- 补丁已经应用过。"
 msgid "applying to an empty history"
 msgstr "正应用到一个空历史上"
 
+#  注意保持句尾空格
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:54
 msgid "Do you want me to do it for you [Y/n]? "
-msgstr "您想让我为您这样做么[Y/n]？"
+msgstr "您想让我为您这样做么[Y/n]？ "
 
 #: git-bisect.sh:95
 #, sh-format
@@ -3152,12 +3194,13 @@ msgstr "输入坏的版本：$rev"
 msgid "'git bisect bad' can take only one argument."
 msgstr "'git bisect bad' 只能带一个参数。"
 
+#  注意保持句尾空格
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-bisect.sh:279
 msgid "Are you sure [Y/n]? "
-msgstr "您确认么[Y/n]？"
+msgstr "您确认么[Y/n]？ "
 
 #: git-bisect.sh:354
 #, sh-format
@@ -3455,16 +3498,19 @@ msgstr "无法递归进子模组路径 '$path'"
 msgid "--"
 msgstr "--"
 
+#  注意保持前导空格
 #: git-submodule.sh:765
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_src"
-msgstr "  警告：$name 未包含提交 $sha1_src "
+msgstr "  警告：$name 未包含提交 $sha1_src"
 
+#  注意保持前导空格
 #: git-submodule.sh:768
 #, sh-format
 msgid "  Warn: $name doesn't contain commit $sha1_dst"
 msgstr "  警告：$name 未包含提交 $sha1_dst"
 
+#  注意保持前导空格
 #: git-submodule.sh:771
 #, sh-format
 msgid "  Warn: $name doesn't contain commits $sha1_src and $sha1_dst"
