@@ -1,29 +1,28 @@
-#翻译
+## 翻译结束
 
-为了防止多位翻译者工作冲突，翻译之前请先到下面的维基页面领受工作任务。
+- **翻译已告完成。** 已提交至官方邮件列表： http://marc.info/?l=git&m=132815949315059 （UTF-8字符集）
+- 获取最新翻译及代码补丁访问: https://github.com/gotgit/git-po-zh_CN/commits/maint-zh-cn
+- 后续维护方式Git官方正在讨论中： http://marc.info/?l=git&m=132815877514930
+- 感谢 @riku, @zhuangya, @liancheng 的贡献
 
-- [翻译任务领受单](https://github.com/gotgit/git-l10n-zh-cn/wiki/TaskList)
+        $ msgfmt --statistics zh_CN.po 
+        711 条已翻译消息.
 
-注意领受的工作任务尽量在12小时之内完成翻译并创建 Pull request。
+翻译过程中使用维基协同，参见: [翻译任务领受单](https://github.com/gotgit/git-l10n-zh-cn/wiki/TaskList)
 
-#校对
+## 本地化方法
 
-## 本地测试 (Ubuntu 环境)
+文件 `zh_CN.po` 已提交官方。在官方版本库接纳前，可用下面方法获取中文本地化文件及安装部署：
 
-1. 下载 git 最新版[源码](https://github.com/git/git)
+1. 获取中文本地化文件：
 
-	git clone git://github.com/git/git.git
+        $ curl -L https://github.com/gotgit/git-po-zh_CN/raw/maint-zh-cn/po/zh_CN.po > zh_CN.po
 
-2. 下载 git 中文版 po 文件
+2. 将 `zh_CN.po` 文件复制到Git源码的 `po` 目录中。
 
-	git clone git://github.com/gotgit/git-l10n-zh-cn.git
-	
-3. 把 git-l10n-zh-cn/zh_cn.po 复制到 git/po 目录下，并改名为 zh_CN.po
+        $ cp zh_CN.po path/to/git/po/
 
-	cp git-l10n-zh-cn/zh_cn.po git/po/
+3. 编译及安装 git，然后就可以让Git说中文了。
 
-4. 编译及安装 git,然后就可以检验中文翻译了。
-
-## 提交问题
-
-发现错误或不合理的翻译内容后，在 github 上 fork 本项目，修改后并创建 pull request 。
+        $ cd path/to/git/
+        $ make all && sudo make install
