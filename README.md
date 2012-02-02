@@ -20,7 +20,7 @@
 	
 3. 把 git-l10n-zh-cn/zh_cn.po 复制到 git/po 目录下，并改名为 zh_CN.po
 
-	cp git-l10n-zh-cn/zh_cn.po git/po/
+	cp git-l10n-zh-cn/zh_cn.po git/po/zh_CN.po
 
 4. 编译及安装 git,然后就可以检验中文翻译了。
 
