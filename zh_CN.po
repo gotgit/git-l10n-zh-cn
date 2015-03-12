@@ -2,7 +2,7 @@
 # Git 软件包的简体中文翻译.
 # Copyright (C) 2012 Jiang Xin <worldhello.net AT gmail.com>
 # This file is distributed under the same license as the Git package.
-# Contributers:
+# Contributors:
 #   - Jiang Xin <worldhello.net AT gmail.com>
 #   - Riku <lu.riku AT gmail.com>
 #   - Zhuang Ya <zhuangya AT me.com>
